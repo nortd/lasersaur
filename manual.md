@@ -7,7 +7,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 
 * Specifications
   * [System Overview](overview.md)
-  * [Bill of Materials](bom)
+  * [Bill of Materials](bom.md)
   * [G-code Communication](gcode)
   * [DriveBoard Electronics](driveboard) 
   * [Revisions and Roadmap](revisions)
