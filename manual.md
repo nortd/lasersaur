@@ -6,7 +6,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 ![Lasersaur](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_n.jpg)![Lasersaur](http://farm9.staticflickr.com/8156/7139609703_b8134916f2_n.jpg)
 
 * Specifications
-  * [System Overview](overview)
+  * [System Overview](overview.md)
   * [Bill of Materials](bom)
   * [G-code Communication](gcode)
   * [DriveBoard Electronics](driveboard) 
