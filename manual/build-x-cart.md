@@ -30,7 +30,9 @@ build <span style="background-color:#9e4301;color:#ffffff"> x-cart </span>
 ![old cart](http://farm9.staticflickr.com/8408/8697962319_6ef271a99d_z.jpg)
 
 ![underside](http://farm7.staticflickr.com/6037/6868165398_f2718f31aa_z.jpg)
+
 (image of older version, optics assembly may vary)
 
 ![underside cart](http://farm8.staticflickr.com/7257/6868166626_a4a0f9752f_z.jpg)
+
 (image of older version, optics assembly may vary)
