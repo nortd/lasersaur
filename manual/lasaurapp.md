@@ -21,7 +21,7 @@ The main features are as follows:
 LasersaurBBB Configuration
 --------------------------
 
-[LasersaurBBB](/lasersaur/store#la-bbb) is our pre-configured BeagleBone Black with wifi module. It's ready to serve the Lasersaur GUI to your Firefox/Safari/Chrome/IE browser. For this to work your computer and the BeagleBone need to be on the same network.
+[LasersaurBBB](http://labs.nortd.com/lasersaur/store#la-bbb) is our pre-configured BeagleBone Black with wifi module. It's ready to serve the Lasersaur GUI to your Firefox/Safari/Chrome/IE browser. For this to work your computer and the BeagleBone need to be on the same network.
 
 ### Ethernet
 - Simply plug the BeagleBone into the same access point as your computer.
