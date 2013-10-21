@@ -3,6 +3,8 @@
 Bill of Materials
 ==========
 
+[Index](index.md) -- 
+
 *  [Bill of Materials for North America v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
 *  [Bill of Materials for Europe v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
 
