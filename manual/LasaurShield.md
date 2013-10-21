@@ -1,7 +1,8 @@
-[Index](index.md) --
 
 LasaurShield
 ============
+
+[Index](index.md) --
 
 The LasaurShield connects Arduino, stepper drivers, and wires. In addition it also implements a strictly hardwired safety subsystem (logic gates). The laser is forced off when any of the following occurs: door opens, chiller off or malfunctions, a limit switch triggers.
 
