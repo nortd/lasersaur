@@ -52,36 +52,36 @@ which makes the connection a bit more prone to vibration
 Assembly Steps
 ---------------
 
-### 1. <span style="background-color:#83bbff"> frame-gantry </span>
-<div style="width:300px"><a href="build-frame-gantry"><img src="http://farm8.staticflickr.com/7038/6793462726_83109b3634_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 1. frame-gantry
+[![frame-gantry](http://farm8.staticflickr.com/7038/6793462726_83109b3634_m.jpg)](build-frame-gantry.md)
 
-### 2. <span style="background-color:#443858;color:#ffffff"> frame-table </span>
-<div style="width:300px"><a href="build-frame-table"><img src="http://farm9.staticflickr.com/8122/8694553215_dbda3b8470_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 2. frame-table
+[![frame-table](http://farm9.staticflickr.com/8122/8694553215_dbda3b8470_m.jpg)](build-frame-table.md)
 
-### 3. <span style="background-color:#546883;color:#ffffff"> frame-outer </span>
-<div style="width:300px"><a href="build-frame-outer"><img src="http://farm9.staticflickr.com/8254/8694635309_e8eed0ecba_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 3. frame-outer
+[![frame-outer](http://farm9.staticflickr.com/8254/8694635309_e8eed0ecba_m.jpg)](build-frame-outer.md)
 
-### 4. <span style="background-color:#828ca3;color:#ffffff"> frame-door </span>
-<div style="width:300px"><a href="build-frame-door"><img src="http://farm9.staticflickr.com/8541/8700215126_31c712c214_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 4. frame-door
+[![frame-door](http://farm9.staticflickr.com/8541/8700215126_31c712c214_m.jpg)](build-frame-door.md)
 
-### 5. <span style="background-color:#650b01;color:#ffffff"> y-cart </span>
-<div style="width:300px"><a href="build-y-cart"><img src="http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 5. y-cart
+[![build-y-cart](c="http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_m.jpg)](build-y-cart.md)
 
-### 6. <span style="background-color:#b72e22;color:#ffffff"> y-drive </span>
-<div style="width:300px"><a href="build-y-drive"><img src="http://farm8.staticflickr.com/7044/6939597227_45a923993c_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 6. y-drive
+[![y-drive](http://farm8.staticflickr.com/7044/6939597227_45a923993c_m.jpg)](build-y-drive.md)
 
-### 7. <span style="background-color:#9e4301;color:#ffffff"> x-cart </span>
-<div style="width:300px"><a href="build-x-cart"><img src="http://farm8.staticflickr.com/7181/6793485136_0177cbde72_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 7. x-cart
+[![x-cart](http://farm8.staticflickr.com/7181/6793485136_0177cbde72_m.jpg)](build-x-cart.md)
 
-### 8. <span style="background-color:#bc652e;color:#ffffff"> x-drive </span>
-<div style="width:300px"><a href="build-x-drive"><img src="http://farm8.staticflickr.com/7201/6939597335_ba0a9b768d_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 8. x-drive
+[![x-drive](http://farm8.staticflickr.com/7201/6939597335_ba0a9b768d_m.jpg)](build-x-drive.md)
 
-### 9. <span style="background-color:#ccb17f"> electronics </span>
-<div style="width:300px"><a href="build-electronics"><img src="http://farm9.staticflickr.com/8397/8700215178_6b84d671e4_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 9. electronics
+[![electronics](http://farm9.staticflickr.com/8397/8700215178_6b84d671e4_m.jpg)](build-electronics.md)
 
-### 10. <span style="background-color:#b9d551"> optics-laser </span>
-<div style="width:300px"><a href="build-optics-laser"><img src="http://farm9.staticflickr.com/8124/8699091873_38b84576d5_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 10. optics-laser
+[![optics-laser](http://farm9.staticflickr.com/8124/8699091873_38b84576d5_m.jpg)](build-optics-laser.md)
 
-### 11. <span style="background-color:#431424;color:#ffffff"> frame panels </span>
-<div style="width:300px"><a href="build-frame-panels"><img src="http://farm8.staticflickr.com/7058/6906452935_b5a2a8dc11_m.jpg"> <div style="font-size:48px;float:right;margin-top:30px">≫</div></a></div>
+### 11. frame panels
+[![frame-panels](http://farm8.staticflickr.com/7058/6906452935_b5a2a8dc11_m.jpg)](build-frame-panels.md)
 
