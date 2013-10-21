@@ -1,6 +1,8 @@
 How to get a Lasersaur
 ===============
 
+[Index](index.md) -- 
+
 Welcome to the Lasersaur project!
 
 If you want to build your own laser cutter, understand it from ground up, and want to maintain such a system yourself you have come to the right place. This project is about empowering you with knowledge, robotics, and things that make things. We think of it as both open source hardware and the infrastructure that enables more open source hardware. Most importantly it is also a place to exchange ideas about personal fabrication and promoting technology that is open and shared. The Lasersaur project is currently in **pre-release phase**. Please understand that the documentation is still subject to completion. Nonetheless, many have built one already and we have a good record of addressing open questions on the mailing list.
