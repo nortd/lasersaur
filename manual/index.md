@@ -47,6 +47,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * Please consider [supporting the project](http://labs.nortd.com/lasersaur/#feed)
 
 
+<br>
 <table>
 <tr><td><strong>DISCLAIMER:</strong></td></tr>
 <tr><td>
