@@ -2,7 +2,7 @@ Adjusting the Optics
 =============
 
 
-[operation](operation.md) | [belts](timing_belts.md) | optics
+[Index](index.md) -- [operation](operation.md) | [belts](timing_belts.md) | optics
 
 The Lasersaur has three mirrors and one lens. Each mirror mount has two angular adjustments and the lens mount has one linear adjustment. The procedure starts with the laser tube and then moves along the beam path to mirror 1, 2, 3 and finally the lens. Each step's goal is to direct the laser beam into the center of the next mirror/lens. Additionally the laser beam must be perpendicular to the motion of the gantry. This is necessary because you want the beam stay in the center of the optics over the full range of motion.
 
