@@ -1,6 +1,8 @@
 LasaurGrbl G-code Protocol
 ===========================
 
+[Index](index.md) -- 
+
 LasaurGrbl uses a small subset of G-code ([rs274/ngc](http://linuxcnc.org/docs/html/gcode.html), [ISO6983](https://en.wikipedia.org/wiki/G-code)) for operation (see [[operation|Mode of Operation page]] for details). This support is intentionally reduced to the essentials to allow for a very lightweight and agile code base. Usually generated and streamed by LasaurApp, G-code can also be sent directly and manually with the Arduino Serial Monitor. 
 
 This is very useful for debugging. For example, by sending a '?' the Lasersaur will reply with an extended status string, giving information on all sensor inputs, current gantry location, and firmware version. (More information on the return format can be found further down.)
