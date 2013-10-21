@@ -1,6 +1,8 @@
 Accessories
 ===========
 
+[Index](index.md) -- 
+
 The Lasersaur [BOM](bom.md) comprises everything to make laser cutting possible. Still, for production use the system needs to be complemented with a few more accessories:
 
 - Fire Extinguisher
