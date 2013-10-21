@@ -65,7 +65,7 @@ Assembly Steps
 [![frame-door](http://farm9.staticflickr.com/8541/8700215126_31c712c214_m.jpg)](build-frame-door.md)
 
 ### 5. y-cart
-[![build-y-cart](c="http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_m.jpg)](build-y-cart.md)
+[![y-cart](http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_m.jpg)](build-y-cart.md)
 
 ### 6. y-drive
 [![y-drive](http://farm8.staticflickr.com/7044/6939597227_45a923993c_m.jpg)](build-y-drive.md)
