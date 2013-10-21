@@ -1,7 +1,7 @@
 LaserTag Presets
 ==================
 
-[LasaurApp](lasaurapp.md) | LaserTags | [DXF Support](dxf_import.md)
+[Index](index.md) -- [LasaurApp](lasaurapp.md) | LaserTags | [DXF Support](dxf_import.md)
 
 LasaurApp looks for special tags in an SVG file and uses these to preset cutting parameters (feedrate, intensity, pass-color-assignments). This way cutting parameters can easily be saved with the SVG file. These tags can be added to the file by simply adding graphical text of a specific format to the file.
 
