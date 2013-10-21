@@ -1,7 +1,7 @@
 LasaurApp
 =========
 
-LasaurApp | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | [LaserTags](lasertags.md) | [DXF Support](dxf_import.md)
+[Index](index.md) -- LasaurApp | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | [LaserTags](lasertags.md) | [DXF Support](dxf_import.md)
 
 LasaurApp is the main control app for the Lasersaur. It is installed on the Lasersaur and accessed over the local network (ethernet or wifi) with a web browser. A Lasersaur typically does not require any software or driver installation on the user's computer and is conveniently access via [http://lasersaur.local](http://lasersaur.local).
 
