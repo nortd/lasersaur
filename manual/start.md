@@ -8,7 +8,9 @@ Welcome to the Lasersaur project!
 If you want to build your own laser cutter, understand it from ground up, and want to maintain such a system yourself you have come to the right place. This project is about empowering you with knowledge, robotics, and things that make things. We think of it as both open source hardware and the infrastructure that enables more open source hardware. Most importantly it is also a place to exchange ideas about personal fabrication and promoting technology that is open and shared. The Lasersaur project is currently in **pre-release phase**. Please understand that the documentation is still subject to completion. Nonetheless, many have built one already and we have a good record of addressing open questions on the mailing list.
 
 <table>
-<tr><td><strong>DISCLAIMER:</strong></td></tr>
+<tr><td>
+<strong>DISCLAIMER:</strong>
+</td></tr>
 <tr><td>
 Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
 </td></tr>
@@ -49,7 +51,7 @@ Sourcing all components is straight forward if you are located in North America 
 
 The budget you need to allocate if using our suggested suppliers is around USD 7000 for the 100W system (same for EUR as sourcing in Europe is a bit more expensive). Please refer to the part lists for exact numbers. These lists are optimized for hassle-free ordering rather then cheapest option. There is plenty of opportunities to push the costs further down. For example, cutting the case panels yourself and sourcing the polycarbonate sheets locally would save you up to USD 800. Many standardized parts can also be sourced cheaper, like ball bearings, fasteners, and tubing.
 
-* [[bom|Bill of Materials]]
+* [Bill of Materials](bom.md)
 
 
 Assemble System
