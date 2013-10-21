@@ -47,9 +47,12 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * Please consider [supporting the project](http://labs.nortd.com/lasersaur/#feed)
 
 
-<div class="wire">
-<span style="font-size:1.2em">DISCLAIMER:</span> Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
-</div>
+<table>
+<tr><td><strong>DISCLAIMER:</strong></td></tr>
+<tr><td>
+Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
+</td></tr>
+</table>
 
 
 
