@@ -1,7 +1,7 @@
 BeagleBone Setup
 ================
 
-[LasaurApp](lasaurapp.md) | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | BeagleBone | [RaspberryPi](raspberrypi_setup.md)
+[Index](index.md) -- [LasaurApp](lasaurapp.md) | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | BeagleBone | [RaspberryPi](raspberrypi_setup.md)
 
 Note: There are two different kinds of BeagleBones on the market now: Please see [BeagleBone Black setup](bbb_setup.md) for the latest board.
 
