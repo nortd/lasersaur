@@ -10,7 +10,7 @@ Resources
 -----------
 - CAD model (exclusive to beta supporters)
 - [BOM](bom.md) (by subsystem view)
-- [this manual](/)
+- [this manual](index.md)
 - [the mailing list](https://groups.google.com/forum/#!forum/lasersaur)
 
 
