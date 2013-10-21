@@ -7,9 +7,12 @@ Welcome to the Lasersaur project!
 
 If you want to build your own laser cutter, understand it from ground up, and want to maintain such a system yourself you have come to the right place. This project is about empowering you with knowledge, robotics, and things that make things. We think of it as both open source hardware and the infrastructure that enables more open source hardware. Most importantly it is also a place to exchange ideas about personal fabrication and promoting technology that is open and shared. The Lasersaur project is currently in **pre-release phase**. Please understand that the documentation is still subject to completion. Nonetheless, many have built one already and we have a good record of addressing open questions on the mailing list.
 
-<div class="wire">
-<span style="font-size:1.2em">DISCLAIMER:</span> Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
-</div>
+<table>
+<tr><td><strong>DISCLAIMER:</strong></td></tr>
+<tr><td>
+Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
+</td></tr>
+</table>
 
 Still excited? This is how you go after building your own Lasersaur:
 
