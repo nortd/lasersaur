@@ -1,7 +1,7 @@
 Operating a Lasersaur
 ======================
 
-operation | [belts](timing_belts) | [optics](optics_setup)
+operation | [belts](timing_belts.md) | [optics](optics_setup.md)
 
 As with any laser cutter certain precautions and guidelines should be taken into consideration. This is currently an incomplete list and your ability to collect this information yourself is required.
 
@@ -27,7 +27,7 @@ Operator's Checklist
 
 - Check gantry rails and roller bearings for dirt and black build-up.
 - Check angular and linear play of x- and y-cart.
-- [Check proper belt tension](timing_belts) by listening for unusual noise when manually moving the gantry.
+- [Check proper belt tension](timing_belts.md) by listening for unusual noise when manually moving the gantry.
 - Check limit and door switches for dirt build-up. Sticky limit switches will halt the machine. Sticky door switches may lead to situation where the laser interlock fails when opening the door.
 
 

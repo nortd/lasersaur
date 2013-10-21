@@ -30,7 +30,7 @@ Understand Risks
 
 The primary risks come from operating a CO2 laser tube. Please operate your first system with a laser source within your level of expertise, even if this is a laser pointer. From there work yourself up until you can safely run a high-powered system.
 
-CO2 lasers involve high-energy infrared beams that may be reflected or scattered and can cause fire on many materials. Most importantly lasers may cause permanent damage to the eye. The best way to manage these kinds of risk is wearing protection glasses certified for CO2 wavelength and having proper fire extinguishers available at all times (see [Accessories](accessories)).
+CO2 lasers involve high-energy infrared beams that may be reflected or scattered and can cause fire on many materials. Most importantly lasers may cause permanent damage to the eye. The best way to manage these kinds of risk is wearing protection glasses certified for CO2 wavelength and having proper fire extinguishers available at all times (see [Accessories](accessories.md)).
 
 The second danger is high-voltage. Depending on the tube, you are looking at 25000-40000 volts. The power supplies are rated in the 50mA range which puts any electric shocks into lethal territory. One might be able to survive such a shock but depending on things like physical condition, length of shock, and the fact that the power supply may actually supply more amps temporarily puts this into the avoid-at-all-costs category. Also note that electricity at these voltages jumps through the air for several inches and be aware that the power supplies stay charged after disconnecting them from the outlet for quite some time.
 
@@ -52,7 +52,7 @@ Assemble System
 
 We are compiling comprehensive instructions during the beta phase. This means until the project goes fully open source the manual needs to be complemented with the CAD model and the mailing list. After that we aim for a complete step-by-step instructional guide.
 
-* [Build Instructions](assembly)
+* [Build Instructions](assembly.md)
 * [Time-Lapse of the Build](http://www.flickr.com/photos/stfnix/5721014861/)
 
 We think the assembly process is fairly enjoyable (think Lego Technik on steroids). Assembly does not include any difficult steps, like drilling precision holes or cutting pieces to size. On average, it should take about a week to put a Lasersaur together and we have seen people do it in substantially less time (the best time is at 3 days).

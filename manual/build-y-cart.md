@@ -1,7 +1,7 @@
 build <span style="background-color:#650b01;color:#ffffff"> y-cart </span>
 ============================
 
-[≪ frame-door](build-frame-door) | [overview](assembly) | [y-drive ≫](build-y-drive)
+[≪ frame-door](build-frame-door.md) | [overview](assembly.md) | [y-drive ≫](build-y-drive.md)
 
 ![y-cart](http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_z.jpg)
 

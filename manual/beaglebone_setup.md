@@ -1,13 +1,13 @@
 BeagleBone Setup
 ================
 
-[LasaurApp](lasaurapp) | [DriveBoard](driveboard) | [BeagleBoneBlack](bbb_setup) | BeagleBone | [RaspberryPi](raspberrypi_setup)
+[LasaurApp](lasaurapp.md) | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | BeagleBone | [RaspberryPi](raspberrypi_setup.md)
 
-Note: There are two different kinds of BeagleBones on the market now: Please see [BeagleBone Black setup](bbb_setup) for the latest board.
+Note: There are two different kinds of BeagleBones on the market now: Please see [BeagleBone Black setup](bbb_setup.md) for the latest board.
 
 While the [BeagleBone](http://beagleboard.org/bone) comes with [Angstrom Linux](http://www.angstrom-distribution.org/) pre-installed we use [Ubuntu](http://elinux.org/BeagleBoardUbuntu) for the Lasersaur. It plays better with usb peripherals like wifi dongles.  The following shows how to get the fully pre-configured *lasersaur-beaglebone-image* onto the BeagleBone. 
 
-Alternatively you can [configure a stock Ubuntu/Debian image from scratch](beaglbone_ubuntu). Or use the pre-installed Angstrom Linux (see [old setup instruction](beaglebone_angstrom)).
+Alternatively you can [configure a stock Ubuntu/Debian image from scratch](beaglbone_ubuntu.md). Or use the pre-installed Angstrom Linux (see [old setup instruction](beaglebone_angstrom.md)).
 
 Before you start be informed that some command line skills are helpful. If you need to brush up, here is a great [command line tutorial](http://www.linuxcommand.org), well worth the time.
 

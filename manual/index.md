@@ -6,22 +6,22 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 ![Lasersaur](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_n.jpg)![Lasersaur](http://farm9.staticflickr.com/8156/7139609703_b8134916f2_n.jpg)
 
 * Specifications
-  * [System Overview](overview)
-  * [Bill of Materials](bom)
-  * [G-code Communication](gcode)
-  * [DriveBoard Electronics](driveboard) 
-  * [Revisions and Roadmap](revisions)
+  * [System Overview](overview.md)
+  * [Bill of Materials](bom.md)
+  * [G-code Communication](gcode.md)
+  * [DriveBoard Electronics](driveboard.md) 
+  * [Revisions and Roadmap](revisions.md)
 * Building Process
-  * [Getting Started](start)
-  * [Build Instructions](assembly)
-  * [Setting up the Software](lasaurapp)
-  * [Accessories](accessories)
+  * [Getting Started](start.md)
+  * [Build Instructions](assembly.md)
+  * [Setting up the Software](lasaurapp.md)
+  * [Accessories](accessories.md)
 * Operation
-  * [Running a Lasersaur](operation)
-  * [Adjusting the Optics](optics_setup)
-  * [Laser Adjustments](laser_adjustments)
-  * [Timing Belt Adjustments](timing_belts)
-  * [LaserTags](lasertags)
+  * [Running a Lasersaur](operation.md)
+  * [Adjusting the Optics](optics_setup.md)
+  * [Laser Adjustments](laser_adjustments.md)
+  * [Timing Belt Adjustments](timing_belts.md)
+  * [LaserTags](lasertags.md)
 * Community
   * [Mailing List](https://groups.google.com/forum/#!forum/lasersaur) - join the discourse!
   * [Map of Builders](http://maps.google.com/maps/ms?msid=212793647571970047289.0004a1eb83351b9926511&msa=0) - add yourself!
@@ -38,7 +38,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [Time-Lapse of the Build](http://vimeo.com/23935409)
   * [more lasersaur pr0n](http://vimeo.com/23871399)
   * [Old Step-by-Step Photo Instructions](http://www.flickr.com/photos/stfnix/sets/72157626580353027/)
-  * [Staging Area for new Manual Entries](staging_area)
+  * [Staging Area for new Manual Entries](staging_area.md)
 * History
   * [Development Process](http://www.flickr.com/photos/stfnix/sets/72157624491114826/) and early prototyping 
 * Exclusive to Supporters

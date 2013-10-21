@@ -6,7 +6,7 @@ This page is for the Alpha and Beta crowd. Please do not share this page publicl
 Lasersaur CAD Models
 -------------------
 
-The Lasersaur CAD model is available for Rhino (version 4) and FreeCAD (tested with v0.13). We use Rhino 5 for all modelling but FreeCAD works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide) to get through some initial roughness.
+The Lasersaur CAD model is available for Rhino (version 4) and FreeCAD (tested with v0.13). We use Rhino 5 for all modelling but FreeCAD works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
 
 If you need IGES, STEP, VRML, or STL files. FreeCAD can export all of them. Especially IGES and STEP export is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
 

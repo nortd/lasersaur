@@ -1,7 +1,7 @@
 LasaurApp
 =========
 
-LasaurApp | [DriveBoard](driveboard) | [BeagleBoneBlack](bbb_setup) | [LaserTags](lasertags) | [DXF Support](dxf_import)
+LasaurApp | [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | [LaserTags](lasertags.md) | [DXF Support](dxf_import.md)
 
 LasaurApp is the main control app for the Lasersaur. It is installed on the Lasersaur and accessed over the local network (ethernet or wifi) with a web browser. A Lasersaur typically does not require any software or driver installation on the user's computer and is conveniently access via [http://lasersaur.local](http://lasersaur.local).
 
@@ -9,7 +9,7 @@ The main features are as follows:
 
 - send vector files to the Lasersaur
 - import files and optimize
-- supported file formats are: SVG, G-Code ([subset](gcode)), DXF ([subset](dxf_import)) 
+- supported file formats are: SVG, G-Code ([subset](gcode.md)), DXF ([subset](dxf_import.md)) 
 - GUI for moving/jogging the laser head
 - stopping/pausing/continuing jobs
 - firmware flashing
@@ -78,8 +78,8 @@ Advanced Topics
 
 If you want to use a vanilla BeagleBone (Black) on the DriveBoard you can also set it up yourself by following these guides:
 
-- [Setup BeagleBone Black](bbb_setup)
-- [Setup BeagleBone](beaglebone_setup)
+- [Setup BeagleBone Black](bbb_setup.md)
+- [Setup BeagleBone](beaglebone_setup.md)
  
 
 

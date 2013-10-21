@@ -1,7 +1,7 @@
 BeagleBone Black Setup
 =======================
 
-[LasaurApp](lasaurapp) | [DriveBoard](driveboard) | BeagleBoneBlack
+[LasaurApp](lasaurapp.md) | [DriveBoard](driveboard.md) | BeagleBoneBlack
 
 For ease of setup we have created a pre-configured disk image. It's Ubuntu 13.10 with UART1 enabled in the device tree and all Lasersaur-related software installed.
 

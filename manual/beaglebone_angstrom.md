@@ -1,9 +1,9 @@
 BeagleBone Angstrom Setup 
 ==========================
 
-[LasaurApp](lasaurapp) | [DriveBoard](driveboard) | [BeagleBone](beaglebone_setup) | [RaspberryPi](raspberrypi_setup)
+[LasaurApp](lasaurapp.md) | [DriveBoard](driveboard.md) | [BeagleBone](beaglebone_setup.md) | [RaspberryPi](raspberrypi_setup.md)
 
-[Angstrom Linux](http://www.angstrom-distribution.org/) is pre-installed on the BeagleBone and it's possible to use it for the Lasersaur. Nonetheless we recommend using Ubuntu as it's easier to configure (especially WiFi). For setting up the BeagleBone with Ubuntu please checkout the main [BeagleBone Setup](beaglebone_setup) page.
+[Angstrom Linux](http://www.angstrom-distribution.org/) is pre-installed on the BeagleBone and it's possible to use it for the Lasersaur. Nonetheless we recommend using Ubuntu as it's easier to configure (especially WiFi). For setting up the BeagleBone with Ubuntu please checkout the main [BeagleBone Setup](beaglebone_setup.md) page.
 
 
 ### (DEPRECATED)

@@ -1,7 +1,7 @@
 build <span style="background-color:#431424;color:#ffffff"> frame-panels </span>
 ============================
 
-[≪ optics-laser](build-optics-laser) | [overview ≫](assembly)
+[≪ optics-laser](build-optics-laser.md) | [overview ≫](assembly.md)
 
 ![frame-panels](http://farm8.staticflickr.com/7058/6906452935_b5a2a8dc11_z.jpg)
 

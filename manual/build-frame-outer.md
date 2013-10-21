@@ -1,7 +1,7 @@
 build <span style="background-color:#546883;color:#ffffff"> frame-outer </span>
 ============================
 
-[≪ frame-table](build-frame-table) | [overview](assembly) | [frame-door ≫](build-frame-door)
+[≪ frame-table](build-frame-table.md) | [overview](assembly.md) | [frame-door ≫](build-frame-door.md)
 
 ![frame-outer](http://farm9.staticflickr.com/8254/8694635309_e8eed0ecba_z.jpg)
 

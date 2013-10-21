@@ -37,13 +37,13 @@ Electronics
 
 The system is controlled by the Lasersaur DriveBoard in conjunction with two GeckoDrive G203Vs. Each of the Geckos drive a Nanotec (EU BOM) or LinEngineering (US BOM) stepper motor. For the x-axis we use a lightweight Nema 17 and for the y-axis a Nema 23 with rear shaft. For network connectivity the DriveBoard supports one of two embedded Linux computers: BeagleBone and RaspberryPi. They plug right into the board and serve the control interface via http.
 
-The DriveBoard also controls the laser intensity via a digital PWM line and monitors limit switches, door sensors, and water chiller. All critical laser shutdown functions are implemented software-independently with logic gates. Optionally the board can control air and gas assist with optically isolated relays. At the lowest level the firmware understands a subset of [gcode](gcode).
+The DriveBoard also controls the laser intensity via a digital PWM line and monitors limit switches, door sensors, and water chiller. All critical laser shutdown functions are implemented software-independently with logic gates. Optionally the board can control air and gas assist with optically isolated relays. At the lowest level the firmware understands a subset of [gcode](gcode.md).
 
-* [DriveBoard](driveboard)
-* [GeckoDrive G203V](geckodrives)
-* [Stepper Motors](steppers)
+* [DriveBoard](driveboard.md)
+* [GeckoDrive G203V](geckodrives.md)
+* [Stepper Motors](steppers.md)
 
-Looking for deprecated [LasaurShield](LasaurShield)?
+Looking for deprecated [LasaurShield](LasaurShield.md)?
 
 
 Optics and Laser
@@ -58,18 +58,18 @@ The system is designed with a DC-excited CO2 laser tube in mind but can be adapt
 
 A typical low-budget CO2 laser system (like the one listed in the BOM) consists of 3 components: laser tube, power supply and water chiller. We have a dedicated space for the power supply inside the Lasersaur. The water chiller is external to the box.
 
-* [Laser and PSU](lasersystem)
-* [Water Chiller](chiller)
+* [Laser and PSU](lasersystem.md)
+* [Water Chiller](chiller.md)
 
 
 Control Software
 ----------------
 
-The Lasersaur is generally controlled through the [LasaurApp](lasaurapp) web application that runs on the Lasersaur (it can also run locally on the user's computer). It's typically accessible via LAN at at http://lasersaur.local. The main interface can be used with any modern web browser. LasaurApp then streams G-code to the controller's low-level firmware which then does all the time sensitive motor control. [The subset of G-code](gcode) which is understood by the firmware is a fairly simple control language which can also be used directly.
+The Lasersaur is generally controlled through the [LasaurApp](lasaurapp.md) web application that runs on the Lasersaur (it can also run locally on the user's computer). It's typically accessible via LAN at at http://lasersaur.local. The main interface can be used with any modern web browser. LasaurApp then streams G-code to the controller's low-level firmware which then does all the time sensitive motor control. [The subset of G-code](gcode.md) which is understood by the firmware is a fairly simple control language which can also be used directly.
 
 While it can be useful to understand some G-code this is not necessary when using LasaurApp. For most usage scenarios knowing how to save an .svg file in Illustrator or Inkscape and importing it in LasaurApp is all that is necessary to start cutting. 
 
-- [Software Setup Page](lasaurapp)
+- [Software Setup Page](lasaurapp.md)
 
 
 Accessory Subsystems
@@ -77,7 +77,7 @@ Accessory Subsystems
 
 A Lasersaur needs a couple of additional subsystems for operation: air exhaust, air assist, cutting surface, fire extinguisher, hand vacuum cleaner, ...
 
-- [Accessories Page](accessories)
+- [Accessories Page](accessories.md)
 
 
 

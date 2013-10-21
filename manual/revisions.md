@@ -36,7 +36,7 @@ Revisions
 - magnetic limit switch mount screws (optional)
 
 ### v13.04 - Driveboard Image
-- New Linux image for the Driveboard, see [BeagleBone Setup](beaglebone_setup)
+- New Linux image for the Driveboard, see [BeagleBone Setup](beaglebone_setup.md)
 
 ### v13.02 - BOM update
 - switched back to higher-amp motors (low-amp motors were a bit noisy)
@@ -78,7 +78,7 @@ Revisions
   - LasaurShield v13.01 firmware (need testers!)
   - LasaurShield v12.08f firmware (for easy downgrading after testing)
 - LaserTags - save cutting parameters in SVG files
-  - see: [LaserTags](lasertags)
+  - see: [LaserTags](lasertags.md)
 - Up to 32 passes
 - Generates air assist control gcode (M80/M81).
 - Control buttons for air assist.

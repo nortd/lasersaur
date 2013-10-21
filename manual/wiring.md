@@ -10,7 +10,7 @@ The high-voltage (positive) wire of the power supply **requires proper insulatio
 
 ### Howto
 
-1. See [BOM](bom) by subsystem for part details.
+1. See [BOM](bom.md) by subsystem for part details.
 2. Mount the DIN rail in the back of the Lasersaur.
 3. Clip PSU, relay, and screw terminals onto the DIN rail.
 4. Connect LasaurShield to stepper drivers.

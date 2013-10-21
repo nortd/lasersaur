@@ -1,7 +1,7 @@
 build <span style="background-color:#443858;color:#ffffff"> frame-table </span>
 ============================
 
-[≪ frame-gantry](build-frame-gantry) | [overview](assembly) | [frame-outer ≫](build-frame-outer)
+[≪ frame-gantry](build-frame-gantry.md) | [overview](assembly.md) | [frame-outer ≫](build-frame-outer.md)
 
 ![frame-table](http://farm9.staticflickr.com/8122/8694553215_dbda3b8470_z.jpg)
 
@@ -18,7 +18,7 @@ build <span style="background-color:#443858;color:#ffffff"> frame-table </span>
   * 4040, 120mm, black in the back, angles attach to the rear slot
   * 2040, 120mm, black in the front
 3. When attaching table to frame make sure the height is equal on all attachment points. Once the head is mounted, double-check the height within the entire range of motion.
-4. When adjusting the height plan ahead for the table surface you will be using. See [accessories](accessories#surface) for possible options.
+4. When adjusting the height plan ahead for the table surface you will be using. See [accessories](accessories#surface.md) for possible options.
 
 
 ### Images

@@ -1,12 +1,12 @@
 build <span style="background-color:#ccb17f"> electronics </span>
 ============================
 
-[≪ x-drive](build-x-drive) | [overview](assembly) | [optics-laser ≫](build-optics-laser)
+[≪ x-drive](build-x-drive.md) | [overview](assembly.md) | [optics-laser ≫](build-optics-laser.md)
 
 ![electronics](http://farm9.staticflickr.com/8397/8700215178_6b84d671e4_z.jpg)
 
 
-The electronics subsystem consists of the [Driveboard](driveboard), two stepper drivers, two stepper motors, 5V and 24V DC power supplies, an e-stop, four limit sensors, two door sensor (one redundant), and the laser system. Most of the wiring is done with shielded cat5 patch cables. One side has to be soldered to the sensor or actuator while the other side plugs straight into the Driveboard.
+The electronics subsystem consists of the [Driveboard](driveboard.md), two stepper drivers, two stepper motors, 5V and 24V DC power supplies, an e-stop, four limit sensors, two door sensor (one redundant), and the laser system. Most of the wiring is done with shielded cat5 patch cables. One side has to be soldered to the sensor or actuator while the other side plugs straight into the Driveboard.
 
 <span style="color:#ff0000; bold">HIGH VOLTAGE DANGER!</span> Wiring the laser system has to be done with the utmost care and certainty. Messing up this part of the assembly can result in significant personal injury. The high-voltage (positive) wire of the power supply **requires proper insulation**. The voltage is in excess of 25kV and can spark several inches (some 150mm). Also the cable stays charged for a considerable time after the AC power is disconnected (when in doubt use an AC ground wire on a chicken stick to discharge the high-voltage cable).
 
@@ -18,7 +18,7 @@ The electronics subsystem consists of the [Driveboard](driveboard), two stepper 
   - If you plan on cutting the carrier panel yourself improvise with cardboard.
   - Mount unit in rear compartment.
 3. Wire Sensors and E-stop
-  - For details see "Sensor and Control Wiring" on [Driveboard page](driveboard).
+  - For details see "Sensor and Control Wiring" on [Driveboard page](driveboard.md).
   - Drill holes as necessary to run cables through the separation wall.
   - Door switches and E-stop cables can be run inside the extrusion. This requires drilling an M5 hole in the approximate area of the switch/E-stop (see images).
   - Take shielded cat5 patch cable and cut to approximate length.
@@ -26,13 +26,13 @@ The electronics subsystem consists of the [Driveboard](driveboard), two stepper 
   - Solder sensor by splicing the cables in a way they still fit into the t-slot.
   - Test electrical functions before actually hot-gluing into the t-slots.
 4. Wire Steppers
-  - For details see "Sensor and Control Wiring" on [Driveboard page](driveboard).
+  - For details see "Sensor and Control Wiring" on [Driveboard page](driveboard.md).
   - Drill holes as necessary to run cables through the separation wall.
 5. Wire Power/AC
-  - For details see "Power Wiring" on [Driveboard page](driveboard).
+  - For details see "Power Wiring" on [Driveboard page](driveboard.md).
   - Two of the three C-14 power cords are intended for wiring inside the machine. Cut these up as needed.
 6. Wire Laser System
-  - For details see "Power Wiring" and "Sensor and Control Wiring" on [Driveboard page](driveboard).
+  - For details see "Power Wiring" and "Sensor and Control Wiring" on [Driveboard page](driveboard.md).
   - The laser PSU connects to the tube by two wires. The high-voltage (thick, red) wire connects to the rear of the tube while the thin blue wire connects to the front. Before operation make sure the high-voltage side is properly insulated with the insulation cap in place.
   - The laser PSU also connects to the AC through the Driveboard
   - Finally the PSU connects to the laser control output of the Driveboard.

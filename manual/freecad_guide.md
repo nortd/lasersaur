@@ -5,7 +5,7 @@ FreeCAD Survival Guide
 
 [FreeCAD](http://sourceforge.net/apps/mediawiki/free-cad/) is an open source 3D CAD program with a promising future. The technology behind FreeCad is very solid (OpenCascade, Coin3D, QT, and Python) and the UI, while still very uncooperative, is getting better with every release. As it matures, the Lasersaur project aims to support it more and more. While the Lasersaur CAD files are more efficiently edited with Rhino, FreeCAD is already quite usable for assisting the assembly process. 
 
-During assembly the CAD model can fill in most of the gaps of the [build instructions](assembly). It's very helpful for clarifying parts placements and taking measurements. With this guide we hope to provide an easy start with FreeCAD v0.12 and up. For later versions some of these difficulties may already be more intuitive, so we hope.
+During assembly the CAD model can fill in most of the gaps of the [build instructions](assembly.md). It's very helpful for clarifying parts placements and taking measurements. With this guide we hope to provide an easy start with FreeCAD v0.12 and up. For later versions some of these difficulties may already be more intuitive, so we hope.
 
 - [Getting FreeCAD](http://sourceforge.net/apps/mediawiki/free-cad/index.php?title=Installing)
 

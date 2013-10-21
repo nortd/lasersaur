@@ -9,7 +9,7 @@ The LasaurShield connects Arduino, stepper drivers, and wires. In addition it al
 - [[wiring|Also see the Lasersaur wiring diagram]]
 
 
-The relevant parts from the [BOM](bom) are:
+The relevant parts from the [BOM](bom.md) are:
 
 - 1x   36 pin header 2.54mm pitch   538-22-28-4360
 - 2x   nand logic ICs   863-MC74AC20NG
@@ -23,7 +23,7 @@ The relevant parts from the [BOM](bom) are:
 
 ### Matching Stepper Motors and Drivers
 
-The board uses two resistors to set the maximum current of the stepper motors. If your motors or drivers differ from the latest [BOM](bom) make sure you use the correct resistors (named x-current, y-current; some boards also say x-set and y-set).
+The board uses two resistors to set the maximum current of the stepper motors. If your motors or drivers differ from the latest [BOM](bom.md) make sure you use the correct resistors (named x-current, y-current; some boards also say x-set and y-set).
 
 <table style="width:640px; border: solid 1px #000000; padding:5px; margin-bottom:20px">
 <tr>
@@ -74,7 +74,7 @@ The board uses two resistors to set the maximum current of the stepper motors. I
 
 ### Wiring Air Assist Control Valves
 
-The LasaurShield has a couple of IO-pins to control air and nitrogen valves. They can be controlled directly via [G-Code](gcode) (M7, M8, M9). The air valve should be connected to A4 and is turned high with M7. Nitrogen should be connected to A5 and is turned high with M8. G-code M9 turns both low. To switch a solenoid valve please use a 5V micro-relay that draws less than 40mA.
+The LasaurShield has a couple of IO-pins to control air and nitrogen valves. They can be controlled directly via [G-Code](gcode.md) (M7, M8, M9). The air valve should be connected to A4 and is turned high with M7. Nitrogen should be connected to A5 and is turned high with M8. G-code M9 turns both low. To switch a solenoid valve please use a 5V micro-relay that draws less than 40mA.
 
 NOTE: Unfortunately some of the v12.02 boards have incorrect or missing labels for the air assist pins. The following are the correct pin outs. When unsure about this drop us a line on the mailing list.
 

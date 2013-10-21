@@ -1,9 +1,9 @@
 DriveBoard
 ==========
 
-[LasaurApp](lasaurapp) | DriveBoard | [BeagleBoneBlack](bbb_setup) | [BeagleBone](beaglebone_setup) | [RaspberryPi](raspberrypi_setup)
+[LasaurApp](lasaurapp.md) | DriveBoard | [BeagleBoneBlack](bbb_setup.md) | [BeagleBone](beaglebone_setup.md) | [RaspberryPi](raspberrypi_setup.md)
 
-The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield)). It interfaces all the electronics components and allows full control over LAN (ethernet). The board runs the real-time firmware (LasaurGrbl) on its Atmege328 chip and the web-based UI (LasaurApp) on a BeagleBone embedded Linux computer. This separation allows for simple hacking and modding. For example, alternative (experimental) headers for the RaspberryPi are provided. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
+The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield.md)). It interfaces all the electronics components and allows full control over LAN (ethernet). The board runs the real-time firmware (LasaurGrbl) on its Atmege328 chip and the web-based UI (LasaurApp) on a BeagleBone embedded Linux computer. This separation allows for simple hacking and modding. For example, alternative (experimental) headers for the RaspberryPi are provided. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
 
 Features
 --------
@@ -130,7 +130,7 @@ Most of the sensor and control wiring is done with shielded [Cat5 patch cables](
     - wgr,wor -> not used (=vcc =1,3)
     - wbl     -> not used (=aux2 =5)
     - Also on the laser PSU connector: 5V(pin1) -> IN(pin6)
-    - See [Laser Adjustment](laser_adjustments) page for output calibration.
+    - See [Laser Adjustment](laser_adjustments.md) page for output calibration.
   - chiller
     - cable length: 2900mm
     - wgr,wor -> H3 (=vcc =1,3)
@@ -161,7 +161,7 @@ The DriveBoard (assembled version) comes with current set resistors that match t
 
 Software Installation
 ---------------------
-The DriveBoard runs the LasaurGrbl firmware on the Atmega328 chip and LasaurApp on the BeagleBone. For the assembled version of the DriveBoard follow the [LasaurApp setup](lasaurapp). When building from scratch you will also have to get the Arduino bootloader onto the Atmega chip. This can be done with an Arduino and the Arduino IDE. The actual flashing of the firmware and continuous updates can then be done from LasaurApp.
+The DriveBoard runs the LasaurGrbl firmware on the Atmega328 chip and LasaurApp on the BeagleBone. For the assembled version of the DriveBoard follow the [LasaurApp setup](lasaurapp.md). When building from scratch you will also have to get the Arduino bootloader onto the Atmega chip. This can be done with an Arduino and the Arduino IDE. The actual flashing of the firmware and continuous updates can then be done from LasaurApp.
 
 
 Safety Systems

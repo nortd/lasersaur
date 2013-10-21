@@ -1,17 +1,17 @@
 build <span style="background-color:#b9d551"> optics-laser </span>
 ============================
 
-[≪ electronics](build-electronics) | [overview](assembly) | [frame-panels ≫](build-frame-panels)
+[≪ electronics](build-electronics.md) | [overview](assembly.md) | [frame-panels ≫](build-frame-panels.md)
 
 ![optics-laser](http://farm9.staticflickr.com/8124/8699091873_38b84576d5_z.jpg)
 
 1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
-2. [Wiring and Tubing](wiring)
+2. [Wiring and Tubing](wiring.md)
 3. Use rubber tape between the laser tube and the custom aluminum mounts.
 4. Heat the water hose with the heat gun before attaching to glass inlet/outlet.
 5. Attach water hose to laser tube with zip ties to prevent stress on inlet/outlet ducts. 
 6. Take special care not to slip when tightening screws around the glass tube.
-7. [Optics Setup](optics_setup)
+7. [Optics Setup](optics_setup.md)
 8. Attach all three mirror mounts to T-slots with metric (black) screw supplied with the mount.
 9. Assemble head optics. Nozzle and lens tube may need grease/oil and some turning on/off to smoothly mate.
 10. Run air assist tubing from entry panel to e-valve to air assist nozzle.
