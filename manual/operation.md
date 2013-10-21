@@ -1,7 +1,7 @@
 Operating a Lasersaur
 ======================
 
-operation | [belts](timing_belts.md) | [optics](optics_setup.md)
+[Index](index.md) -- operation | [belts](timing_belts.md) | [optics](optics_setup.md)
 
 As with any laser cutter certain precautions and guidelines should be taken into consideration. This is currently an incomplete list and your ability to collect this information yourself is required.
 
