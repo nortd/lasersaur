@@ -1,3 +1,6 @@
+
+[Index](index.md) -- 
+
 This is the place to keep track of all the revisions and future plans to hardware, software, BOM, and documentation. Version numbers also mean the following: v[year].[month]. For details on the changes check out the commit logs of the various github repositories.
 
 - [LasaurGrbl Commit Log](https://github.com/stefanix/LasaurGrbl/commits/master)
