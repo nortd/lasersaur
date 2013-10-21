@@ -1,6 +1,8 @@
 Build Instructions v13.04 
 ==========================
 
+[Index](index.md) -- 
+
 ![frame](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_z.jpg)
 
 You have read the [System Overview](overview.md), [Getting Started](start.md) guide, familiarized yourself with the [BOM](bom.md), ordered, and received all the parts? Great! Time to assemble a Lasersaur.
