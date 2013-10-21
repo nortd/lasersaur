@@ -1,6 +1,8 @@
 Water Chiller
 ==============
 
+[Index](index.md) --
+
 We use an industrial water chiller from [ColeTech](www.cncoletech.cn). They typically come with no user manual. What follows is some extra info on chilling the laser tube.
 
 - recommended coolant: 80% distilled water + 20% [DowFrost](http://www.dow.com/heattrans/prod/glycol/dowfrost.htm) (aka [propylene glycol](http://en.wikipedia.org/wiki/Propylene_glycol)). Ethylene glycol should not be used.
