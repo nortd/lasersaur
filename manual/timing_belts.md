@@ -2,7 +2,7 @@ Adjusting Timing Belt Tension
 =============================
 
 
-[operation](operation.md) | belts | [optics](optics_setup.md)
+[Index](index.md) -- [operation](operation.md) | belts | [optics](optics_setup.md)
 
 Timing belts work most reliably when their tension is well adjusted. Incorrect tension can cause the belt to jump teeth and can make the gantry cart loose its origin. In case of the Lasersaur it is also possible to have the y-cart rotate out of alignment because the angular constraint is achieved by the the two y-drive belts.
 
