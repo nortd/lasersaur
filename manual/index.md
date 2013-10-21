@@ -44,7 +44,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 * Exclusive to Supporters
   * CAD Model
   * Extensive Mailing List
-  * Please consider [supporting the project](/lasersaur/#feed)
+  * Please consider [supporting the project](http://labs.nortd.com/lasersaur/#feed)
 
 
 <div class="wire">
