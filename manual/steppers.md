@@ -15,7 +15,7 @@ Nanotec Steppers (EU BOM)
 * shaft length 24mm
 * current (bipolar series) 0.85A
 * Vmax = 32 * sqrt(11.6) = 109V
-* Amax = 0.67*0.85 = 0.57A (required power supply)
+* Amax = 0.67 * 0.85 = 0.57A (required power supply)
 
 
 ### y-drive
@@ -26,8 +26,8 @@ Nanotec Steppers (EU BOM)
 * weight 650g (01.43 lbs)
 * shaft length 90.1mm (tip front to tip rear shaft)
 * current (bipolar, series) 2.1A
-* Vmax = 32*sqrt(4.4) = 67V
-* Amax = 0.67*2.1 = 1.4A (required power supply)
+* Vmax = 32 * sqrt(4.4) = 67V
+* Amax = 0.67 * 2.1 = 1.4A (required power supply)
 
 
 Lin Engineering Steppers (US BOM)
@@ -42,7 +42,7 @@ Lin Engineering Steppers (US BOM)
 * shaft length 23.9mm
 * current (bipolar) 1.5A
 * Vmax = 32 * sqrt(1.9) = 44V
-* Amax = 0.67*1.5 = 1A (required power supply)
+* Amax = 0.67 * 1.5 = 1A (required power supply)
 
 ### y-drive
 
@@ -52,7 +52,7 @@ Lin Engineering Steppers (US BOM)
 * weight 680g (1.5 lbs)
 * shaft length 92.9mm (tip front to tip rear shaft)
 * current (bipolar, series) 2.1A
-* Amax = 0.67*2.1 = 1.4A (required power supply)
+* Amax = 0.67 * 2.1 = 1.4A (required power supply)
 
 
 Oriental Motors Steppers (ALTERNATIVE SOURCE)

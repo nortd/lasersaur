@@ -5,7 +5,7 @@ Operating a Lasersaur
 
 As with any laser cutter certain precautions and guidelines should be taken into consideration. This is currently an incomplete list and your ability to collect this information yourself is required.
 
-- <span style="color:#ff0000">Always supervise a running laser cutter.</span> Most accidents happen when people fall asleep or leave the room. Look for obvious things like fires, jammed work pieces, but also for a missing cut (optics may be out of alignment and laser may be deflected elsewhere).
+- **Always supervise a running laser cutter.** Most accidents happen when people fall asleep or leave the room. Look for obvious things like fires, jammed work pieces, but also for a missing cut (optics may be out of alignment and laser may be deflected elsewhere).
 - Make sure to test your newly built machine well. Be especially observant during the first 100h of operation. Most assembly errors and shortcomings will manifest themselves during this time.
 
 Operator's Checklist

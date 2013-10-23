@@ -48,7 +48,8 @@ For previous versions the recommended way of running the air assist is directly 
 ![arm mechanism](http://farm7.staticflickr.com/6068/6116220579_38b0105f6c_m.jpg)
 ![arm mechanism](http://farm8.staticflickr.com/7157/6615449489_4dba6bb89d_m.jpg)
 
-<a href="http://www.flickr.com/photos/mangtronix/6779174395/in/pool-1471798@N22/"><img src="http://farm8.staticflickr.com/7147/6779174395_9df4755bf0_m.jpg"></a> <a href="http://www.flickr.com/photos/girlontheles/6423829623/in/pool-1471798@N22/"><img src="http://farm7.staticflickr.com/6060/6423829623_6bb3ba14fb_m.jpg"></a>
+[![img](http://farm8.staticflickr.com/7147/6779174395_9df4755bf0_m.jpg)](http://www.flickr.com/photos/mangtronix/6779174395/in/pool-1471798@N22/)
+[![img](http://farm7.staticflickr.com/6060/6423829623_6bb3ba14fb_m.jpg)](http://www.flickr.com/photos/girlontheles/6423829623/in/pool-1471798@N22/)
 
 
 

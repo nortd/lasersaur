@@ -156,7 +156,7 @@ Current Set Resistors
 ---------------------
 The DriveBoard (assembled version) comes with current set resistors that match the stepper motors of the current BOM. If you are upgrading an older build or using alternative stepper motors for some other reasons make sure to adapt these resistors. The resistors are located right to the stepper drivers. Their value is calculated as follows, "I" being the current rating of the motor in Ampere:
 
-  - R (kOhm) = 47*I/(7-I)
+  - `R (kOhm) = 47*I/(7-I)`
 
 
 Software Installation

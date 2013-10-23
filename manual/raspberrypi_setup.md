@@ -23,18 +23,17 @@ HowTo
 WiFi
 ------
 
-type "sudo vi /etc/network/interfaces" to edit"
-<pre>
-auto lo
-iface lo inet loopback
-iface eth0 inet dhcp
+type `sudo vi /etc/network/interfaces` to edit
 
-auto wlan0
-allow-hotplug wlan0
-iface wlan0 inet dhcp
-        wpa-ssid "name of wifi network"
-        wpa-psk "password"
-</pre>
+    auto lo
+    iface lo inet loopback
+    iface eth0 inet dhcp
+
+    auto wlan0
+    allow-hotplug wlan0
+    iface wlan0 inet dhcp
+            wpa-ssid "name of wifi network"
+            wpa-psk "password"
 
 
 Zero-Configuration

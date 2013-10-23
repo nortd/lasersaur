@@ -42,6 +42,6 @@ accelerating the head (and also decelerating).
 G8 D&lt;data&gt; sends the actual data. Likewise lines will be concatenated
 until a 'G8 N' arrives. Currently line length is limited to 80
 characters. The actual data is encoded into the extended ascii range
-([128,255]). Each character is a dot. The new raster line marker also
+(`[128,255]`). Each character is a dot. The new raster line marker also
 resets the head to the next line which is 0.1mm (or whatever was defined
 with G8 Px) under the next.

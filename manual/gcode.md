@@ -3,7 +3,7 @@ LasaurGrbl G-code Protocol
 
 [Index](index.md) -- 
 
-LasaurGrbl uses a small subset of G-code ([rs274/ngc](http://linuxcnc.org/docs/html/gcode.html), [ISO6983](https://en.wikipedia.org/wiki/G-code)) for operation (see [[operation|Mode of Operation page]] for details). This support is intentionally reduced to the essentials to allow for a very lightweight and agile code base. Usually generated and streamed by LasaurApp, G-code can also be sent directly and manually with the Arduino Serial Monitor. 
+LasaurGrbl uses a small subset of G-code ([rs274/ngc](http://linuxcnc.org/docs/html/gcode.html), [ISO6983](https://en.wikipedia.org/wiki/G-code)) for operation (see [Mode of Operation page](operation) for details). This support is intentionally reduced to the essentials to allow for a very lightweight and agile code base. Usually generated and streamed by LasaurApp, G-code can also be sent directly and manually with the Arduino Serial Monitor. 
 
 This is very useful for debugging. For example, by sending a '?' the Lasersaur will reply with an extended status string, giving information on all sensor inputs, current gantry location, and firmware version. (More information on the return format can be found further down.)
 
@@ -110,7 +110,7 @@ An extended status string can be queried by sending a '?' and will also include 
 
 Checksum and Error Correction
 -----------------------------
-In addition to plain G-code lines LasaurGrbl also supports extended lines for basic transmission error correction. This is accomplished by prepending two bytes to every line. Byte one can be either a `'^'` or a `'*'` and byte two is an 8-bit checksum between [128, 255] (effectively just 7-bit, it uses the extended ascii range).
+In addition to plain G-code lines LasaurGrbl also supports extended lines for basic transmission error correction. This is accomplished by prepending two bytes to every line. Byte one can be either a `'^'` or a `'*'` and byte two is an 8-bit checksum between `[128, 255]`  (effectively just 7-bit, it uses the extended ascii range).
 
 The sending side can choose how much redundancy to use by sending zero or more lines identified by a leading `'^'` followed by a final line identified by a leading `'*'`. Redundant lines will be used for automatic error correction. If no redundant lines (only `'*'` lines) are sent no automatic correction can be done but transmission errors will be reported.
 
@@ -122,6 +122,7 @@ Any line starting with a `'^'` is a redundant line and LasaurGrbl expects anothe
 
 ### Calculating the Checksum
 This is done super light-weight (no CRCs at the moment).
+
 
     char *itr = line_string;
     uint16_t checksum = 0;

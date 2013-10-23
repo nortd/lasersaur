@@ -12,7 +12,7 @@ We provide material lists with suppliers for Europe and North America. This shou
 
 The bill of materials comes in two flavors: (1) by subsystem and (2) by supplier. As you might have guessed "by supplier" is best suited for ordering all the parts. "By subsystem" is good to understand the CAD model and the various subassemblies.
 
-The BOMs keep getting refined. See [[revisions|revisions page]] for details.
+The BOMs keep getting refined. See [revisions page](revisions) for details.
 
 
 ### Older BOMs for reference:

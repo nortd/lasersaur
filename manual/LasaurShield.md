@@ -1,4 +1,3 @@
-
 LasaurShield
 ============
 
@@ -9,7 +8,7 @@ The LasaurShield connects Arduino, stepper drivers, and wires. In addition it al
 - size is 80x70mm (3.15x2.76")
 - double layer pcb
 - Immersion Silver (ROHS)
-- [[wiring|Also see the Lasersaur wiring diagram]]
+- [Also see the Lasersaur wiring diagram](wiring)
 
 
 The relevant parts from the [BOM](bom.md) are:
@@ -89,7 +88,7 @@ NOTE: Unfortunately some of the v12.02 boards have incorrect or missing labels f
 
 ![wired lasaurshield](http://farm8.staticflickr.com/7066/6840859946_d5a5db514a_z.jpg)
 
-<iframe src="http://player.vimeo.com/video/38388132?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/38388132" width="640" height="360" frameborder="0">video</iframe>
 
 ![laa-shld schematic](http://farm8.staticflickr.com/7065/6977189781_5cf08461ff_z.jpg)
 

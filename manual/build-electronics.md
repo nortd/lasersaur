@@ -8,7 +8,7 @@ build <span style="background-color:#ccb17f"> electronics </span>
 
 The electronics subsystem consists of the [Driveboard](driveboard.md), two stepper drivers, two stepper motors, 5V and 24V DC power supplies, an e-stop, four limit sensors, two door sensor (one redundant), and the laser system. Most of the wiring is done with shielded cat5 patch cables. One side has to be soldered to the sensor or actuator while the other side plugs straight into the Driveboard.
 
-<span style="color:#ff0000; bold">HIGH VOLTAGE DANGER!</span> Wiring the laser system has to be done with the utmost care and certainty. Messing up this part of the assembly can result in significant personal injury. The high-voltage (positive) wire of the power supply **requires proper insulation**. The voltage is in excess of 25kV and can spark several inches (some 150mm). Also the cable stays charged for a considerable time after the AC power is disconnected (when in doubt use an AC ground wire on a chicken stick to discharge the high-voltage cable).
+**HIGH VOLTAGE DANGER!** Wiring the laser system has to be done with the utmost care and certainty. Messing up this part of the assembly can result in significant personal injury. The high-voltage (positive) wire of the power supply **requires proper insulation**. The voltage is in excess of 25kV and can spark several inches (some 150mm). Also the cable stays charged for a considerable time after the AC power is disconnected (when in doubt use an AC ground wire on a chicken stick to discharge the high-voltage cable).
 
 
 1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
