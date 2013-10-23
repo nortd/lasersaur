@@ -1,6 +1,8 @@
 Revision 14.01 (testing)
 =======================
 
+[Index](index.md) -- [bom](bom.md) | [revisions](revisions.md)
+
 This revision features an improved drive system with the following features/changes:
 
   - gear reduction

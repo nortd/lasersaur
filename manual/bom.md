@@ -3,7 +3,7 @@
 Bill of Materials
 ==========
 
-[Index](index.md) -- 
+[Index](index.md) -- bom | [revisions](revisions.md)
 
 *  [Bill of Materials for North America v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
 *  [Bill of Materials for Europe v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
@@ -12,7 +12,7 @@ We provide material lists with suppliers for Europe and North America. This shou
 
 The bill of materials comes in two flavors: (1) by subsystem and (2) by supplier. As you might have guessed "by supplier" is best suited for ordering all the parts. "By subsystem" is good to understand the CAD model and the various subassemblies.
 
-The BOMs keep getting refined. See [revisions page](revisions) for details.
+The BOMs keep getting refined. See [revisions page](revisions.md) for details.
 
 
 ### Older BOMs for reference:

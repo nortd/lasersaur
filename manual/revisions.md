@@ -1,5 +1,4 @@
-
-[Index](index.md) -- 
+[Index](index.md) -- [bom](bom.md) | revisions
 
 This is the place to keep track of all the revisions and future plans to hardware, software, BOM, and documentation. Version numbers also mean the following: `v[year].[month]`. For details on the changes check out the commit logs of the various github repositories.
 
@@ -18,7 +17,7 @@ Roadmap
   - improved drive system for higher precision and easier maintenance
   - magnetic limit switches for easier cleaning
 
-For details see [revision v14.01 plans](rev14.01).
+For details see [revision v14.01 plans](rev14.01.md).
 
 
 
