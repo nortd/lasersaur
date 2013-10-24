@@ -70,93 +70,93 @@ Sensor and Control Wiring
 -------------------------
 Most of the sensor and control wiring is done with shielded [Cat5 patch cables](http://en.wikipedia.org/wiki/Category_5_cable) (ethernet cables). This has the advantage of not having to assemble plugs while still being affordable and highly available. We recommend using 3m patch cables and cutting them to the appropriate lengths. The wiring is as follows (for both TIA/EIA-568-A and TIA/EIA-568-B style cables, also the shorthands `wgr,wor,gr,or,bl,br,wbr,wbl` are the colors of the leads):
 
-  - x1
-    - cable length: 2900mm
-    - wgr,wor      -> red        (=vcc =1,3)
-    - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
-    - not used   -> blue
-    - wbr,br       -> not used (=gnd =7,8)
-  - x2
-    - cable length: 1500mm
-    - (connect same as x1)
-  - stepper_x
-    - cable length: 1500mm
-    - Nanotec
-      - wgr, wor  ->  orange (=A =1,3)
-      - gr,or     ->  brown  (=A' =2,6)
-      - bl,br     ->  red    (=B =4,8)
-      - wbr,wbl   ->  yellow (=B' =7,5)
-    - LinEngineering
-      - gr, or    ->  black  (=A =1,3)
-      - wgr, wor  ->  green  (=A' =2,6)
-      - bl,br     ->  red    (=B =4,8)
-      - wbr,wbl   ->  blue   (=B' =7,5)
-  - y1
-    - cable length: 650mm
-    - (connect same as x1)
-  - y2
-    - cable length: 1350mm
-    - (connect same as x1)
-  - stepper_y
-    - cable length: 650mm
-    - Nanotec
-      - wgr, wor  ->  green (=A =1,3)
-      - gr,or     ->  black (=A' =2,6)
-      - bl,br     ->  red   (=B =4,8)
-      - wbr,wbl   ->  blue  (=B' =7,5)
-      - red-white -> blue-white
-      - black-white -> green-white
-    - LinEngineering
-      - gr, or    ->  blue-white  (=A =1,3)
-      - wgr, wor  ->  red         (=A' =2,6)
-      - bl,br     ->  green-white (=B =4,8)
-      - wbr,wbl   ->  black       (=B' =7,5)
-      - red-white ->  blue
-      - black-white -> green
-  - door1
-    - cable length: 2500mm
-    - wgr,wor      -> blue       (=vcc =1,3)
-    - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
-    - not used   -> red
-    - wbr,br       -> not used (=gnd =7,8)
-  - door2
-    - cable length: 1700mm
-    - (connect same as door1)
-  - laser
-    - cable length: 750mm
-    - gr,or   -> P or WP         (=dis =2,6)
-    - bl      -> H or TH         (=pwm =4)
-    - wbr,br  -> G or GND        (=gnd =7,8)
-    - wgr,wor -> not used (=vcc =1,3)
-    - wbl     -> not used (=aux2 =5)
-    - Also on the laser PSU connector: 5V(pin1) -> IN(pin6)
-    - See [Laser Adjustment](laser_adjustments.md) page for output calibration.
-  - chiller
-    - cable length: 2900mm
-    - wgr,wor -> H3 (=vcc =1,3)
-    - gr,bl,wbl,or -> H1 (=sig =2,4,5,6)
-    - wbr,br -> not used (=gnd =7,8)
-  - assists
-    - cable length: 500mm
-    - wgr,wor -> air_assist+ (=1,3)
-    - gr,or -> gnd (=2,6)
-    - bl,br -> gnd (=4,8)
-    - wbr,wbl -> aux1_assist+ (=7,5)
-  - interlocks
-    - cable length: 1700mm
-    - wgr, wor -> e-stop_1 (=1,3)
-    - gr,or -> e-stop_2 (=2,6)
-    - bl,br -> keylock_1 (=4,8)
-    - wbr,wbl -> keylock_2 (=7,5)
-  - z1, z2, stepper_z (optional)
-    - (analogous to x- and -y-axis)
+- x1
+  - cable length: 2900mm
+  - wgr,wor      -> red        (=vcc =1,3)
+  - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
+  - not used   -> blue
+  - wbr,br       -> not used (=gnd =7,8)
+- x2
+  - cable length: 1500mm
+  - (connect same as x1)
+- stepper_x
+  - cable length: 1500mm
+  - Nanotec
+    - wgr, wor  ->  orange (=A =1,3)
+    - gr,or     ->  brown  (=A' =2,6)
+    - bl,br     ->  red    (=B =4,8)
+    - wbr,wbl   ->  yellow (=B' =7,5)
+  - LinEngineering
+    - gr, or    ->  black  (=A =1,3)
+    - wgr, wor  ->  green  (=A' =2,6)
+    - bl,br     ->  red    (=B =4,8)
+    - wbr,wbl   ->  blue   (=B' =7,5)
+- y1
+  - cable length: 650mm
+  - (connect same as x1)
+- y2
+  - cable length: 1350mm
+  - (connect same as x1)
+- stepper_y
+  - cable length: 650mm
+  - Nanotec
+    - wgr, wor  ->  green (=A =1,3)
+    - gr,or     ->  black (=A' =2,6)
+    - bl,br     ->  red   (=B =4,8)
+    - wbr,wbl   ->  blue  (=B' =7,5)
+    - red-white -> blue-white
+    - black-white -> green-white
+  - LinEngineering
+    - gr, or    ->  blue-white  (=A =1,3)
+    - wgr, wor  ->  red         (=A' =2,6)
+    - bl,br     ->  green-white (=B =4,8)
+    - wbr,wbl   ->  black       (=B' =7,5)
+    - red-white ->  blue
+    - black-white -> green
+- door1
+  - cable length: 2500mm
+  - wgr,wor      -> blue       (=vcc =1,3)
+  - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
+  - not used   -> red
+  - wbr,br       -> not used (=gnd =7,8)
+- door2
+  - cable length: 1700mm
+  - (connect same as door1)
+- laser
+  - cable length: 750mm
+  - gr,or   -> P or WP         (=dis =2,6)
+  - bl      -> H or TH         (=pwm =4)
+  - wbr,br  -> G or GND        (=gnd =7,8)
+  - wgr,wor -> not used (=vcc =1,3)
+  - wbl     -> not used (=aux2 =5)
+  - Also on the laser PSU connector: 5V(pin1) -> IN(pin6)
+  - See [Laser Adjustment](laser_adjustments.md) page for output calibration.
+- chiller
+  - cable length: 2900mm
+  - wgr,wor -> H3 (=vcc =1,3)
+  - gr,bl,wbl,or -> H1 (=sig =2,4,5,6)
+  - wbr,br -> not used (=gnd =7,8)
+- assists
+  - cable length: 500mm
+  - wgr,wor -> air_assist+ (=1,3)
+  - gr,or -> gnd (=2,6)
+  - bl,br -> gnd (=4,8)
+  - wbr,wbl -> aux1_assist+ (=7,5)
+- interlocks
+  - cable length: 1700mm
+  - wgr, wor -> e-stop_1 (=1,3)
+  - gr,or -> e-stop_2 (=2,6)
+  - bl,br -> keylock_1 (=4,8)
+  - wbr,wbl -> keylock_2 (=7,5)
+- z1, z2, stepper_z (optional)
+  - (analogous to x- and -y-axis)
 
 
 Current Set Resistors
 ---------------------
 The DriveBoard (assembled version) comes with current set resistors that match the stepper motors of the current BOM. If you are upgrading an older build or using alternative stepper motors for some other reasons make sure to adapt these resistors. The resistors are located right to the stepper drivers. Their value is calculated as follows, "I" being the current rating of the motor in Ampere:
 
-  - `R (kOhm) = 47*I/(7-I)`
+- `R (kOhm) = 47*I/(7-I)`
 
 
 Software Installation
@@ -169,22 +169,22 @@ Safety Systems
 
 During operation the Lasersaur hardware (hard-logic safety) and firmware monitor various sensor events and make sure safe operation is maintained.
 
-  - hardware safety functions (DriveBoard logic):
-    - the laser is disabled via the "laser:dis" pin when any of the following happens
-      - any limit interlock is open
-      - chiller interlock is open
-      - any door interlock is open 
-  - firmware safety functions (LasaurGrbl):
-    - the controller is put into "stop mode" when any of the following happens:
-      - any of the limit interlocks opens
-      - serial data contains a '!' character
-    - the controller resumes from "stop mode" when serial data contains a '~' character. LasaurApp sends this character when pressing 'Cancel' or  'Homing Cycle'.
-  - e-stop/keylock interlock
-   - both need to be closed for operation
-   - when open the following subsystems are turned off:
-     - 5V board power
-     - Laser PSU AC line (via SSR)
-     - 24V PSU AC line (via SSR)
+- hardware safety functions (DriveBoard logic):
+  - the laser is disabled via the "laser:dis" pin when any of the following happens
+    - any limit interlock is open
+    - chiller interlock is open
+    - any door interlock is open 
+- firmware safety functions (LasaurGrbl):
+  - the controller is put into "stop mode" when any of the following happens:
+    - any of the limit interlocks opens
+    - serial data contains a '!' character
+  - the controller resumes from "stop mode" when serial data contains a '~' character. LasaurApp sends this character when pressing 'Cancel' or  'Homing Cycle'.
+- e-stop/keylock interlock
+ - both need to be closed for operation
+ - when open the following subsystems are turned off:
+   - 5V board power
+   - Laser PSU AC line (via SSR)
+   - 24V PSU AC line (via SSR)
 
 
 

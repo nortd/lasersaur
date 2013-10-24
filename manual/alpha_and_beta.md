@@ -1,6 +1,8 @@
 Alpha and Beta Access
 ==============
 
+[Index](index.md) -- 
+
 This page is for the Alpha and Beta crowd. Please do not share this page publicly just yet. The material on here will be open sourced under an open source and/or creative commons license once we complete the beta phase.
 
 Lasersaur CAD Models

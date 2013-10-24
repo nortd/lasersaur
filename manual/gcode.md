@@ -114,23 +114,25 @@ In addition to plain G-code lines LasaurGrbl also supports extended lines for ba
 
 The sending side can choose how much redundancy to use by sending zero or more lines identified by a leading `'^'` followed by a final line identified by a leading `'*'`. Redundant lines will be used for automatic error correction. If no redundant lines (only `'*'` lines) are sent no automatic correction can be done but transmission errors will be reported.
 
-    ^ + checksum + line     <- redundant line 1 (optional)
-    ^ + checksum + line     <- redundant line 2 (optional)
-    * + checksum + line     <- final line
+```
+^ + checksum + line     <- redundant line 1 (optional)
+^ + checksum + line     <- redundant line 2 (optional)
+* + checksum + line     <- final line
+```
 
 Any line starting with a `'^'` is a redundant line and LasaurGrbl expects another redundant line or the final line afterwards. As soon as a line matches the checksum it will skip all following lines until the end of the final line. If non are matching the checksum including the final it reports a transmission error.
 
 ### Calculating the Checksum
 This is done super light-weight (no CRCs at the moment).
 
-
-    char *itr = line_string;
-    uint16_t checksum = 0;
-    while (*itr) {  // all chars without 0-termination
-        checksum += (uint8_t)*itr++;
-        if (checksum >= 128) {
-            checksum -= 128;
-        }          
-    }
-    checksum = (checksum >> 1) + 128;
-
+```c
+char *itr = line_string;
+uint16_t checksum = 0;
+while (*itr) {  // all chars without 0-termination
+    checksum += (uint8_t)*itr++;
+    if (checksum >= 128) {
+        checksum -= 128;
+    }          
+}
+checksum = (checksum >> 1) + 128;
+```
