@@ -50,6 +50,11 @@ The electronics subsystem consists of the [Driveboard](driveboard.md), two stepp
 8. Have all the wires been secured with zip ties? 
 
 
+### Troubleshooting
+
+- The BeagleBoane does not power up.
+  - Two interlocks are used to control power to the DriveBoard: `e-stop` and `keylock`. Make sure both are closed. See the "interlocks" section in the wiring instructions for details.
+
 
 ### Images
 
