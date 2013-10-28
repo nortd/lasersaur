@@ -1,7 +1,7 @@
-build <span style="background-color:#b9d551"> optics-laser </span>
+build <span style="background-color:#b9d551">optics-laser</span>
 ============================
 
-[≪ electronics](build-electronics.md) | [overview](assembly.md) | [frame-panels ≫](build-frame-panels.md)
+[&#xAB; electronics](build-electronics.md) | [overview](assembly.md) | [frame-panels &#xBB;](build-frame-panels.md)
 
 ![optics-laser](http://farm9.staticflickr.com/8124/8699091873_38b84576d5_z.jpg)
 

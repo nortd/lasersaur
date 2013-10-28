@@ -1,7 +1,7 @@
-build <span style="background-color:#ccb17f"> electronics </span>
+build <span style="background-color:#ccb17f">electronics</span>
 ============================
 
-[≪ x-drive](build-x-drive.md) | [overview](assembly.md) | [optics-laser ≫](build-optics-laser.md)
+[&#xAB; x-drive](build-x-drive.md) | [overview](assembly.md) | [optics-laser &#xBB;](build-optics-laser.md)
 
 ![electronics](http://farm9.staticflickr.com/8397/8700215178_6b84d671e4_z.jpg)
 

@@ -1,7 +1,7 @@
-build <span style="background-color:#b72e22;color:#ffffff"> y-drive </span>
+build <span style="background-color:#b72e22;color:#ffffff">y-drive</span>
 ============================
 
-[≪ y-cart](build-y-cart.md) | [overview](assembly.md) | [x-cart ≫](build-x-cart.md)
+[&#xAB; y-cart](build-y-cart.md) | [overview](assembly.md) | [x-cart &#xBB;](build-x-cart.md)
 
 ![y-drive](http://farm8.staticflickr.com/7044/6939597227_45a923993c_z.jpg)
 

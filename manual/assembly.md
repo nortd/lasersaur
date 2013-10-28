@@ -1,7 +1,7 @@
 Build Instructions v13.04 
 ==========================
 
-[Index](index.md) -- 
+[Index](index.md) -- [Intro](start.md) | Building | [LasaurApp](lasaurapp.md)
 
 ![frame](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_z.jpg)
 

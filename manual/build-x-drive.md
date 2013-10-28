@@ -1,7 +1,7 @@
-build <span style="background-color:#bc652e;color:#ffffff"> x-drive </span>
+build <span style="background-color:#bc652e;color:#ffffff">x-drive</span>
 ============================
 
-[≪ x-cart](build-x-cart.md) | [overview](assembly.md) | [electronics ≫](build-electronics.md)
+[&#xAB; x-cart](build-x-cart.md) | [overview](assembly.md) | [electronics &#xBB;](build-electronics.md)
 
 ![x-drive](http://farm8.staticflickr.com/7201/6939597335_ba0a9b768d_z.jpg)
 

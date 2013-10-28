@@ -1,7 +1,7 @@
-build <span style="background-color:#828ca3;color:#ffffff"> frame-door </span>
+build <span style="background-color:#828ca3;color:#ffffff">frame-door</span>
 ============================
 
-[≪ frame-outer](build-frame-outer.md) | [overview](assembly.md) | [y-cart ≫](build-y-cart.md)
+[&#xAB; frame-outer](build-frame-outer.md) | [overview](assembly.md) | [y-cart &#xBB;](build-y-cart.md)
 
 ![frame-door](http://farm9.staticflickr.com/8541/8700215126_31c712c214_z.jpg)
 

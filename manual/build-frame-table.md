@@ -1,7 +1,7 @@
-build <span style="background-color:#443858;color:#ffffff"> frame-table </span>
+build <span style="background-color:#443858;color:#ffffff">frame-table</span>
 ============================
 
-[≪ frame-gantry](build-frame-gantry.md) | [overview](assembly.md) | [frame-outer ≫](build-frame-outer.md)
+[&#xAB; frame-gantry](build-frame-gantry.md) | [overview](assembly.md) | [frame-outer &#xBB;](build-frame-outer.md)
 
 ![frame-table](http://farm9.staticflickr.com/8122/8694553215_dbda3b8470_z.jpg)
 
