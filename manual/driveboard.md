@@ -142,12 +142,13 @@ Most of the sensor and control wiring is done with shielded [Cat5 patch cables](
   - gr,or -> gnd (=2,6)
   - bl,br -> gnd (=4,8)
   - wbr,wbl -> aux1_assist+ (=7,5)
-- interlocks
+- e-stop interlock
   - cable length: 1700mm
   - wgr, wor -> e-stop_1 (=1,3)
   - gr,or -> e-stop_2 (=2,6)
-  - bl,br -> keylock_1 (=4,8)
-  - wbr,wbl -> keylock_2 (=7,5)
+- keylock interlock
+  - cable length: 30mm
+  - bl,br (=4,8) -> wbr,wbl (=7,5)
 - z1, z2, stepper_z (optional)
   - (analogous to x- and -y-axis)
 
