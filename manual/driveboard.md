@@ -82,15 +82,15 @@ Most of the sensor and control wiring is done with shielded [Cat5 patch cables](
 - stepper_x
   - cable length: 1500mm
   - Nanotec
-    - wgr, wor  ->  orange (=A =1,3)
-    - gr,or     ->  brown  (=A' =2,6)
-    - bl,br     ->  red    (=B =4,8)
-    - wbr,wbl   ->  yellow (=B' =7,5)
+      - wgr, wor  ->  orange (=A =1,3)
+      - gr,or     ->  brown  (=A' =2,6)
+      - bl,br     ->  red    (=B =4,8)
+      - wbr,wbl   ->  yellow (=B' =7,5)
   - LinEngineering
-    - gr, or    ->  black  (=A =1,3)
-    - wgr, wor  ->  green  (=A' =2,6)
-    - bl,br     ->  red    (=B =4,8)
-    - wbr,wbl   ->  blue   (=B' =7,5)
+      - gr, or    ->  black  (=A =1,3)
+      - wgr, wor  ->  green  (=A' =2,6)
+      - bl,br     ->  red    (=B =4,8)
+      - wbr,wbl   ->  blue   (=B' =7,5)
 - y1
   - cable length: 650mm
   - (connect same as x1)
@@ -100,19 +100,19 @@ Most of the sensor and control wiring is done with shielded [Cat5 patch cables](
 - stepper_y
   - cable length: 650mm
   - Nanotec
-    - wgr, wor  ->  green (=A =1,3)
-    - gr,or     ->  black (=A' =2,6)
-    - bl,br     ->  red   (=B =4,8)
-    - wbr,wbl   ->  blue  (=B' =7,5)
-    - red-white -> blue-white
-    - black-white -> green-white
+      - wgr, wor  ->  green (=A =1,3)
+      - gr,or     ->  black (=A' =2,6)
+      - bl,br     ->  red   (=B =4,8)
+      - wbr,wbl   ->  blue  (=B' =7,5)
+      - red-white -> blue-white
+      - black-white -> green-white
   - LinEngineering
-    - gr, or    ->  blue-white  (=A =1,3)
-    - wgr, wor  ->  red         (=A' =2,6)
-    - bl,br     ->  green-white (=B =4,8)
-    - wbr,wbl   ->  black       (=B' =7,5)
-    - red-white ->  blue
-    - black-white -> green
+      - gr, or    ->  blue-white  (=A =1,3)
+      - wgr, wor  ->  red         (=A' =2,6)
+      - bl,br     ->  green-white (=B =4,8)
+      - wbr,wbl   ->  black       (=B' =7,5)
+      - red-white ->  blue
+      - black-white -> green
 - door1
   - cable length: 2500mm
   - wgr,wor      -> blue       (=vcc =1,3)
