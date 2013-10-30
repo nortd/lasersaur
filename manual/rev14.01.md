@@ -20,6 +20,7 @@ This revision features an improved drive system with the following features/chan
 This revision will be fully tested in Nov and become the master branch most likely Jan 2014. Please drop us a line if you want to build this revision ahead of time.
 
  - [CAD Model v14.01 (Rhino4)](http://file.lasersaur.com/model/model-lasersaur-v14.01.3dm)
+ - [MechParts v14.01 (dxf)](http://file.lasersaur.com/job-files/MechParts-v14.01.dxf)
  - [BOM v14.01 (EU)](/lasersaur/bom-1401-subsystems-eur)
  - [BOM v14.01 (US)](/lasersaur/bom-1401-subsystems-usd)
 
