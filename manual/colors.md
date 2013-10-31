@@ -1,0 +1,35 @@
+
+
+- <span style="background-color:#ccb17f">electronics</span>
+  - #ccb17f
+  - 204 177 127
+- <span style="background-color:#828ca3;color:#ffffff">frame-door</span>
+  - #828ca3
+  - 130	140	163
+- <span style="background-color:#83bbff">frame-gantry</span>
+  - #83bbff
+  - 131	187	255
+- <span style="background-color:#546883;color:#ffffff">frame-outer</span>
+  - #546883
+  - 84	104	131
+- <span style="background-color:#431424;color:#ffffff">frame-panels</span>
+  - #431424
+  - 67	20	36
+- <span style="background-color:#443858;color:#ffffff">frame-table</span>
+  - #443858
+  - 68	56	88
+- <span style="background-color:#b9d551">optics-laser</span>
+  - #b9d551
+  - 185	213	81
+- <span style="background-color:#9e4301;color:#ffffff">x-cart</span>
+  - #9e4301
+  - 158	67	1
+- <span style="background-color:#bc652e;color:#ffffff">x-drive</span>
+  - #bc652e
+  - 188	101	46
+- <span style="background-color:#650b01;color:#ffffff">y-cart</span>
+  - #650b01
+  - 101	11	1
+- <span style="background-color:#b72e22;color:#ffffff">y-drive</span>
+  - #b72e22
+  - 183	46	34
