@@ -10,15 +10,15 @@ build <span style="background-color:#443858;color:#ffffff">frame-table</span>
 
 1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Attach long inner extrusion to short outer extrusions.
-  * Use black angle brackets.
-  * Rear offset is 194mm.
-  * Spacing between slats, rear to front, is 180mm, 180mm, 170mm.
-  * Front offset is 54mm.
+  - Use black angle brackets.
+  - Rear offset is 194mm.
+  - Spacing between slats, rear to front, is 180mm, 180mm, 170mm.
+  - Front offset is 54mm.
 3. Attach columns.
-  * 4040, 120mm, black in the back, angles attach to the rear slot
-  * 2040, 120mm, black in the front
-3. When attaching table to frame make sure the height is equal on all attachment points. Once the head is mounted, double-check the height within the entire range of motion.
-4. When adjusting the height plan ahead for the table surface you will be using. See [accessories](accessories#surface.md) for possible options.
+  - 4040, 120mm, black in the back, angles attach to the rear slot
+  - 2040, 120mm, black in the front
+3. Later, when attaching table to frame make sure the height is equal on all attachment points. Once the head is mounted, double-check the height within the entire range of motion.
+4. When adjusting the height, account for the thickness of the table surface you will be using (e.g: honeycomb, eggcrate, drywall angles). See [accessories](accessories#surface.md) for possible options.
 
 
 ### Images
