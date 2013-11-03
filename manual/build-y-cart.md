@@ -5,7 +5,7 @@ build <span style="background-color:#650b01;color:#ffffff">y-cart</span>
 
 ![y-cart](http://farm8.staticflickr.com/7047/6939597291_8c6dd94305_z.jpg)
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Assembly y-cart without top rollers.
   - Each roller mount is built from an M4x25 screw, two lock nuts, and a large washer.
   - The short vertical extrusions are attached with M5x25, the horizontal ones with M5x20 screws.

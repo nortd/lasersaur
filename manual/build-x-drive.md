@@ -5,7 +5,7 @@ build <span style="background-color:#bc652e;color:#ffffff">x-drive</span>
 
 ![x-drive](http://farm8.staticflickr.com/7201/6939597335_ba0a9b768d_z.jpg)
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Mount limit switches on y-cart.
   - Use M2.5x12 screws to mount switches onto aluminum custom parts.
   - Use M5x12 screws to mount aluminum custom parts.

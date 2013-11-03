@@ -8,7 +8,7 @@ build <span style="background-color:#431424;color:#ffffff">frame-panels</span>
 
 ### Steps
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. All the panels are pre-cut and partially pre-drilled. Add additional mount holes according to CAD model or drill pattern (effectively keeping mount hole distances under 250mm (10")).
 4. Mount emergency stop switch. For this drill a 16mm hole in the right side panel. Offset is about 68mm from front and 88mm from top.
 

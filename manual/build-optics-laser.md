@@ -5,7 +5,7 @@ build <span style="background-color:#b9d551">optics-laser</span>
 
 ![optics-laser](http://farm9.staticflickr.com/8124/8699091873_38b84576d5_z.jpg)
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. [Wiring and Tubing](wiring.md)
 3. Use rubber tape between the laser tube and the custom aluminum mounts.
 4. Heat the water hose with the heat gun before attaching to glass inlet/outlet.

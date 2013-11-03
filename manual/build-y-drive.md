@@ -5,7 +5,7 @@ build <span style="background-color:#b72e22;color:#ffffff">y-drive</span>
 
 ![y-drive](http://farm8.staticflickr.com/7044/6939597227_45a923993c_z.jpg)
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Start by assembling the motor and pulley mounts.
 3. Attach mounts to the frame loosely, mount drive shafts and idlers, then tighten.
   - Pulley mounts are offset inwards by 22mm.   

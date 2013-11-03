@@ -5,7 +5,7 @@ build <span style="background-color:#9e4301;color:#ffffff">x-cart</span>
 
 ![x-cart](http://farm8.staticflickr.com/7181/6793485136_0177cbde72_z.jpg)
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Start by connecting the two aluminum extrusions with M5x25 screws.
 3. Mount low-profile M5x16 belt attachment screws to the underside of the horizontal extrusion, 5mm from the front end. 
 3. Attach the four angle brackets with M5x08 screws.

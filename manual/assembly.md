@@ -5,49 +5,47 @@ Build Instructions v13.04
 
 ![frame](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_z.jpg)
 
-You have read the [System Overview](overview.md), [Getting Started](start.md) guide, familiarized yourself with the [BOM](bom.md), ordered, and received all the parts? Great! Time to assemble a Lasersaur.
+Before starting a build make sure to read the [System Overview](overview.md) and [Getting Started](start.md) guide. Also  familiarize yourself with the [BOM](bom.md). After ordering and receiving the parts it's build time!
 
 
 Resources
 -----------
 - CAD model (exclusive to beta supporters)
 - [BOM](bom.md) (by subsystem view)
-- [this manual](index.md)
-- [the mailing list](https://groups.google.com/forum/#!forum/lasersaur)
+- [Lasersaur mailing list](https://groups.google.com/forum/#!forum/lasersaur)
+  (both for questions and searching previous discussions)
 
 
 Tools
 -------
 
 * metric hex keys (preferably [ball-point](http://www.mcmaster.com/#5709A44))
-* screw drivers: medium sized Phillips, tiny flat head
+* screw drivers: medium sized Phillips, small flat head
 * pliers and side cutter
-* utility knife, the snap-off kind
+* utility knife
 * metric caliper and ruler
 * soldering iron
 * hot glue gun
 * heat gun
-* power drill and drill bits: M3, M5, M6, M16 (or 5/8")
+* power drill and drill bits: M3, M5, M6, M16 (next imperial sizes are ok)
 * countersinking bit (90deg)
 * hacksaw
 * digital multimeter (measuring current, connectivity)
 * Dremel (optionally)
-* ...
 
 
 General Tips
 -------------
 
-- Follow the CAD model. It's most up-to-date ([images](http://www.flickr.com/photos/stfnix/sets/72157624491114826/) are often outdated).
-- In the CAD model use the Distance/Measurement tool to get all the positional specs you need.
+- Follow the CAD model. It's most up-to-date. Images have a tendancy to be outdated.
+- In the CAD model use the Distance/Measurement tool to get all the positional specs you need. If you are using FreeCAD here is brief [starter guide](freecad_guide.md).
 - Use the BOM's by-subsystem view to get details on the parts.
 - Think ahead when planing the next steps and familiarize yourself with all the parts (esp. screw sizes).
 - Try to keep frame tolerances under 0.5mm (0.02") and build on a flat surface.
-- T-slot nuts (post-assembly) may turn in the slot during assembly. By loosening and re-tightening this can be prevented. It takes a couple of minutes to get the hang of this.
-which makes the connection a bit more prone to vibration 
-- Tighten frame screws well but not brutally tight (tslot nuts can break at excessive torque).
+- T-slot nuts (post-assembly nuts) may turn in the slot while tightening. By loosening and re-tightening this can be prevented. It takes a couple of minutes to get the hang of this.
+- Tighten frame screws well but not brutally tight. To figure out the maximum force try braking a nut by over-tightening.
 - Any screws attaching acrylic parts must be lightly tightened. Otherwise the acrylic will crack (either right away or after some time).
-- When you run into problems consult [the mailing list](https://groups.google.com/forum/#!forum/lasersaur). A good description of what you need help with (possibly also some images) will go a long way for getting good answers.
+- When you run into problems consult [Lasersaur mailing list](https://groups.google.com/forum/#!forum/lasersaur). A good description of what you need help with (possibly also some images) will go a long way for getting good answers.
 
 
 

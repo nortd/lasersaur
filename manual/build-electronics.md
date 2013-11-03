@@ -11,7 +11,7 @@ The electronics subsystem consists of the [Driveboard](driveboard.md), two stepp
 **HIGH VOLTAGE DANGER!** Wiring the laser system has to be done with the utmost care and certainty. Messing up this part of the assembly can result in significant personal injury. The high-voltage (positive) wire of the power supply **requires proper insulation**. The voltage is in excess of 25kV and can spark several inches (some 150mm). Also the cable stays charged for a considerable time after the AC power is disconnected (when in doubt use an AC ground wire on a chicken stick to discharge the high-voltage cable).
 
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Assembeg and mount Driveboard
   - Solder Driveboard
   - Mount onto acrylic carrier panel together with 5V and 24V PSUs.

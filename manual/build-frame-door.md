@@ -8,7 +8,7 @@ build <span style="background-color:#828ca3;color:#ffffff">frame-door</span>
 
 ### Steps
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Assemble door without rear extrusion.
   - Take note of the orientation of the middle strut. Unlike all other extrusions it lays flat.
 3. Mount the door's rear extrusion to frame using the three hinges.

@@ -8,7 +8,7 @@ build <span style="background-color:#546883;color:#ffffff">frame-outer</span>
 
 ### Steps
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Start with the base frame and lower columns.
   * Avoid any gaps, overhanging edges, and non-aligned angle brackets.
   * Take note of thick (4040) and thin (2040) columns and when to use single or double angle brackets.

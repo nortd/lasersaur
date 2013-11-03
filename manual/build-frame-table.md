@@ -8,7 +8,7 @@ build <span style="background-color:#443858;color:#ffffff">frame-table</span>
 
 ### Steps
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Attach long inner extrusion to short outer extrusions.
   * Use black angle brackets.
   * Rear offset is 194mm.

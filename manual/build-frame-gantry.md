@@ -8,7 +8,7 @@ build <span style="background-color:#83bbff">frame-gantry</span>
 
 ### Steps
 
-1. Prepare parts for this subsystem: [Parts Americas](/lasersaur/bom-subsystems-usd), [Parts Europe](/lasersaur/bom-subsystems-eur)
+1. Prepare parts for this subsystem (See [BOM](bom.md) by subsystem)
 2. Start with the outer frame.
   * For each corner attach the angle brackets with M5x10 screws. Mount short ends first.
   * Aim for tolerances of less than 0.5mm (0.02") basically making sure there are no gaps or overhanging edges.
