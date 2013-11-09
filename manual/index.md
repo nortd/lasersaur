@@ -39,8 +39,6 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [more lasersaur pr0n](http://vimeo.com/23871399)
   * [Old Step-by-Step Photo Instructions](http://www.flickr.com/photos/stfnix/sets/72157626580353027/)
   * [Staging Area for new Manual Entries](staging_area.md)
-* History
-  * [Development Process](http://www.flickr.com/photos/stfnix/sets/72157624491114826/) and early prototyping 
 * Exclusive to Supporters
   * CAD Model
   * Extensive Mailing List
