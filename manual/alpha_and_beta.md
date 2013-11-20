@@ -88,6 +88,20 @@ Looking for older files:
 
 
 
+40W Laser Tube Mounts 
+-------------------------------
+
+These mounts work with laser tubes of 50mm diameter. Most Chinese 40W tubes can be mounted with these. Cut from 6mm acrylic or aluminium.
+
+<table>
+<tr><td>
+<a href="http://file.lasersaur.com/job-files/laser-mounts-40W.dxf">laser-mounts-40W.dxf</a>
+</td>
+</tr>
+</table>
+
+
+
 Third-Party Manuals
 -------------------
 
