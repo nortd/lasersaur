@@ -12,17 +12,20 @@ For even more detail what is going on and what is being experimented with check 
 Roadmap
 --------
 
-### v14.01
-
-  - improved drive system for higher precision and easier maintenance
-  - magnetic limit switches for easier cleaning
-
-For details see [revision v14.01 plans](rev14.01.md).
+### v14.03
+- minor changes to simplifiy and speed up the build
 
 
 
 Revisions
 ---------
+
+### v14.01
+
+- improved drive system for higher precision and easier maintenance
+- magnetic limit switches for easier cleaning
+
+For details see [revision v14.01 plans](rev14.01.md).
 
 ### v13.06
 - BeagleBone Black in BOM, preconfigured option
