@@ -14,6 +14,7 @@ Roadmap
 
 ### v14.03
 - minor changes to simplifiy and speed up the build
+- detailed build instructions
 
 
 
