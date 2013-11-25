@@ -5,8 +5,8 @@ Bill of Materials
 
 [Index](index.md) -- bom | [revisions](revisions.md)
 
-*  [Bill of Materials for North America v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
-*  [Bill of Materials for Europe v13.04](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
+*  [Bill of Materials for North America v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
+*  [Bill of Materials for Europe v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
 
 We provide material lists with suppliers for Europe and North America. This should make it very straight forward to order all the components needed. Since we designed the Lasersaur around standard parts for the most part, building a system outside of these areas is still possible.
 
@@ -16,6 +16,8 @@ The BOMs keep getting refined. See [revisions page](revisions.md) for details.
 
 
 ### Older BOMs for reference:
+*  [Bill of Materials for North America v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-usd)
+*  [Bill of Materials for Europe v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-eur)
 *  [Bill of Materials for North America v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-usd)
 *  [Bill of Materials for Europe v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-eur)
 *  [Bill of Materials for North America v12.02](http://labs.nortd.com/lasersaur/bom-zero-suppliers-usd)
