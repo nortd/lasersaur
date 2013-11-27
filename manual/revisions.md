@@ -21,10 +21,10 @@ Revisions
 
 ### v14.01b
 - magnetic limit switches moved slightly
- - mount holes for y1, y2 moved 2mm closer to y-cart
-     (now 14mm from edge)
-- lock screws for top bearing in x-drive gear moved to overlap bearing more
+ - mount holes for y1, y2 moved 2mm closer towards y-cart (now 14mm from edge)
+- lock screws for top bearing in x-drive gear moved to overlap bearing 0.5mm more
 - lens tube hole on x-cart reduced in diameter slightly (had 1mm of play)
+- screws in outer idlers of y-drive flipped
 - CAD model cleaned up
 
 ### v14.01
