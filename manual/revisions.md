@@ -12,14 +12,20 @@ For even more detail what is going on and what is being experimented with check 
 Roadmap
 --------
 
-### v14.03
+### v14.01c
 - minor changes to simplifiy and speed up the build
-- detailed build instructions
-
 
 
 Revisions
 ---------
+
+### v14.01b
+- magnetic limit switches moved slightly
+ - mount holes for y1, y2 moved 2mm closer to y-cart
+     (now 14mm from edge)
+- lock screws for top bearing in x-drive gear moved to overlap bearing more
+- lens tube hole on x-cart reduced in diameter slightly (had 1mm of play)
+- CAD model cleaned up
 
 ### v14.01
 

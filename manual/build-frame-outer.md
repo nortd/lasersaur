@@ -18,6 +18,7 @@ build <span style="background-color:#546883;color:#ffffff">frame-outer</span>
   - The first level of columns is of height 120mm.
 3. Adapt and insert lower separation panels.
   - The two small lower panels need to have their outer corners cut out. The required cutout is roughly 5x6mm. See images for details.
+  - Holes for cables can be drilled now or later.
 4. Insert entry panel on the side.
   - In case you plan on cutting this with the Lasersaur it can also be installed later by removing the rear corner column and sliding it in from the back.
 5. Install frame-table.
@@ -26,8 +27,7 @@ build <span style="background-color:#546883;color:#ffffff">frame-outer</span>
   - Height is 100mm.
 8. Adapt and insert upper separation panels.
   - The top left large panel needs to have the laser outlet hole drilled. With a M16 drill bit create a portal at 80mm from the left and 77mm from the top.
-  - Same as the small lower panels they need to have their outer corners cut out as well. 
-  - Holes for cables can be drilled now or later.
+  - The small upper panels need to have their outer corners cut out as well. 
 9. Finalize upper and rear frame.
 10. Secure panels with clamp rubber. The following lengths of clamp rubber are required: 4x 790mm, 4x 160mm, 4x 590mm (if you also want to apply this rubber on the verticals more is needed)
 

@@ -24,7 +24,7 @@ This revision will be fully tested in Nov and become the master branch most like
    - [model (FreeCAD)](http://file.lasersaur.com/model/model-lasersaur-v14.01.FCStd)
    - [model (IGES)](http://file.lasersaur.com/model/model-lasersaur-v14.01-iges.zip)
  - Job Files
-   - [MechParts v14.01 (dxf)](//file.lasersaur.com/job-files/MechParts-v14.01.dxf)
+   - [MechParts v14.01 (dxf)](http://file.lasersaur.com/job-files/MechParts-v14.01.dxf)
  - Bill of Materials 
    - [BOM v14.01 (EU)](http://labs.nortd.com/lasersaur/bom-1401-subsystems-eur)
    - [BOM v14.01 (US)](http://labs.nortd.com/lasersaur/bom-1401-subsystems-usd)

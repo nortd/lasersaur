@@ -8,23 +8,23 @@ This page is for the Alpha and Beta crowd. Please do not share this page publicl
 Lasersaur CAD Models
 -------------------
 
-The Lasersaur CAD model is available for Rhino (version 4) and FreeCAD (tested with v0.13). We use Rhino 5 for all modelling but FreeCAD works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
+The Lasersaur CAD model is published here in 3DM (Rhino version 4) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
 
-If you need IGES, STEP, VRML, or STL files. FreeCAD can export all of them. Especially IGES and STEP export is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
+If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of them. Especially IGES and STEP is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
 
 <table>
 <tr><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v13.04.zip" class="il">
 <img src="http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_m.jpg">
-<img src="http://farm9.staticflickr.com/8156/7139609703_b8134916f2_m.jpg">
-</a>
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v13.04.zip">Lasersaur v13.04 CAD models</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>
+</td><td>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>
+</td><td>
 </td></tr>
 </table>
 
 
-Looking for older files: <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v1208f.zip">Lasersaur v12.08f CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.08e.zip">Lasersaur v12.08e CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.02.zip">Lasersaur v12.02 CAD files</a>
+Looking for older files: <a href="http://file.lasersaur.com/model/model-lasersaur-v13.04.zip">Lasersaur v13.04 CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v1208f.zip">Lasersaur v12.08f CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.08e.zip">Lasersaur v12.08e CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.02.zip">Lasersaur v12.02 CAD files</a>
 
 
 
@@ -35,16 +35,14 @@ The following job files can be used to manufacture the MechParts. The same geome
 
 <table>
 <tr><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/job-MechParts-v13.04.zip">
-<img src="http://farm9.staticflickr.com/8517/8417546178_261ab07dc8_q.jpg">
-</a>
+<img src="http://farm8.staticflickr.com/7381/11076042243_14629f1ef1_m.jpg">
 </td><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/job-MechParts-v13.04.zip">MechParts v13.04 job files</a>
+<a href="http://file.lasersaur.com/job-files/MechParts-v14.01b.dxf">MechParts v14.01b job files</a>
 </td>
 </tr>
 </table>
 
-Looking for older files: <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-MechParts-v12.11b.zip">MechParts v12.11b job files</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-lasersaur-parts-v12.08c.zip">Lasersaur v12.08c</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-lasersaur-parts-v12.02c.zip">Lasersaur v12.02c</a>
+Looking for older files: <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-MechParts-v13.04.zip">MechParts v13.04 job files</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-MechParts-v12.11b.zip">MechParts v12.11b job files</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-lasersaur-parts-v12.08c.zip">Lasersaur v12.08c</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/job-lasersaur-parts-v12.02c.zip">Lasersaur v12.02c</a>
 
 
 
@@ -56,11 +54,9 @@ Material is 3mm acrylic. NOTE: Double-check for inadvertent scaling in your SVG 
 
 <table>
 <tr><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/job-mount-panels-v13.06.zip">
 <img src="http://farm8.staticflickr.com/7413/9093804668_8f87959855_n.jpg">
-</a>
 </td><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/job-mount-panels-v13.06.zip">job-entry-panel v12.11b</a>
+<a href="http://dl.dropbox.com/u/9430160/lasersaur/job-mount-panels-v13.06.zip">job-entry-panel v13.06</a>
 </td>
 </tr>
 </table>
@@ -72,9 +68,7 @@ DriveBoard PCB
 
 <table>
 <tr><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.06b.zip" class="il">
 <img src="http://farm9.staticflickr.com/8514/8492255734_657d9a9f44_n.jpg">
-</a>
 </td><td>
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.06b.zip" class="il">DriveBoard PCB v13.06b</a>
 </td>
@@ -88,8 +82,8 @@ Looking for older files:
 
 
 
-40W Laser Tube Mounts 
--------------------------------
+40W Laser Tube Mounts (optional)
+--------------------------------
 
 These mounts work with laser tubes of 50mm diameter. Most Chinese 40W tubes can be mounted with these. Cut from 6mm acrylic or aluminium.
 

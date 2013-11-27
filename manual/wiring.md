@@ -1,6 +1,8 @@
 Wiring the Lasersaur
 =====================
 
+DEPRECATED: The electronics wiring on this page does not apply to the newer DriveBoard. For this see the [DriveBoard Page](driveboard.md).
+
 The electronics subsystem consists of the Controller (Arduino Shield, Arduino Uno), two stepper drivers, two stepper motors, 24V DC power supply, a relay, an e-stop, four limit sensors, two door sensor (one redundant), and the laser system. The depicted wiring to the laser power supply is based on the products from [cncoletech](http://cncoletech.com/). Please double check the data sheets for your specific laser system or consult the mailing list when in doubt.
 
 
