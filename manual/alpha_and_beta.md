@@ -19,7 +19,6 @@ If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of the
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>
 </td><td>
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>
-</td><td>
 </td></tr>
 </table>
 
