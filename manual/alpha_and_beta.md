@@ -8,7 +8,7 @@ This page is for the Alpha and Beta crowd. Please do not share this page publicl
 Lasersaur CAD Models
 -------------------
 
-The Lasersaur CAD model is published here in 3DM (Rhino version 4) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
+The Lasersaur CAD model is published here in 3DM (Rhino version 4), FCStd (FreeCAD v0.13+) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
 
 If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of them. Especially IGES and STEP is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
 
@@ -17,6 +17,8 @@ If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of the
 <img src="http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_m.jpg">
 </td><td>
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>
+</td><td>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.FCStd">Model v14.01b (FreeCAD)</a>
 </td><td>
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>
 </td></tr>
