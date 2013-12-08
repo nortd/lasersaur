@@ -107,6 +107,7 @@ Third-Party Manuals
   - [Laser Tube 100W schematics, long-life series](http://dl.dropbox.com/u/9430160/lasersaur/coletech-laser-schematic-100W.pdf)
   - [CW-3000 Water Chiller](http://dl.dropbox.com/u/9430160/lasersaur/cw-3000.pdf)
 - Other
+  - [Lasers](http://file.lasersaur.com/docs-thirdparty/Lasers.pdf)
   - [Fastener Design Manual by NASA](http://file.lasersaur.com/docs-thirdparty/Fastener_Design_Manual.pdf)
   - [The World of Timing Belts](http://file.lasersaur.com/docs-thirdparty/The_World_of_Timing_Belts.pdf)
   - [Airtec MS-20-310-412 Solenoid Valve](http://dl.dropbox.com/u/9430160/lasersaur/airtec-MS-20.pdf)
