@@ -26,6 +26,7 @@ Revisions
 - lens tube hole on x-cart reduced in diameter slightly (had 1mm of play)
 - screws in outer idlers of y-drive flipped
 - CAD model cleaned up
+- 1" SM1 lens tube now part of Lasersaur Nozzle (BOM shuffled around a bit)
 
 ### v14.01
 
