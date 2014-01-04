@@ -14,6 +14,7 @@ Roadmap
 
 ### v14.01c
 - minor changes to simplifiy and speed up the build
+- improved nozzle/lens assembly
 
 
 Revisions
