@@ -9,6 +9,7 @@ Lasersaur Reference Design
 Lasersaur Software
 ------------------
 
+<a href="https://gnu.org/licenses/gpl.html"><img src="img/gplv3-127x51.png" style="width:100px"></a><br />
 LasaurApp code is typically released under the [GNU General Public License](https://gnu.org/licenses/gpl.html) version 3. Please refere to the LasaurApp's source code for details. Some parts may use different open source licenses when derived from other code bases.
 
 
