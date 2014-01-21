@@ -12,7 +12,7 @@ For even more detail what is going on and what is being experimented with check 
 Roadmap
 --------
 
-### v14.01c
+### v14.03 (end of beta phase)
 - minor changes to simplifiy and speed up the build
 - improved nozzle/lens assembly
 
