@@ -11,6 +11,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [G-code Communication](gcode.md)
   * [DriveBoard Electronics](driveboard.md) 
   * [Revisions and Roadmap](revisions.md)
+  * [License Information](license.md)
 * Building Process
   * [Getting Started](start.md)
   * [Build Instructions](assembly.md)
@@ -53,10 +54,6 @@ Please be aware that operating a self-built laser cutter can be dangerous and re
 </td></tr>
 </table>
 
-
-<br>
-
-All text and media in the Lasersaur manual are licensed <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> unless noted otherwise. Images of the Lasersaur name and logo are licensed <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a> not allowing derivatives to be shared.
 
 
 
