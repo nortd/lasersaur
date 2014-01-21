@@ -11,7 +11,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [G-code Communication](gcode.md)
   * [DriveBoard Electronics](driveboard.md) 
   * [Revisions and Roadmap](revisions.md)
-  * [License Information](license.md)
+  * [Licensing Information](license.md)
 * Building Process
   * [Getting Started](start.md)
   * [Build Instructions](assembly.md)
