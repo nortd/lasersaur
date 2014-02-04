@@ -1,12 +1,6 @@
 [Index](index.md) -- [bom](bom.md) | revisions
 
-This is the place to keep track of all the revisions and future plans to hardware, software, BOM, and documentation. Version numbers also mean the following: `v[year].[month]`. For details on the changes check out the commit logs of the various github repositories.
-
-- [LasaurGrbl Commit Log](https://github.com/stefanix/LasaurGrbl/commits/master)
-- [LasaurShield Commit Log](https://github.com/stefanix/LasaurShield/commits/master)
-- [LasaurApp Commit Log](https://github.com/stefanix/LasaurApp/commits/master)
-
-For even more detail what is going on and what is being experimented with check out the various branches of each of the above repositories. For even more details strike up a conversation on the list.
+This is the place to keep track of all the revisions and future plans to hardware, software, BOM, and documentation. Version numbers also mean the following: `v[year].[month]`. For further details also check out the [LasaurApp Commit Log](https://github.com/stefanix/LasaurApp/commits/master). For even more details strike up a conversation on the mailing list.
 
 
 Roadmap
