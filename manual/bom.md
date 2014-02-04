@@ -5,14 +5,26 @@ Bill of Materials
 
 [Index](index.md) -- bom | [revisions](revisions.md)
 
-*  [Bill of Materials for North America v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
-*  [Bill of Materials for Europe v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
+We provide material lists with suppliers for Europe and North America. This should make it very straight forward to order all the components needed. Since we designed the Lasersaur around mostly standard parts, building a system outside of these areas is still possible.
 
-We provide material lists with suppliers for Europe and North America. This should make it very straight forward to order all the components needed. Since we designed the Lasersaur around standard parts for the most part, building a system outside of these areas is still possible.
-
-The bill of materials comes in two flavors: (1) by subsystem and (2) by supplier. As you might have guessed "by supplier" is best suited for ordering all the parts. "By subsystem" is good to understand the CAD model and the various subassemblies.
+Please note the parts can be sorted (1) by subsystem and (2) by supplier. As you might have guessed (1) is best suited for ordering all the parts and (2) is good to understand the CAD model and the various subassemblies.
 
 The BOMs keep getting refined. See [revisions page](revisions.md) for details.
+
+### Current BOMs:
+
+*  [BOM for North America v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
+*  [BOM for Europe v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
+
+### Up and coming BOMs:
+
+*  [BOM for North America v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-usd)
+*  [BOM for Europe v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-eur)
+
+Upgrade from v13.04 to v14.03 BOM:
+
+*  [Upgrade BOM for North America v14.03](http://labs.nortd.com/lasersaur/bom-1403upgrade-suppliers-usd)
+*  [Upgrade BOM for Europe v14.03](http://labs.nortd.com/lasersaur/bom-1403upgrade-suppliers-eur)
 
 
 ### Older BOMs for reference:
