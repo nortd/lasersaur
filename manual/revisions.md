@@ -16,35 +16,35 @@ bearings on M5 screws for all the cart rollers.
 
 We intend for this revision to mark the end of the beta phase.
 
-- x-cart (build simplifications)
-  - aluminum plates mount now to the end of the extrusions
-    to eliminate alinment steps
-  - rollers are now standard 5x14x5 ball bearings on M5 screws
-  - adjustment ball bearing shaft screws are now supposed to touch 
-    t-slot base and reverse nut is not necessary anymore
-  - additional mount plate for cable carrier
-  - washers under limit sensors
-- y-cart (build simplifications)
-  - rollers are now standard 5x14x5 ball bearings on M5 screws
-  - adjustment ball bearing shaft screws are now supposed to touch 
-    t-slot base and reverse nut is not necessary anymore
-  - washers under limit sensors
-- optics-laser
-  - mirror mount one
-    - angle mount extrusion shortened to align with mirror mount
-    - vertical mount extrusion extended to align with angled extrusion
-  - mirror mount two
-    - angles mount extrusion shortened to align with mirror mount
-  - nozzle lens assembly (improved focusing mechanism)
-    - 2" lens tube held by Thorlabs CP12 part
-    - nozzle friction-fit into 2" lens tube
-    - MechParts mount plate modified to hold a sliding lens tube
-- reorganize subsystems
-  - frame-outer split up into frame-bottom and frame-top
-  - optimized build order of subsystems
-  - columns of frame-table moved to frame-bottom
-  - move limit switch magnets to x-cart, y-cart
-  - move belt attachment screws to x-cart, y-cart
+  - x-cart (build simplifications)
+    - aluminum plates mount now to the end of the extrusions
+      to eliminate alinment steps
+    - rollers are now standard 5x14x5 ball bearings on M5 screws
+    - adjustment ball bearing shaft screws are now supposed to touch 
+      t-slot base and reverse nut is not necessary anymore
+    - additional mount plate for cable carrier
+    - washers under limit sensors
+  - y-cart (build simplifications)
+    - rollers are now standard 5x14x5 ball bearings on M5 screws
+    - adjustment ball bearing shaft screws are now supposed to touch 
+      t-slot base and reverse nut is not necessary anymore
+    - washers under limit sensors
+  - optics-laser
+    - mirror mount one
+      - angle mount extrusion shortened to align with mirror mount
+      - vertical mount extrusion extended to align with angled extrusion
+    - mirror mount two
+      - angles mount extrusion shortened to align with mirror mount
+    - nozzle lens assembly (improved focusing mechanism)
+      - 2" lens tube held by Thorlabs CP12 part
+      - nozzle friction-fit into 2" lens tube
+      - MechParts mount plate modified to hold a sliding lens tube
+  - reorganize subsystems
+    - frame-outer split up into frame-bottom and frame-top
+    - optimized build order of subsystems
+    - columns of frame-table moved to frame-bottom
+    - move limit switch magnets to x-cart, y-cart
+    - move belt attachment screws to x-cart, y-cart
 
 
 Revisions
