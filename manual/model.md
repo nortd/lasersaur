@@ -7,7 +7,7 @@ CAD Model Files
 Lasersaur CAD Models
 -------------------
 
-The Lasersaur CAD model is published here in 3DM (Rhino version 4), FCStd (FreeCAD v0.13+) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
+The Lasersaur CAD model is published here in 3DM (Rhino version 4), FCStd (FreeCAD v0.14+) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
 
 If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of them. Especially IGES and STEP is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
 
@@ -15,16 +15,23 @@ If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of the
 <tr><td>
 <img src="http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_m.jpg">
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.3dm">Model v14.03-rc (Rhino)</a>
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.FCStd">Model v14.01b (FreeCAD)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.FCStd">Model v14.03-rc1 (FreeCAD)</a>
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1-step.zip">Model v14.03-rc1 (STEP)</a>
 </td></tr>
 </table>
 
 
-Looking for older files: <a href="http://file.lasersaur.com/model/model-lasersaur-v13.04.zip">Lasersaur v13.04 CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v1208f.zip">Lasersaur v12.08f CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.08e.zip">Lasersaur v12.08e CAD models</a>, <a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.02.zip">Lasersaur v12.02 CAD files</a>
+Looking for older files:
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>, 
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.FCStd">Model v14.01b (FreeCAD)</a>, 
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>, 
+<a href="http://file.lasersaur.com/model/model-lasersaur-v13.04.zip">Lasersaur v13.04 CAD models</a>, 
+<a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v1208f.zip">Lasersaur v12.08f CAD models</a>, 
+<a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.08e.zip">Lasersaur v12.08e CAD models</a>, 
+<a href="http://dl.dropbox.com/u/9430160/lasersaur/model-lasersaur-v12.02.zip">Lasersaur v12.02 CAD files</a>
 
 
 
