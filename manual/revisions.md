@@ -5,8 +5,13 @@ This is the place to keep track of all the revisions and future plans to hardwar
 
 Roadmap
 --------
+  - finalizing v14.03
+  - 
 
-### v14.03
+Revisions
+---------
+
+### v14.03-rc1
 The main change here is a new lens/nozzle assembly based on a 
 sliding design. It's easier to adjust, can handle lenses down to
 25mm focal length and has 40mm range. The other changes are 
@@ -14,8 +19,16 @@ non-functional but simplify the build process and make aligning
 much easier. Along with this we also switched to standard ball 
 bearings on M5 screws for all the cart rollers.
 
-We intend for this revision to mark the end of the beta phase.
-
+  - frame-bottom
+    - made cable carrier base extrusion symmetric, added one left
+      (allows for second cable carrier to run cameras, etc. to head)
+    - outer separation panels part of Mount Pack, custom-cut
+    - custom-cut cable/air tube passage holes in outer right separation
+      panel. Passage holes allow pre-assembled cables to run through.
+      Cover part to close extra space.
+  - frame-top
+    - four separation panels analog to frame-bottom. Outer panels
+      are custom-cut and part of Panel Pack.
   - x-cart (build simplifications)
     - aluminum plates mount now to the end of the extrusions
       to eliminate alinment steps
@@ -39,16 +52,36 @@ We intend for this revision to mark the end of the beta phase.
       - 2" lens tube held by Thorlabs CP12 part
       - nozzle friction-fit into 2" lens tube
       - MechParts mount plate modified to hold a sliding lens tube
-  - reorganize subsystems
+  - electronics
+    - e-stop moved to top panel
+  - frame-panels
+    - door front panel minimal overlap to reduce chopping danger
+  - reorganized subsystems
     - frame-outer split up into frame-bottom and frame-top
+    - frame-panels split up into frame-panels and door-panels
     - optimized build order of subsystems
     - columns of frame-table moved to frame-bottom
-    - move limit switch magnets to x-cart, y-cart
-    - move belt attachment screws to x-cart, y-cart
+    - moved limit switch magnets to x-cart, y-cart
+    - moved belt attachment screws to x-cart, y-cart
+    - moved door sensors to frame-door
+    - moved entry panel to frame-bottom
+  - reorganized BOM
+    - ThorLabs items available through Lasersaur store
+      as "Mirror Mount Pack" and "Optics Accessory Pack"
+    - DriveBoard peripherials available through Lasersaur store
+      (mostly wired with DriveBoard-compatible modular plugs)
+      - "Stepper X-Drive" and "Stepper Y-Drive"
+      - "DriveBoard DIY Pack" and "DriveBoard Assembled"
+      - "Stepper Driver Pack"
+      - "E-Valve Assembly"
+      - "Door Sensor Pack"
+      - "Limit Sensor Pack"
+      - "E-Stop Assembly"
+      - "DriveBoard Wiring Pack"
+      - "Power Supply Pack"
+      - "Zip Ties"
+      - "Rubber Tape"
 
-
-Revisions
----------
 
 ### v14.01b
 - magnetic limit switches moved slightly
