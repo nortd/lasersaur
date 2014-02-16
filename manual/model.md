@@ -44,7 +44,7 @@ The following job files can be used to manufacture the MechParts. The same geome
 <tr><td>
 <img src="http://farm4.staticflickr.com/3677/12558566005_2402debb95_m.jpg">
 </td><td>
-<a href="http://file.lasersaur.com/job-files/MechParts-v14.03.dxf">MechParts v14.03 job files</a>
+<a href="http://file.lasersaur.com/job-files/MechParts-v14.03.dxf">MechParts v14.03 (dxf)</a>
 </td>
 </tr>
 </table>
