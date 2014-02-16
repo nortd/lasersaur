@@ -8,8 +8,9 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 * Specifications
   * [System Overview](overview.md)
   * [Bill of Materials](bom.md)
-  * [G-code Communication](gcode.md)
+  * [CAD Model Files](model.md)
   * [DriveBoard Electronics](driveboard.md) 
+  * [G-code Communication](gcode.md)
   * [Revisions and Roadmap](revisions.md)
   * [Licensing Information](license.md)
 * Building Process
