@@ -38,7 +38,7 @@ Looking for older files:
 MechParts
 -------------------------------
 
-The following job files can be used to manufacture the MechParts. The same geometry is contained in the CAD model files but for convenience we also provide them in a nested, ready-to-cut format. Material is 6mm aluminum (6mm acrylic has been reported to work too). NOTE: Double-check for inadvertent scaling in your SVG program. When unsure use the DXF format. Units are millimeters (mm).
+The following job files can be used to manufacture the MechParts. The same geometry is contained in the CAD model files but for convenience we also provide them in a nested, ready-to-cut format. Material is 6mm aluminum (6mm acrylic has been reported to work too). Units are millimeters (mm).
 
 <table>
 <tr><td>
