@@ -14,8 +14,8 @@ To accomplish this control the Lasersaur uses a combination of robotic actuators
 - overall dimensions: 1700x1170x360mm (67x46x14.2")
 - work area: 1220x610mm (48x24")
 - resolution: 0.1-0.03mm (240-840dpi)
-- maximum seek rate: 20000mm/min
-- maximum feed rate: 10000mm/min
+- maximum seek rate: 12000mm/min
+- maximum feed rate: 8000mm/min
 
 
 Mechanics
@@ -24,7 +24,7 @@ Mechanics
 ![mechimage](http://farm9.staticflickr.com/8528/8464053217_fac4bf454e_m.jpg) 
 ![mechclose](http://farm9.staticflickr.com/8074/8414185536_c9090070b1_m.jpg)
 
-The mechanics comprise both stationary and dynamic parts. The primary building blocks of both the frame and the gantry are T-slot aluminum extrusions. They are widely used in the automation industry and many suppliers offer them. The Lasersaur is designed around extrusions with 20mm side lengths. All the mount assemblies are built from angle brackets and custom-cut acrylic pieces.
+The mechanics comprise both stationary and dynamic parts. The primary building blocks of both the frame and the gantry are T-slot aluminum extrusions. They are widely used in the automation industry and many suppliers offer them. The Lasersaur is designed around extrusions with 20mm side lengths. All the mount assemblies are built from angle brackets and custom-cut alumiunm pieces.
 
 The linear motion assemblies for the x- and y-axis roll directly on the aluminum extrusions. Unlike many gantry designs, no proprietary rails and carriage assemblies are used. The Lasersaur carriages are build from standard-sized ball bearings (with nylon coating), cap screws and custom-cut acrylic pieces. Both axes are minimally constraint and are quite forgiving in terms of imprecisions of the frame.
 
