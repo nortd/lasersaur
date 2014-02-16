@@ -6,7 +6,6 @@ This is the place to keep track of all the revisions and future plans to hardwar
 Roadmap
 --------
   - finalizing v14.03
-  - 
 
 Revisions
 ---------
