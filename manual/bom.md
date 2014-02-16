@@ -13,8 +13,8 @@ Also see the [revisions/roadmap page](revisions.md) for upcoming upgrades.
 
 ### Current BOMs:
 
-*  [BOM for North America v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-usd)
-*  [BOM for Europe v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-eur)
+*  [BOM for North America v14.03-rc1](http://labs.nortd.com/lasersaur/bom-1403-suppliers-usd)
+*  [BOM for Europe v14.03-rc1](http://labs.nortd.com/lasersaur/bom-1403-suppliers-eur)
 
 
 Upgrade from v13.04 to v14.03 BOM:
