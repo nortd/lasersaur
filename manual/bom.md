@@ -9,17 +9,13 @@ We provide material lists with suppliers for Europe and North America. This shou
 
 Please note the parts can be sorted (1) by subsystem and (2) by supplier. As you might have guessed (1) is best suited for ordering all the parts and (2) is good to understand the CAD model and the various subassemblies.
 
-The BOMs keep getting refined. See [revisions page](revisions.md) for details.
+Also see the [revisions/roadmap page](revisions.md) for upcoming upgrades.
 
 ### Current BOMs:
 
-*  [BOM for North America v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
-*  [BOM for Europe v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
-
-### Up and coming BOMs:
-
 *  [BOM for North America v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-usd)
 *  [BOM for Europe v14.03](http://labs.nortd.com/lasersaur/bom-1403-suppliers-eur)
+
 
 Upgrade from v13.04 to v14.03 BOM:
 
@@ -28,11 +24,13 @@ Upgrade from v13.04 to v14.03 BOM:
 
 
 ### Older BOMs for reference:
-*  [Bill of Materials for North America v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-usd)
-*  [Bill of Materials for Europe v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-eur)
-*  [Bill of Materials for North America v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-usd)
-*  [Bill of Materials for Europe v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-eur)
-*  [Bill of Materials for North America v12.02](http://labs.nortd.com/lasersaur/bom-zero-suppliers-usd)
-*  [Bill of Materials for Europe v12.02](http://labs.nortd.com/lasersaur/bom-zero-suppliers-eur)
-*  [Bill of Materials for North America v11.08](http://labs.nortd.com/lasersaur/bom-alpha-suppliers-usd)
-*  [Bill of Materials for Europe v11.08](http://labs.nortd.com/lasersaur/bom-alpha-suppliers-eur)
+*  [BOM for North America v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-usd)
+*  [BOM for Europe v14.01](http://labs.nortd.com/lasersaur/bom-suppliers-eur)
+*  [BOM for North America v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-usd)
+*  [BOM for Europe v13.04](http://labs.nortd.com/lasersaur/bom-1304-suppliers-eur)
+*  [BOM for North America v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-usd)
+*  [BOM for Europe v12.08](http://labs.nortd.com/lasersaur/bom-one-suppliers-eur)
+*  [BOM for North America v12.02](http://labs.nortd.com/lasersaur/bom-zero-suppliers-usd)
+*  [BOM for Europe v12.02](http://labs.nortd.com/lasersaur/bom-zero-suppliers-eur)
+*  [BOM for North America v11.08](http://labs.nortd.com/lasersaur/bom-alpha-suppliers-usd)
+*  [BOM for Europe v11.08](http://labs.nortd.com/lasersaur/bom-alpha-suppliers-eur)
