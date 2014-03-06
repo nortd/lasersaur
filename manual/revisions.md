@@ -10,6 +10,11 @@ Roadmap
 Revisions
 ---------
 
+### v14.03-rc2
+  - BOM corrections
+     - HFS5-2040-55-TPW instead of HFS5-2040-55-LTP
+     - one HFS5-2040-1620 was missing
+
 ### v14.03-rc1
 The main change here is a new lens/nozzle assembly based on a 
 sliding design. It's easier to adjust, can handle lenses down to
