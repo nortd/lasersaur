@@ -60,7 +60,7 @@ Looking for older files:
 
 Mount Panels
 -------------------------------
-The Lasersaur has seven acrylic mount/separation panels: (1) The Entry Panel is the rear right panel responsible for mounting all the connectors. (2) The bottom DriveBoard panel mounts the 24V and 5V PSUs, and DriveBoard to the Lasersaur frame. (3) The top DriveBoard panel mounts the C14 power sockets to the DriveBoard. (4-7) The remaining four panels separate the main compartment with the rear, laser and electronics comparment. Additionally there are four small pieces to cove the cable feed-through holes.
+The Lasersaur has seven acrylic mount/separation panels: (1) The Entry Panel is the rear right panel responsible for mounting all the connectors. (2) The bottom DriveBoard panel mounts the 24V and 5V PSUs, and DriveBoard to the Lasersaur frame. (3) The top DriveBoard panel mounts the C14 power sockets to the DriveBoard. (4-7) The remaining four panels separate the main compartment from the rear, laser and electronics comparment. Additionally there are four small pieces to cove the cable feed-through holes.
 
 Material is 3mm acrylic. NOTE: Double-check for inadvertent scaling in your SVG program. When unsure use the DXF format. Units are millimeters (mm).
 
