@@ -42,7 +42,7 @@ Zero-Configuration
 - sudo apt-get update
 - sudo apt-get install avahi-daemon
 - edit /etc/hostname to:
-lasaursaur
+lasersaur
 - new network name will be: lasersaur.local
 
 
