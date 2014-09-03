@@ -5,10 +5,18 @@ This is the place to keep track of all the revisions and future plans to hardwar
 
 Roadmap
 --------
-  - finalizing v14.03
+  - raster engraving
 
 Revisions
 ---------
+
+### v14.03
+  - BOM, different cover panel (old panels increased in price signifficantly)
+    - HFPAL-3 instead of PDSPHC4H
+    - PAAL 2mm instead of PDSPHC4H for bottom panels
+  - BOM, minor change to washers for limit switch magnets
+    - now only one G-Form washers between magnet and extrusion
+  - slit panels slightly increased in length to reduce center gap (minor)
 
 ### v14.03-rc2
   - BOM corrections

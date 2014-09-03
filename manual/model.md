@@ -9,7 +9,7 @@ Lasersaur CAD Models
 
 The Lasersaur CAD model is published here in 3DM (Rhino version 4), FCStd (FreeCAD v0.14+) and STEP (open standard). We use Rhino 5 for all modelling but [FreeCAD](http://freecadweb.org/) works fine as a viewer during the assembly process. Since the UI of FreeCAD is still in its early development check out this [Survival Guide](freecad_guide.md) to get through some initial roughness.
 
-If you need IGES, STEP, VRML, or STL files. FreeCAD can inport/export all of them. Especially IGES and STEP is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
+If you need the model in other formats, FreeCAD can inport/export IGES, STEP, VRML, and STL. Especially IGES and STEP is reported to work well due to the proven OpenCascade kernel. It takes about 15min to download FreeCAD and export to any of these formats.
 
 <table>
 <tr><td>
@@ -78,19 +78,38 @@ Material is 3mm acrylic. NOTE: Double-check for inadvertent scaling in your SVG 
 DriveBoard PCB
 -------------------------
 
+The DriveBoard is designed in Fritzing, a cross-platform, opensource PCB design app. You are welcome to make chances to the board, add features, and generate your own job files. In the download you will also find prepared job files (gerbers) which you can send to most PCB manufacturing shops for production. You can also order an <a href="http://store.lasersaur.com/index.php?route=product/product&path=59&product_id=51">assembled and tested DriveBoard</a> from the Lasersaur store.
+
 <table>
 <tr><td>
-<img src="http://farm9.staticflickr.com/8514/8492255734_657d9a9f44_n.jpg">
+<img src="https://farm4.staticflickr.com/3842/14659091918_394f927860_n.jpg">
 </td><td>
-<a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.06b.zip" class="il">DriveBoard PCB v13.06b</a>
+<a href="http://file.lasersaur.com/driveboard/DriveBoard-v14.03.zip" class="il">DriveBoard PCB v14.03</a>
 </td>
 </tr>
 </table>
 
 Looking for older files:
+<a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.06b.zip" class="il">DriveBoard PCB v13.06b</a>, 
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.03.zip" class="il">DriveBoard PCB v13.03</a>,
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v12.11.zip" class="il">DriveBoard PCB v12.11</a>, 
 <a href="https://github.com/stefanix/LasaurShield/zipball/v12.02c" class="il">LasaurShield v12.02c</a>
+
+
+
+Nozzle
+-------
+
+The nozzle of the nozzle assembly is a custom aluminum part. The entire assembly can be <a href="http://store.lasersaur.com/index.php?route=product/product&path=59&product_id=59">purchased</a> in the Lasersaur Store. For scratch builders we provide the following CAD file. The part is made from aluminum on a lathe and has a tapped M5 hole on the side. The nozzle tip is then friction-fit with the Thorlabs lens tube. We use a strong vise for the mating process.
+
+<table>
+<tr><td>
+<img src="https://farm4.staticflickr.com/3896/14842337551_772c50b6ea_m.jpg">
+</td><td>
+<a href="http://file.lasersaur.com/job-files/job-nozzle-14.03.dxf" class="il">Nozzle v14.03</a>
+</td>
+</tr>
+</table>
 
 
 

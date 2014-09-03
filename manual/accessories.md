@@ -30,7 +30,8 @@ The table surface has the function to support the sheet material both before and
 ![eggcrate](http://farm8.staticflickr.com/7054/6803943766_34dce803c4_o.jpg)
 ![drywall](http://farm8.staticflickr.com/7209/6950047291_73a7abe53e_o.jpg)
 
-- Aluminum Honeycomb - e.g. from Plascore ([PCGA-XR1-2.5-1/2-P-3003](http://www.plascore.com/aluminum-honeycomb-pcga-xr-3003.php)) or McMaster ([9635K37](http://www.mcmaster.com/#9635K37))
+- Aluminum Honeycomb - EasyComposites [Aluminium Honeycomb, 19.1mm (3/4), 20 or 30mm thickness, 1250x625mm](http://www.easycomposites.co.uk/products/core-materials/19mm-aluminium-honeycomb.aspx) (ships worldwide, cost-effective in compressed form)
+Alternatively from Plascore ([PCGA-XR1-2.5-1/2-P-3003](http://www.plascore.com/aluminum-honeycomb-pcga-xr-3003.php)) or McMaster ([9635K37](http://www.mcmaster.com/#9635K37))
 - Aluminum Eggcrate - e.g. from [this ebay sale](http://www.ebay.com/itm/MILL-SILVER-Aluminum-Eggcrate-1-2-Cells-2-X-4-NEW-/260798102979#vi-content) or [ebay search](http://www.ebay.com/sch/i.html?_nkw=Aluminum+Eggcrate&_sacat=0&_odkw=Aluminum+Eggcrate&_osacat=0&_from=R40)
 - Array of Drywall Angles - These are very common lightweight 90 degree angles used for drywall construction. They can be found in most hardware stores.
 
@@ -67,7 +68,7 @@ Air exhaust systems typically consist of an exhaust blower (fan), air ducting an
 
 The ducting should run from the system to the outside of the building. The blower is typically attached at the end of the ducting for noise considerations. A good air duct installation is smooth, at least 100mm (4") in diameter, less than 5m (15') long, and should have increased diameter if longer distances are necessitated.
 
-The amount of air being evacuated should be more than 10 m3/min (360 CFM) and preferably 15 m3/min (530 CFM). As a comparison, typical kitchen exhausts evacuate around 6 m3/min. Also be aware that building exhaust vents and exhaust volume per minute are often highly regulated and require permits above a certain size/amount. Make sure to comply with your local laws.
+The amount of air being evacuated should be between 1000 m3/h (277l/sec, 588CFM) and 1500 m3/h (417l/sec, 580CFM). Also be aware that building exhaust vents and exhaust volume per minute are often highly regulated and require permits above a certain size/amount. Make sure to comply with your local laws.
 
 A filtration system is often necessary when operating in densely populated areas and/or when cutting certain materials. In this regard paper, textiles, cardboard and wood are less problematic than synthetics like acrylic, PET, and delrin.
 
