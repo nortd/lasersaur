@@ -30,8 +30,7 @@ The table surface has the function to support the sheet material both before and
 ![eggcrate](http://farm8.staticflickr.com/7054/6803943766_34dce803c4_o.jpg)
 ![drywall](http://farm8.staticflickr.com/7209/6950047291_73a7abe53e_o.jpg)
 
-- Aluminum Honeycomb - EasyComposites [Aluminium Honeycomb, 19.1mm (3/4), 20 or 30mm thickness, 1250x625mm](http://www.easycomposites.co.uk/products/core-materials/19mm-aluminium-honeycomb.aspx) (ships worldwide, cost-effective in compressed form)
-Alternatively from Plascore ([PCGA-XR1-2.5-1/2-P-3003](http://www.plascore.com/aluminum-honeycomb-pcga-xr-3003.php)) or McMaster ([9635K37](http://www.mcmaster.com/#9635K37))
+- Aluminum Honeycomb - EasyComposites [Aluminium Honeycomb, 19.1mm (3/4), 20 or 30mm thickness, 1250x625mm](http://www.easycomposites.co.uk/products/core-materials/19mm-aluminium-honeycomb.aspx) (ships worldwide, cost-effective in compressed form). Alternatively from Plascore ([PCGA-XR1-2.5-1/2-P-3003](http://www.plascore.com/aluminum-honeycomb-pcga-xr-3003.php)) or McMaster ([9635K37](http://www.mcmaster.com/#9635K37))
 - Aluminum Eggcrate - e.g. from [this ebay sale](http://www.ebay.com/itm/MILL-SILVER-Aluminum-Eggcrate-1-2-Cells-2-X-4-NEW-/260798102979#vi-content) or [ebay search](http://www.ebay.com/sch/i.html?_nkw=Aluminum+Eggcrate&_sacat=0&_odkw=Aluminum+Eggcrate&_osacat=0&_from=R40)
 - Array of Drywall Angles - These are very common lightweight 90 degree angles used for drywall construction. They can be found in most hardware stores.
 
@@ -43,14 +42,6 @@ The air assist is typically compressed air run to a coaxial nozzle (see [Thingiv
 
 ![air assist](http://farm8.staticflickr.com/7054/6857621606_fa6354dca8_m.jpg)
 ![air assist](http://farm8.staticflickr.com/7054/6973307346_0674b570aa_m.jpg)
-
-For previous versions the recommended way of running the air assist is directly to the head with an arm mechanism like this (see [video](http://www.flickr.com/photos/wardelder/6615816201/in/set-72157628670348341)):
-
-![arm mechanism](http://farm7.staticflickr.com/6068/6116220579_38b0105f6c_m.jpg)
-![arm mechanism](http://farm8.staticflickr.com/7157/6615449489_4dba6bb89d_m.jpg)
-
-[![img](http://farm8.staticflickr.com/7147/6779174395_9df4755bf0_m.jpg)](http://www.flickr.com/photos/mangtronix/6779174395/in/pool-1471798@N22/)
-[![img](http://farm7.staticflickr.com/6060/6423829623_6bb3ba14fb_m.jpg)](http://www.flickr.com/photos/girlontheles/6423829623/in/pool-1471798@N22/)
 
 
 

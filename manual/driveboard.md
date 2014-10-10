@@ -11,11 +11,11 @@ Features
 - two limit sensors per axis
 - two door sensors (one redundant) 
 - one chiller sensor
-- two (emergency) interlocks (e-stop, keylock) via solid state relay
-- interlocks double as system on/off
+- emergency interlock (e-stop) via solid state relay
+- e-stop doubles as system on/off
 - two 24V, 1A, opto-isolated outputs (e-valve, solenoid actuators)
 - all sensor and control wiring with shielded Cat5 patch cables
-- hard-logic laser safety system (laser is switched of reliably by the following events: door open, chiller failure, limits hit)
+- hard-logic laser safety system (laser is switched off reliably by the following events: door open, chiller failure, limits hit)
 - driver-less solution, full control with any modern browser (embedded web app)
 - build for easy hacking and modding in mind (minimal real-time firmware, powerful Linux-based UI programing, future expandability like camera, wifi, etc ...)
 
@@ -186,7 +186,10 @@ During operation the Lasersaur hardware (hard-logic safety) and firmware monitor
    - 5V board power
    - Laser PSU AC line (via SSR)
    - 24V PSU AC line (via SSR)
+   
+### DriveBoard Logic in Detail
 
+![driveboard logic](https://farm3.staticflickr.com/2950/15308168197_d60ccdbb5e_z.jpg)
 
 
 Various Mods (optionally)
