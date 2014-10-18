@@ -180,8 +180,7 @@ During operation the Lasersaur hardware (hard-logic safety) and firmware monitor
     - any of the limit interlocks opens
     - serial data contains a '!' character
   - the controller resumes from "stop mode" when serial data contains a '~' character. LasaurApp sends this character when pressing 'Cancel' or  'Homing Cycle'.
-- e-stop/keylock interlock
- - both need to be closed for operation
+- e-stop
  - when open the following subsystems are turned off:
    - 5V board power
    - Laser PSU AC line (via SSR)
@@ -204,6 +203,16 @@ For this to work you need to remove the Atmega chip from the Arduino and connect
 Then start LasaurApp on your computer by running `python backend/app.py`. The browser-based GUI should then open automatically.
 
 
+Troubleshooting
+----------------
+
+- BeagleBone/BBB does not boot up (no blincking blue LEDs)
+  - Make sure the BBB is aligned with the Driveboard pins correctly. It must align on the left. Read the notes on the Driveboard.
+  - Make sure the Driveboard power is 5V (+/- 0.2V). Higher deviations may prevent the BBB from booting up. If necessary adjust the voltage on the PSU via the trimpot ("VR1").
+- Homing works but any other motion commands do not move the gantry.
+  - One of the limit interlocks is not closed. (1) Make sure the z1, z2 pigtail connectors are plugged in. (2) No limit error shows up in the LasaurApp log. If yes, check all the limit switches. They must be closed.
+- Motion commands move the gantry but no lasing.
+  - Make sure the chiller interlock and door interlocks are closed.
 
 
  
