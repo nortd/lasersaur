@@ -206,7 +206,7 @@ Then start LasaurApp on your computer by running `python backend/app.py`. The br
 Troubleshooting
 ----------------
 
-- BeagleBone/BBB does not boot up (no blincking blue LEDs)
+- BeagleBone/BBB does not boot up (no blinking blue LEDs)
   - Make sure the BBB is aligned with the Driveboard pins correctly. It must align on the left. Read the notes on the Driveboard.
   - Make sure the Driveboard power is 5V (+/- 0.2V). Higher deviations may prevent the BBB from booting up. If necessary adjust the voltage on the PSU via the trimpot ("VR1").
 - Homing works but any other motion commands do not move the gantry.
