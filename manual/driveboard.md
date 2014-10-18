@@ -187,7 +187,7 @@ During operation the Lasersaur hardware (hard-logic safety) and firmware monitor
    - Laser PSU AC line (via SSR)
    - 24V PSU AC line (via SSR)
    
-### DriveBoard Logic in Detail
+#### DriveBoard Safety Logic in Detail
 
 ![driveboard logic](https://farm3.staticflickr.com/2950/15308168197_d60ccdbb5e_z.jpg)
 
