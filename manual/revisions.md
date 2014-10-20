@@ -9,6 +9,7 @@ Roadmap
 
 Revisions
 ---------
+
 ### v14.03b
   - x/y-drive idlers slightly optimized
     - slide washer removed, third ball bearing added
@@ -17,6 +18,7 @@ Revisions
   - usb entry module removed from BOM
     - (new WiFi module has good reception from inside the machine)
     - entry panel hole cover added
+
 ### v14.03
   - BOM, different cover panel (old panels increased in price signifficantly)
     - HFPAL-3 instead of PDSPHC4H
