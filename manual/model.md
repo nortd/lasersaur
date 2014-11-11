@@ -93,7 +93,7 @@ Looking for older files:
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.06b.zip" class="il">DriveBoard PCB v13.06b</a>, 
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v13.03.zip" class="il">DriveBoard PCB v13.03</a>,
 <a href="http://dl.dropbox.com/u/9430160/lasersaur/DriveBoard-v12.11.zip" class="il">DriveBoard PCB v12.11</a>, 
-<a href="https://github.com/stefanix/LasaurShield/zipball/v12.02c" class="il">LasaurShield v12.02c</a>
+<a href="http://file.lasersaur.com/job-files/LasaurShield_12_02c.zip" class="il">LasaurShield v12.02c</a>
 
 
 
