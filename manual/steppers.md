@@ -3,7 +3,7 @@
 Note: We have been switching stepper motors quite a bit over the version number. Make sure to double-check the part numbers accordingly.
 
 
-Nanotec Steppers (EU BOM)
+Nanotec Steppers
 ------------------------------------
 
 ### x-drive
@@ -27,31 +27,6 @@ Nanotec Steppers (EU BOM)
 * shaft length 90.1mm (tip front to tip rear shaft)
 * current (bipolar, series) 2.1A
 * Vmax = 32 * sqrt(4.4) = 67V
-* Amax = 0.67 * 2.1 = 1.4A (required power supply)
-
-
-Lin Engineering Steppers (US BOM)
-----------------------------------------
-
-### x-drive
-
-* [WO-4118S-01F](http://www.linengineeringstore.com/products/product_detail.aspx?proID=2)
-* Nema 17 (mounts with M3 screws, square with 31mm, shaft dia: 5mm dia)
-* holding torque 0.32 N-m (45 oz-in)
-* weight 181g (0.4 lbs)
-* shaft length 23.9mm
-* current (bipolar) 1.5A
-* Vmax = 32 * sqrt(1.9) = 44V
-* Amax = 0.67 * 1.5 = 1A (required power supply)
-
-### y-drive
-
-* [WO-5718M-02ED](http://www.linengineeringstore.com/products/product_detail.aspx?proID=3)
-* Nema 23  (mounts with M5 screws, square with 47.2mm, shaft dia: 6.35mm dia)
-* holding torque 1.22 N-m (173 oz-in)
-* weight 680g (1.5 lbs)
-* shaft length 92.9mm (tip front to tip rear shaft)
-* current (bipolar, series) 2.1A
 * Amax = 0.67 * 2.1 = 1.4A (required power supply)
 
 
