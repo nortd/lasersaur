@@ -59,20 +59,19 @@ Oriental Motors Steppers (ALTERNATIVE SOURCE)
 ----------------------------------------
 ### x-drive
 
-* [PK244-01A](
-http://www.orientalmotor.eu/Products/Stepper_motors/Stepper_motors/2phase_motors_pk/?arid=4428)
+* [PKE244A-L](http://www.orientalmotor.eu/Products/Stepper_motors/Stepper_motors/High_efficiency_2_phase_motors_pke/?&feld055=0.39+Nm&arid=4672&dwn=artnr)
 * Nema 17 (mounts with M3 screws, square with 31mm, shaft dia: 5mm dia)
-* holding torque 0.33 N-m
-* weight 270g
+* holding torque 0.39 N-m
+* weight 300g
 * shaft length 20.0mm
 * body length 39mm
-* current (bipolar, series) 0.85A
+* current (bipolar, series) 1.2A
 
 
 ### y-drive
 
-* [PK266-03B](
-http://www.orientalmotor.eu/Products/Stepper_motors/Stepper_motors/2phase_motors_pk/?arid=4562)
+* [PK266-03A](
+http://www.orientalmotor.eu/Products/Stepper_motors/Stepper_motors/2phase_motors_pk/?&arid=4561&up=feld055)
 * Nema 23  (mounts with M5 screws, square with 47.2mm, shaft dia: 6.35mm dia)
 * holding torque 1.17 N-m
 * weight 700g
