@@ -15,7 +15,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [Licensing Information](license.md)
 * Building Process
   * [Getting Started](start.md)
-  * [Build Instructions](assembly.md)
+  * [Step-by-Step Build Instructions](build/)
   * [Setting up the Software](lasaurapp.md)
   * [Accessories](accessories.md)
 * Operation
