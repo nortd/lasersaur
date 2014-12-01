@@ -15,16 +15,19 @@ If you need the model in other formats, FreeCAD can inport/export IGES, STEP, VR
 <tr><td>
 <img src="http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_m.jpg">
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.3dm">Model v14.03-rc (Rhino)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03.3dm">Model v14.03 (Rhino)</a>
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.FCStd">Model v14.03-rc1 (FreeCAD)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03.FCStd">Model v14.03 (FreeCAD)</a>
 </td><td>
-<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1-step.zip">Model v14.03-rc1 (STEP)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-step.zip">Model v14.03 (STEP)</a>
 </td></tr>
 </table>
 
 
 Looking for older files:
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.3dm">Model v14.03-rc (Rhino)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1.FCStd">Model v14.03-rc1 (FreeCAD)</a>
+<a href="http://file.lasersaur.com/model/model-lasersaur-v14.03-rc1-step.zip">Model v14.03-rc1 (STEP)</a>
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.3dm">Model v14.01b (Rhino)</a>, 
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b.FCStd">Model v14.01b (FreeCAD)</a>, 
 <a href="http://file.lasersaur.com/model/model-lasersaur-v14.01b-step.zip">Model v14.01b (STEP)</a>, 
