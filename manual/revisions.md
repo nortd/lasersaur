@@ -10,7 +10,7 @@ Roadmap
 Revisions
 ---------
 
-### v14.03b
+### v14.03
   - x/y-drive idlers slightly optimized
     - slide washer removed, third ball bearing added
     - pre tslot nut instead of post tslot nut
@@ -19,7 +19,7 @@ Revisions
     - (new WiFi module has good reception from inside the machine)
     - entry panel hole cover added
 
-### v14.03
+### v14.03-rc3
   - BOM, different cover panel (old panels increased in price signifficantly)
     - HFPAL-3 instead of PDSPHC4H
     - PAAL 2mm instead of PDSPHC4H for bottom panels
