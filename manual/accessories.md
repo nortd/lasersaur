@@ -59,7 +59,7 @@ Air exhaust systems typically consist of an exhaust blower (fan), air ducting an
 
 The ducting should run from the system to the outside of the building. The blower is typically attached at the end of the ducting for noise considerations. A good air duct installation is smooth, at least 100mm (4") in diameter, less than 5m (15') long, and should have increased diameter if longer distances are necessitated.
 
-The amount of air being evacuated should be between 1000 m3/h (277l/sec, 588CFM) and 1500 m3/h (417l/sec, 580CFM). Also be aware that building exhaust vents and exhaust volume per minute are often highly regulated and require permits above a certain size/amount. Make sure to comply with your local laws.
+The amount of air being evacuated should be between 1000 m3/h (277l/sec, 588CFM) and 1500 m3/h (417l/sec, 882CFM). Also be aware that building exhaust vents and exhaust volume per minute are often highly regulated and require permits above a certain size/amount. Make sure to comply with your local laws.
 
 A filtration system is often necessary when operating in densely populated areas and/or when cutting certain materials. In this regard paper, textiles, cardboard and wood are less problematic than synthetics like acrylic, PET, and delrin.
 
