@@ -1,4 +1,4 @@
-Operating a Lasersaur
+Maintenance Guide
 ======================
 
 [Index](index.md) -- operation | [belts](timing_belts.md) | [optics](optics_setup.md)
@@ -13,7 +13,7 @@ Operator's Checklist
 
 ### Before Every Session
 
-- Make sure mirrors and focusing lens are clean. 
+- Make sure mirrors and focusing lens are clean.
   - Dust, hair, and debris can be removed with canned air. Also creating a draft with a vacuum cleaner works to some degree. Shop airlines are usually problematic because they contain oil vapours.
   - Other surface contaminations are best removed with a solvent and a cotton swab (e.g: acetone and/or isopropyl alcohol).
 - Clean cutting area.
@@ -34,7 +34,7 @@ Operator's Checklist
 ### Every Couple of Month (or 240h of Operation)
 
 - Check timing-belts, pulleys, and idlers for dirt build-up.
-- Check laser tube compartment for dust. Clean rear mirror and tube exit lens if necessary. 
+- Check laser tube compartment for dust. Clean rear mirror and tube exit lens if necessary.
 - Check level and smell of chiller water. Replace and/or use anti-algae agent.
 
 
