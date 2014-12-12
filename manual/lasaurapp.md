@@ -1,15 +1,15 @@
 LasaurApp
 =========
 
-[Index](index.md) -- [Intro](start.md) | [Building](assembly) | LasaurApp
+[Index](index.md) -- [Intro](start.md) | [Build Guide](build) | LasaurApp
 
-LasaurApp is the main control app for the Lasersaur. It is installed on the Lasersaur and accessed over the local network (ethernet or wifi) with a web browser. A Lasersaur typically does not require any software or driver installation on the user's computer and is conveniently access via [http://lasersaur.local](http://lasersaur.local).
+LasaurApp is the main control app for the Lasersaur. It is installed on the Lasersaur and accessed over the local network (ethernet or wifi) with a web browser. A Lasersaur typically does not require any software or driver installation on the user's computer. Simply point a web browser to: [http://lasersaur.local](http://lasersaur.local).
 
 The main features are as follows:
 
 - send vector files to the Lasersaur
 - import files and optimize
-- supported file formats are: SVG, G-Code ([subset](gcode.md)), DXF ([subset](dxf_import.md)) 
+- supported file formats are: SVG, G-Code ([subset](gcode.md)), DXF ([subset](dxf_import.md))
 - GUI for moving/jogging the laser head
 - stopping/pausing/continuing jobs
 - firmware flashing
@@ -80,7 +80,7 @@ If you want to use a vanilla BeagleBone (Black) on the DriveBoard you can also s
 
 - [Setup BeagleBone Black](bbb_setup.md)
 - [Setup BeagleBone](beaglebone_setup.md)
- 
+
 
 
 ### Flashing the Firmware
@@ -90,7 +90,7 @@ The Lasersaur hardware also needs to be loaded with firmware. This has already b
 
 ### Compiling Custom Firmware
 
-LasaurApp (starting with v13.06b) makes it easy to run custom firmware. For small changes (e.g. in the config.h file) one click on `Admin/Build and Flash from Source` builds a new firmware and asks if it should be flash-uploaded. The firmware source code from which it gets build is in `LasaurApp/firmware/src`. These files can even be directly edited through an ssh session with `vi` or `nano`. Happy Hacking!
+LasaurApp (starting with v13.06b) makes it easy to run custom firmwares. For small changes (e.g. in the config.h file) one click on `Admin/Build and Flash from Source` builds a new firmware and asks if it should be flash-uploaded. The firmware source code from which it gets build is in `LasaurApp/firmware/src`. These files can even be directly edited through an ssh session with `vi` or `nano`. Happy Hacking!
 
 
 ### Developer Setup
@@ -112,6 +112,3 @@ At this point your default browser should open at [http://localhost:4444](http:/
 On Windows you may have to specifically tell the program which COM-port to use by typing "python backend/app.py COM7" where COM7 is the actual port the Lasersaur is connected to. One of the easiest ways to figure this out is to run the Arduino IDE and look under "Tools/Serial Port".
 
 On Linux you may have to set proper r/w permissions for the serial port. For quickly testing and bypassing this issue you can also run LasaurApp as root by typing "sudo python backend/app.py".
-
-
-

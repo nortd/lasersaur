@@ -9,14 +9,14 @@ Features
 --------
 - three stepper drivers (x,y,z)
 - two limit sensors per axis
-- two door sensors (one redundant) 
+- two door sensors (one redundant)
 - one chiller sensor
 - emergency interlock (e-stop) via solid state relay
 - e-stop doubles as system on/off
 - two 24V, 1A, opto-isolated outputs (e-valve, solenoid actuators)
 - all sensor and control wiring with shielded Cat5 patch cables
 - hard-logic laser safety system (laser is switched off reliably by the following events: door open, chiller failure, limits hit)
-- driver-less solution, full control with any modern browser (embedded web app)
+- zero software install solution, full control with any modern browser (embedded web app)
 - build for easy hacking and modding in mind (minimal real-time firmware, powerful Linux-based UI programing, future expandability like camera, wifi, etc ...)
 
 
@@ -29,24 +29,24 @@ Required Parts
 ---------------
 The following parts are required to get the DriveBoard working. All of these items are in the Lasersaur BOM:
 
-- Two GeckoDrive G203V stepper drivers
-  - GeckoDrive G201X are also fully compatible.
-  - Experimental headers for Nanotec SMC11 stepper drivers are also provided.
-- A BeagleBone
+- Two GeckoDrive G201X stepper drivers
+  - GeckoDrive G203V are also fully compatible.
+- A BeagleBone Black (BBB)
   - loaded with LasaurApp
   - Experimental headers for the RaspberryPi are also provided.
 - Two PSUs
   - 24V, 3A
   - 5V, 3A
-- 11x Cat5 Patch cables, shielded, 26-24AWG, 3m
-  - these are used for most of the wiring
-- standard insulated wires, 18AWG
-  - these are for the PSU wiring (screw terminals)
-  - the BOM has an extra power cord to salvage for this
-- (optionally) e-stop switch and keylock switch (both rated for 2A)
-  - the DriveBoard has two interlocks which need to be connected for operation
+- Standard shielded Cat5 Patch cables for wiring (SFTP, 26-24AWG, TIA/EIA-568-A or B)
+  - 4x 1m (1x limit, 1x laser, 1x e-stop, 1x e-valve)
+  - 5x 2m (2x limit, 1x door, 2x stepper)
+  - 3x 3m (1x limit, 1x door, 1x chiller)
+- Power chords with C-14 plug (same cable what most desktop computers use)
+  - 1x main power
+  - 2x internal wiring (cut as necessary)
   - both interlocks can also be connected with a jumper
-- (optionally) e-valve, 24V
+- E-Stop
+- (optionally) E-Valve
 - (optionally) acrylic mount/cover sheets
 
 ![driveboard case](http://farm9.staticflickr.com/8349/8270542701_dfae76ef4f_z.jpg)
@@ -68,87 +68,68 @@ The screw terminals labeled `air_assist+`, `air_assist-`, `aux1_assist+`, `aux1_
 
 Sensor and Control Wiring
 -------------------------
-Most of the sensor and control wiring is done with shielded [Cat5 patch cables](http://en.wikipedia.org/wiki/Category_5_cable) (ethernet cables). This has the advantage of not having to assemble plugs while still being affordable and highly available. We recommend using 3m patch cables and cutting them to the appropriate lengths. The wiring is as follows (for both TIA/EIA-568-A and TIA/EIA-568-B style cables, also the shorthands `wgr,wor,gr,or,bl,br,wbr,wbl` are the colors of the leads):
+Most of the sensor and control wiring is done with shielded [Cat5 patch cables](http://en.wikipedia.org/wiki/Category_5_cable) (ethernet cables). This has the advantage of not having to assemble plugs while still being affordable and highly available. The following  shorthands are the colors of the patch cable leads: `wgr,wor,gr,or,bl,br,wbr,wbl`
 
-- x1
-  - cable length: 2900mm
-  - wgr,wor      -> red        (=vcc =1,3)
-  - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
-  - not used   -> blue
-  - wbr,br       -> not used (=gnd =7,8)
-- x2
-  - cable length: 1500mm
+- x1 limit (left)
+  - cable length: 3m
+  - wgr,wor  -> either side of the sensor (=vcc 1,3)
+  - gr,or    -> either side of the sensor (=sig 2,6)
+  - (wbr,br must not connect to wbl,bl) (=gnd 7,8 =sig 4,5)
+- x2 limit (right)
+  - cable length: 2m
   - (connect same as x1)
-- stepper_x
-  - cable length: 1500mm
-  - Nanotec
-      - wgr, wor  ->  orange (=A =1,3)
-      - gr,or     ->  brown  (=A' =2,6)
-      - bl,br     ->  red    (=B =4,8)
-      - wbr,wbl   ->  yellow (=B' =7,5)
-  - LinEngineering
-      - gr, or    ->  black  (=A =1,3)
-      - wgr, wor  ->  green  (=A' =2,6)
-      - bl,br     ->  red    (=B =4,8)
-      - wbr,wbl   ->  blue   (=B' =7,5)
-- y1
-  - cable length: 650mm
+- stepper_x (Nanotec)
+  - cable length: 2m
+  - wgr, wor  ->  orange (=A 1,3)
+  - gr,or     ->  brown  (=A' 2,6)
+  - bl,br     ->  red    (=B 4,8)
+  - wbr,wbl   ->  yellow (=B' 7,5)
+- y1 limit (rear)
+  - cable length: 1m
   - (connect same as x1)
-- y2
-  - cable length: 1350mm
+- y2 limit (front)
+  - cable length: 2m
   - (connect same as x1)
-- stepper_y
-  - cable length: 650mm
-  - Nanotec
-      - wgr, wor  ->  green (=A =1,3)
-      - gr,or     ->  black (=A' =2,6)
-      - bl,br     ->  red   (=B =4,8)
-      - wbr,wbl   ->  blue  (=B' =7,5)
-      - red-white -> blue-white
-      - black-white -> green-white
-  - LinEngineering
-      - gr, or    ->  blue-white  (=A =1,3)
-      - wgr, wor  ->  red         (=A' =2,6)
-      - bl,br     ->  green-white (=B =4,8)
-      - wbr,wbl   ->  black       (=B' =7,5)
-      - red-white ->  blue
-      - black-white -> green
+- stepper_y (Nanotec)
+  - cable length: 2m
+  - wgr, wor  ->  green (=A 1,3)
+  - gr,or     ->  black (=A' 2,6)
+  - bl,br     ->  red   (=B 4,8)
+  - wbr,wbl   ->  blue  (=B' 7,5)
+  - red-white -> blue-white
+  - black-white -> green-white
 - door1
-  - cable length: 2500mm
-  - wgr,wor      -> blue       (=vcc =1,3)
-  - gr,bl,wbl,or -> black      (=sig =2,4,5,6)
-  - not used   -> red
-  - wbr,br       -> not used (=gnd =7,8)
+  - cable length: 3m
+  - wgr,wor  -> either side of the sensor (=vcc 1,3)
+  - gr,or    -> either side of the sensor (=sig 2,6)
+  - (wbr,br must not connect to wbl,bl) (=gnd 7,8 =sig 4,5)
 - door2
-  - cable length: 1700mm
+  - cable length: 2m
   - (connect same as door1)
 - laser
-  - cable length: 750mm
-  - gr,or   -> P or WP         (=dis =2,6)
-  - bl      -> H or TH         (=pwm =4)
-  - wbr,br  -> G or GND        (=gnd =7,8)
-  - wgr,wor -> not used (=vcc =1,3)
-  - wbl     -> not used (=aux2 =5)
+  - cable length: 1m
+  - gr,or   -> P or WP         (=dis 2,6)
+  - bl      -> H or TH         (=pwm 4)
+  - wbr,br  -> G or GND        (=gnd 7,8)
+  - wgr,wor -> not used (=vcc 1,3)
+  - wbl     -> not used (=aux2 5)
   - Also on the laser PSU connector: 5V(pin1) -> IN(pin6)
   - See [Laser Adjustment](laser_adjustments.md) page for output calibration.
 - chiller
-  - cable length: 2900mm
-  - wgr,wor -> H3 (=vcc =1,3)
-  - gr,bl,wbl,or -> H1 (=sig =2,4,5,6)
-  - wbr,br -> not used (=gnd =7,8)
-- assists
-  - cable length: 500mm
+  - cable length: 3m
+  - wgr,wor -> H3 (=vcc 1,3)
+  - gr,or -> H1 (=sig 2,6)
+  - (wbr,br must not connect to wbl,bl) (=gnd 7,8 =sig 4,5)
+- e-stop interlock
+  - cable length: 1m
+  - wgr, wor -> e-stop_1 (=1,3)
+  - gr,or -> e-stop_2 (=2,6)
+- e-valve
+  - cable length: 1m
   - wgr,wor -> air_assist+ (=1,3)
   - gr,or -> gnd (=2,6)
   - bl,br -> gnd (=4,8)
   - wbr,wbl -> aux1_assist+ (=7,5)
-- e-stop interlock
-  - cable length: 1700mm
-  - wgr, wor -> e-stop_1 (=1,3)
-  - gr,or -> e-stop_2 (=2,6)
-- keylock interlock
-  - cable length: 30mm
-  - bl,br (=4,8) -> wbr,wbl (=7,5)
 - z1, z2, stepper_z (optional)
   - (analogous to x- and -y-axis)
 
@@ -159,10 +140,14 @@ The DriveBoard (assembled version) comes with current set resistors that match t
 
 - `R (kOhm) = 47*I/(7-I)`
 
+Alternatively you can also remove these resistors and use the dip switches of the stepper driver to set the current. See the driver's manual on how to do this.
+
 
 Software Installation
 ---------------------
-The DriveBoard runs the LasaurGrbl firmware on the Atmega328 chip and LasaurApp on the BeagleBone. For the assembled version of the DriveBoard follow the [LasaurApp setup](lasaurapp.md). When building from scratch you will also have to get the Arduino bootloader onto the Atmega chip. This can be done with an Arduino and the Arduino IDE. The actual flashing of the firmware and continuous updates can then be done from LasaurApp.
+LasaurApp runs on the DriveBoard and consists of three parts: frontend, backend, and firmware. The frontend runs in the browser, backend on the BeagleBone, and firmware on the Atmega328 chip.
+
+For the assembled version of the DriveBoard follow the [LasaurApp setup](lasaurapp.md). When building from scratch you will also have to get the Arduino bootloader onto the Atmega chip. This can be done with an Arduino and the Arduino IDE. The actual flashing of the firmware and continuous updates can then be done from LasaurApp.
 
 
 Safety Systems
@@ -174,8 +159,8 @@ During operation the Lasersaur hardware (hard-logic safety) and firmware monitor
   - the laser is disabled via the "laser:dis" pin when any of the following happens
     - any limit interlock is open
     - chiller interlock is open
-    - any door interlock is open 
-- firmware safety functions (LasaurGrbl):
+    - any door interlock is open
+- firmware safety functions:
   - the controller is put into "stop mode" when any of the following happens:
     - any of the limit interlocks opens
     - serial data contains a '!' character
@@ -185,7 +170,7 @@ During operation the Lasersaur hardware (hard-logic safety) and firmware monitor
    - 5V board power
    - Laser PSU AC line (via SSR)
    - 24V PSU AC line (via SSR)
-   
+
 #### DriveBoard Safety Logic in Detail
 
 ![driveboard logic](https://farm3.staticflickr.com/2950/15308168197_d60ccdbb5e_z.jpg)
@@ -211,8 +196,6 @@ Troubleshooting
   - Make sure the Driveboard power is 5V (+/- 0.2V). Higher deviations may prevent the BBB from booting up. If necessary adjust the voltage on the PSU via the trimpot ("VR1").
 - Homing works but any other motion commands do not move the gantry.
   - One of the limit interlocks is not closed. (1) Make sure the z1, z2 pigtail connectors are plugged in. (2) No limit error shows up in the LasaurApp log. If yes, check all the limit switches. They must be closed.
+  - Take note of the fact that limit sensors and door sensors are not the same part. Make sure not to have swapped them. 
 - Motion commands move the gantry but no lasing.
   - Make sure the chiller interlock and door interlocks are closed.
-
-
- 
