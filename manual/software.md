@@ -10,7 +10,7 @@ On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack tha
 
 - [Setup Linux on BeagleBone Black (BBB)](bbb_setup.md)
 - [Setup LasaurApp on BBB](lasaurapp_setup.md)
-- [Setup LasaurApp firmware](firmwarwe_setup.md)
+- [Setup LasaurApp firmware](firmware_setup.md)
 
 
 ### Prerequisites
