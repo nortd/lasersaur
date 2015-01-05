@@ -1,5 +1,5 @@
-BeagleBone Black Setup
-=======================
+BeagleBone Setup
+=================
 
 [Index](index.md) -- [Lasersaur Software](software.md) | BeagleBone Setup | [LasaurApp Setup](lasaurapp_setup.md) | [Firmware Setup](firmware_setup.md)
 
