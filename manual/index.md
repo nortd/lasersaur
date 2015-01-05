@@ -10,13 +10,14 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [Bill of Materials](bom.md)
   * [CAD Model Files](model.md)
   * [DriveBoard Electronics](driveboard.md)
+  * [Software Components](software.md)
   * [G-code Communication](gcode.md)
   * [Revisions and Roadmap](revisions.md)
   * [Licensing Information](license.md)
 * Building Process
   * [Getting Started](start.md)
   * [Step-by-Step Build Instructions](build/)
-  * [Setting up the Software](lasaurapp.md)
+  * [Software Setup](software_setup.md)
   * [Accessories](accessories.md)
 * Operation
   * [Maintenance Guide](operation.md)
