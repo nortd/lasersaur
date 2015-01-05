@@ -1,4 +1,4 @@
-Lasersaur Software
+Lasersaur Firmware
 ==================
 
 [Index](index.md) -- [Lasersaur Software](software.md) | [BeagleBone Setup](bbb_setup.md) | [LasaurApp Setup](lasaurapp_setup.md) | Firmware Setup
