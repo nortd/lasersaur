@@ -1,8 +1,6 @@
 RaspberryPi Setup
 ==================
 
-[Index](index.md) -- [DriveBoard](driveboard.md) | [BeagleBone](beaglebone_setup.md) | [BeagleBoneBlack](bbb_setup.md) | RaspberryPi
-
 - http://blog.makezine.com/2012/12/25/ten-raspberry-pi-tips/
 - http://interlockroc.org/2012/12/06/raspberry-pi-macgyver/
 
