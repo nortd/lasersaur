@@ -17,7 +17,7 @@ To setup the BeagleBone Black (BBB) **install the following disk image on the EM
 Looking for older files:
 [lasersaur-BBB-image-v13.06.img.xz](http://file.lasersaur.com/driveboard/lasersaur-BBB-image-v13.06.img.xz)
 
-This image is a modified <a href"http://elinux.org/Beagleboard:Ubuntu_On_BeagleBone_Black">elinux.com image</a> based on Ubuntu 14.04 LTS. It has UART1, WiFi, and GPIOs enabled as needed.
+This image is a modified <a href"http://elinux.org/Beagleboard:Ubuntu_On_BeagleBone_Black">elinux.com image</a> based on Ubuntu 14.04 LTS. It has UART1, WiFi, and GPIOs enabled as needed. For details how to roll one from scratch see [Howto Create LasaurBBB Image](bbb_ubuntu.md).
 
 
 Detailed Setup Instructions
