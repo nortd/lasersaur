@@ -2,6 +2,8 @@
 Howto Create the LasaurBBB Image
 ================================
 
+[Index](index.md) -- 
+
 ### Create SD Card
 - Get BBB ubuntu Image from elinux.org and follow instructions.
   - http://elinux.org/BeagleBoardUbuntu#BeagleBone_Black
