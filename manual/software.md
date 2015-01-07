@@ -7,9 +7,14 @@ Lasersaur Software
 **A Lasersaur is fully controllable by web browser.** Simply go to: [http://lasersaur.local](http://lasersaur.local) and Lasersaur's user interface will show up. This is a local web connection to the Lasersaur on the same network, no cloud necessary. There is no software or driver installation required on the controlling computer which, btw, can be even beyond the world of mainstream operating systems. Consequently there is no dedicated, typically neglected, Windows workstation in the mix. Everybody just uses their laptop/desktop/tablet directly. Now go play ... or read on if you are interested in the multifaceted details.
 
 
-### The Software Stack
+The Software Stack
+------------------
 
 The entire software stack comprises a Linux OS, the LasaurApp, and a firmware. Linux runs off the DriveBoard's BeagleBone (BBB). LasaurApp runs partly on this Linux platform and partly in the browser. The firmware runs on a dedicated real-time chip (Atmega328) on the DriveBoard. All in all this is a setup with great modularity and hackability yet runs out of the box with minimal setup (if there was a box).
+
+### Linux OS
+
+Ubuntu 14.04
 
 ### LasaurApp
 
@@ -24,7 +29,13 @@ The entire software stack comprises a Linux OS, the LasaurApp, and a firmware. L
 ![LasaurApp v13.04](http://farm9.staticflickr.com/8101/8645800331_8c4350fd2c_z.jpg)
 
 
-### Software Setup
+### Firmware
+
+Super-optimized Grbl-derivative.
+
+
+Software Setup
+--------------
 
 On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack that needs to be installed once. You have the option to skip these steps by getting the Assembled DriveBoard from the [Lasersaur Store](http://store.lasersaur.com/). To install the software yourself do the following:
 
@@ -33,7 +44,8 @@ On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack tha
 - [Setup LasaurApp firmware](firmware_setup.md)
 
 
-### Prerequisites
+Prerequisites
+-------------
 
 - A modern web browser with HTML5 support
 - A local network connection between user and Lasersaur
@@ -43,6 +55,7 @@ On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack tha
   - Windows does not have this out of the box but many popular apps (Skype, iTunes and Adobe Photoshop) install one. You can also install [Bonjour Print Services for Windows](http://support.apple.com/kb/DL999) to make the local domain names work.
 
 
-### Developers
+Developers
+----------
 
 Run LasaurApp directly on your computer. For details see: [LasaurApp Dev Setup](dev_setup.md)
