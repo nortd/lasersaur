@@ -4,7 +4,7 @@ BeagleBone Setup
 [Index](index.md) -- [Lasersaur Software](software.md) | BeagleBone Setup | [LasaurApp Setup](lasaurapp_setup.md) | [Firmware Setup](firmware_setup.md)
 
 
-To setup the BeagleBone Black (BBB) **install the following disk image on the EMMC**. If you are unsure how to do this see the detailed instructions further down. Alternatively you can also get the preconfigured LasaurBBB from the [Lasersaur Store](http://store.lasersaur.com/).
+To setup the BeagleBone Black (BBB) **install the following disk image on the EMMC**. If you know how to do this go ahead and skip the rest of this document. Otherwise find detailed instruction below.
 
 <table>
 <tr><td>
