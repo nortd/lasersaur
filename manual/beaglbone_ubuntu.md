@@ -1,6 +1,8 @@
 Configure Ubuntu for Lasersaur
 ================================
 
+**DEPRECATED**
+
 The following guide is to be used on a Linux computer (may also work on OSX). These instruction were partially extracted from the following resources:
 
 - http://www.elinux.org/BeagleBoardUbuntu
