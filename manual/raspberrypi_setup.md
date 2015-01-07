@@ -1,5 +1,6 @@
 RaspberryPi Setup
 ==================
+**DEPRECATED**
 
 - http://blog.makezine.com/2012/12/25/ten-raspberry-pi-tips/
 - http://interlockroc.org/2012/12/06/raspberry-pi-macgyver/
