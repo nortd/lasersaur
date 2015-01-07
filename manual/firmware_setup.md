@@ -3,7 +3,7 @@ Lasersaur Firmware
 
 [Index](index.md) -- [Lasersaur Software](software.md) | [BeagleBone Setup](bbb_setup.md) | [LasaurApp Setup](lasaurapp_setup.md) | Firmware Setup
 
-The firmware is a low-level software component on one of the DriveBoard's chips (Atmega328). It is responsible for all the real-time stepper pulsing. It communicates with the BBB by UART. Initially, when setting up the DriveBoard, the firmware needs to be flashed onto this chip. Some LasaurApp changes also comprise a change to the firmware. If this is the case the firmware needs to be flashed as well. This can easily be done from the web interface's menu:
+The firmware is a low-level software component on one of the DriveBoard's chips (Atmega328). It is responsible for all the real-time stepper pulsing. It communicates with the BBB by UART. Initially, when setting up the DriveBoard, the firmware needs to be flashed onto this chip. Some LasaurApp updates also comprise a change to the firmware. If this is the case the firmware needs to be flashed as well. This can easily be done from the web interface's menu:
 
 - `Admin/Flash Firmware`
 
