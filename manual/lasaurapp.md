@@ -1,4 +1,4 @@
 LasaurApp
 =========
 
-**OLD PAGE**, see [LasaurApp]((software.md#LasaurApp)
+**OLD PAGE**, see [LasaurApp](software.md#lasaurapp)
