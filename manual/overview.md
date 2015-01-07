@@ -67,7 +67,7 @@ A typical low-budget CO2 laser system (like the one listed in the BOM) consists 
 Control Software
 ----------------
 
-The Lasersaur is generally controlled through the [LasaurApp](lasaurapp.md) web application that runs on the Lasersaur (it can also run locally on the user's computer). It's typically accessible via LAN at at http://lasersaur.local. The main interface can be used with any modern web browser. LasaurApp then streams G-code to the controller's low-level firmware which then does all the time sensitive motor control. [The subset of G-code](gcode.md) which is understood by the firmware is a fairly simple control language which can also be used directly.
+The Lasersaur is generally controlled through the [LasaurApp](software.md) web application that runs on the Lasersaur (it can also run locally on the user's computer). It's typically accessible via LAN at at http://lasersaur.local. The main interface can be used with any modern web browser. LasaurApp then streams G-code to the controller's low-level firmware which then does all the time sensitive motor control. [The subset of G-code](gcode.md) which is understood by the firmware is a fairly simple control language which can also be used directly.
 
 While it can be useful to understand some G-code this is not necessary when using LasaurApp. For most usage scenarios knowing how to save an .svg file in Illustrator or Inkscape and importing it in LasaurApp is all that is necessary to start cutting.
 
