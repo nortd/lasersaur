@@ -1,7 +1,7 @@
 DXF Support in LasaurApp
 ========================
 
-[Index](index.md) -- [LasaurApp](software.md#LasaurApp) | [LaserTags](lasertags.md) | DXF Support
+[Index](index.md) -- [LasaurApp](software.md#lasaurapp) | [LaserTags](lasertags.md) | DXF Support
 
 With v13.02 LasaurApp supports a subset of the DXF file format. This is very useful to go straight from CAD modeller to Lasersaur. Most 3D apps can export geometry as DXFs and it is often the lowest common denominator when moving between apps.
 
