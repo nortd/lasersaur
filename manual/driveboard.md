@@ -1,7 +1,7 @@
 DriveBoard
 ==========
 
-[Index](index.md) -- DriveBoard | [BeagleBoneBlack](bbb_setup.md) | [BeagleBone](beaglebone_setup.md) | [RaspberryPi](raspberrypi_setup.md)
+[Index](index.md) -- 
 
 The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield.md)). It interfaces all the electronics components and runs the [LasaurApp](lasaurapp.md) software. This makes the Lasersaur fully controllable from any modern web browser over the local network (ethernet, wifi). The software is modular (firmware, backend, frontend) and allows for simple hacking and modding. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
 
