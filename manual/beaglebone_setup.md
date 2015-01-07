@@ -1,8 +1,6 @@
 BeagleBone Setup
 ================
 
-[Index](index.md) -- [DriveBoard](driveboard.md) | [BeagleBoneBlack](bbb_setup.md) | BeagleBone | [RaspberryPi](raspberrypi_setup.md)
-
 Note: There are two different kinds of BeagleBones on the market now: Please see [BeagleBone Black setup](bbb_setup.md) for the latest board.
 
 While the [BeagleBone](http://beagleboard.org/bone) comes with [Angstrom Linux](http://www.angstrom-distribution.org/) pre-installed we use [Ubuntu](http://elinux.org/BeagleBoardUbuntu) for the Lasersaur. It plays better with usb peripherals like wifi dongles.  The following shows how to get the fully pre-configured *lasersaur-beaglebone-image* onto the BeagleBone. 
