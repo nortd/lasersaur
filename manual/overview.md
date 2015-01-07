@@ -1,7 +1,7 @@
 Lasersaur System Overview
 =========================
 
-[Index](index.md) -- 
+[Index](index.md) --
 
 ![lasersaur dark](http://farm9.staticflickr.com/8233/8464050599_c02f553c27_m.jpg)
 ![lasersaur open](http://farm9.staticflickr.com/8510/8464041087_d23416e7dc_m.jpg)
@@ -21,7 +21,7 @@ To accomplish this control the Lasersaur uses a combination of robotic actuators
 Mechanics
 ---------
 
-![mechimage](http://farm9.staticflickr.com/8528/8464053217_fac4bf454e_m.jpg) 
+![mechimage](http://farm9.staticflickr.com/8528/8464053217_fac4bf454e_m.jpg)
 ![mechclose](http://farm9.staticflickr.com/8074/8414185536_c9090070b1_m.jpg)
 
 The mechanics comprise both stationary and dynamic parts. The primary building blocks of both the frame and the gantry are T-slot aluminum extrusions. They are widely used in the automation industry and many suppliers offer them. The Lasersaur is designed around extrusions with 20mm side lengths. All the mount assemblies are built from angle brackets and custom-cut alumiunm pieces.
@@ -52,11 +52,11 @@ Optics and Laser
 ----------------
 
 ![closeoptics](http://farm8.staticflickr.com/7185/7119387815_761fce44db_m.jpg)
-![opticsimage](http://farm8.staticflickr.com/7054/6973307346_0674b570aa_m.jpg) 
+![opticsimage](http://farm8.staticflickr.com/7054/6973307346_0674b570aa_m.jpg)
 
 The Lasersaur uses a stationary laser resonator and flying optics for beam delivery. Three mirrors and one lens plus the various mounts make up the optics subsystem. The optics components are from a modular system (Thorlabs). This makes it easy to experiment with further improvements like different laser sources and beam expanders. Mirrors and lenses have a 1" diameter and can adapt well to stronger lasers.
 
-The system is designed with a DC-excited CO2 laser tube in mind but can be adapted for other sources relatively easily. The space dedicate to the tube can accommodate up to 1.4m tubes which makes it compatible with typical  low-budget CO2 lasers up to 100W. 
+The system is designed with a DC-excited CO2 laser tube in mind but can be adapted for other sources relatively easily. The space dedicate to the tube can accommodate up to 1.4m tubes which makes it compatible with typical  low-budget CO2 lasers up to 100W.
 
 A typical low-budget CO2 laser system (like the one listed in the BOM) consists of 3 components: laser tube, power supply and water chiller. We have a dedicated space for the power supply inside the Lasersaur. The water chiller is external to the box.
 
@@ -69,9 +69,9 @@ Control Software
 
 The Lasersaur is generally controlled through the [LasaurApp](lasaurapp.md) web application that runs on the Lasersaur (it can also run locally on the user's computer). It's typically accessible via LAN at at http://lasersaur.local. The main interface can be used with any modern web browser. LasaurApp then streams G-code to the controller's low-level firmware which then does all the time sensitive motor control. [The subset of G-code](gcode.md) which is understood by the firmware is a fairly simple control language which can also be used directly.
 
-While it can be useful to understand some G-code this is not necessary when using LasaurApp. For most usage scenarios knowing how to save an .svg file in Illustrator or Inkscape and importing it in LasaurApp is all that is necessary to start cutting. 
+While it can be useful to understand some G-code this is not necessary when using LasaurApp. For most usage scenarios knowing how to save an .svg file in Illustrator or Inkscape and importing it in LasaurApp is all that is necessary to start cutting.
 
-- [Software Setup Page](lasaurapp.md)
+- [Software Setup Page](software.md)
 
 
 Accessory Subsystems
@@ -80,6 +80,3 @@ Accessory Subsystems
 A Lasersaur needs a couple of additional subsystems for operation: air exhaust, air assist, cutting surface, fire extinguisher, hand vacuum cleaner, ...
 
 - [Accessories Page](accessories.md)
-
-
-

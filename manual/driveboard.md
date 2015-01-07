@@ -1,9 +1,9 @@
 DriveBoard
 ==========
 
-[Index](index.md) -- 
+[Index](index.md) --
 
-The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield.md)). It interfaces all the electronics components and runs the [LasaurApp](lasaurapp.md) software. This makes the Lasersaur fully controllable from any modern web browser over the local network (ethernet, wifi). The software is modular (firmware, backend, frontend) and allows for simple hacking and modding. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
+The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield.md)). It interfaces all the electronics components and runs the [Lasersaur software](software.md). This makes the Lasersaur fully controllable from any modern web browser over the local network (ethernet, wifi). The software is modular (firmware, backend, frontend) and allows for simple hacking and modding. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
 
 Features
 --------
@@ -145,9 +145,8 @@ Alternatively you can also remove these resistors and use the dip switches of th
 
 Software Installation
 ---------------------
-LasaurApp runs on the DriveBoard and consists of three parts: frontend, backend, and firmware. The frontend runs in the browser, backend on the BeagleBone, and firmware on the Atmega328 chip.
 
-For the assembled version of the DriveBoard follow the [LasaurApp setup](lasaurapp.md). When building from scratch you will also have to get the Arduino bootloader onto the Atmega chip. This can be done with an Arduino and the Arduino IDE. The actual flashing of the firmware and continuous updates can then be done from LasaurApp.
+See [Lasersaur Software](software.md).
 
 
 Safety Systems
@@ -196,6 +195,6 @@ Troubleshooting
   - Make sure the Driveboard power is 5V (+/- 0.2V). Higher deviations may prevent the BBB from booting up. If necessary adjust the voltage on the PSU via the trimpot ("VR1").
 - Homing works but any other motion commands do not move the gantry.
   - One of the limit interlocks is not closed. (1) Make sure the z1, z2 pigtail connectors are plugged in. (2) No limit error shows up in the LasaurApp log. If yes, check all the limit switches. They must be closed.
-  - Take note of the fact that limit sensors and door sensors are not the same part. Make sure not to have swapped them. 
+  - Take note of the fact that limit sensors and door sensors are not the same part. Make sure not to have swapped them.
 - Motion commands move the gantry but no lasing.
   - Make sure the chiller interlock and door interlocks are closed.

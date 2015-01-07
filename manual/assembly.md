@@ -1,5 +1,7 @@
-Build Instructions v13.04 
+Build Instructions v13.04
 ==========================
+
+**DEPRECATED!**
 
 [Index](index.md) -- [Intro](start.md) | Building | [LasaurApp](lasaurapp.md)
 
@@ -84,4 +86,3 @@ Assembly Steps
 
 ### 11. frame panels
 [![frame-panels](http://farm8.staticflickr.com/7058/6906452935_b5a2a8dc11_m.jpg)](build-frame-panels.md)
-

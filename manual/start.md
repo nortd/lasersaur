@@ -1,7 +1,7 @@
 How to get a Lasersaur
 ===============
 
-[Index](index.md) -- Intro | [Build Guide](build) | [LasaurApp](lasaurapp.md)
+[Index](index.md) -- Intro | [Build Guide](build) | [Software](software.md)
 
 Welcome to the Lasersaur project!
 
