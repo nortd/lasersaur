@@ -3,7 +3,7 @@ LasaurApp Setup
 
 [Index](index.md) -- [Lasersaur Software](software.md) | [BeagleBone Setup](bbb_setup.md) | LasaurApp Setup | [Firmware Setup](firmware_setup.md)
 
-**LasaurApp does not have to be installed individually.** After the [BeagleBone Setup](bbb_setup.md) you should have a working LasaurApp setup. The same applies for an *Assembled DriveBoard*. Nonetheless, to get the most out of this Software you should keep LasaurApp up to date.
+**LasaurApp does not have to be installed separately.** After the [BeagleBone Setup](bbb_setup.md) you should have a working LasaurApp setup. The same applies for an *Assembled DriveBoard*. Nonetheless, to get the most out of this Software you should keep LasaurApp up to date.
 
 Bigger updates are usually announced on the Lasersaur mailing list. For all the development details check out [LasaurApp on Github](https://github.com/stefanix/LasaurApp/). We have three important branches: *master*, *beta*, *alpha*. The *master* branch is stable and for production. The *beta* branch is for testing release candidates and *alpha* is for current development work.
 
