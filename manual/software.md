@@ -4,7 +4,7 @@ Lasersaur Software
 
 [Index](index.md) -- Lasersaur Software | [BeagleBone Setup](bbb_setup.md) | [LasaurApp Setup](lasaurapp_setup.md) | [Firmware Setup](firmware_setup.md)
 
-**The Lasersaur is fully controllable by web browser.** Simply go to: [http://lasersaur.local](http://lasersaur.local) and Lasersaur's user interface will show up (both user and Lasersaur need to be on the same network). There is no software or driver installation required on the user's computer. Consequently there is no dedicated workstation to control the machine. Everybody just uses their laptop/desktop/tablet directly.
+**The Lasersaur is fully controllable by web browser.** Simply go to: [http://lasersaur.local](http://lasersaur.local) and Lasersaur's user interface will show up. This is a local web connection to the Lasersaur in the same network, no cloud necessary. There is no software or driver installation required on the controlling computer. Consequently there is no dedicated, neglected, virus-ridden Windows workstation in the mix. Everybody just uses their laptop/desktop/tablet directly.
 
 On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack that needs to be installed once. You have the option to skip these steps by getting the Assembled DriveBoard from the [Lasersaur Store](http://store.lasersaur.com/). To install the software yourself do the following:
 
