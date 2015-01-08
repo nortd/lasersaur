@@ -4,7 +4,7 @@ Lasersaur Software
 
 [Index](index.md) -- Lasersaur Software | [BeagleBone Setup](bbb_setup.md) | [LasaurApp Setup](lasaurapp_setup.md) | [Firmware Setup](firmware_setup.md)
 
-**A Lasersaur is fully controllable by web browser.** Simply go to: [http://lasersaur.local](http://lasersaur.local) and Lasersaur's user interface will show up. This is a local web connection to the Lasersaur on the same network, no cloud necessary. There is no software or driver installation required on the controlling computer which, btw, can be even beyond the world of mainstream operating systems. Consequently there is no dedicated, typically neglected, Windows workstation in the mix. Everybody just uses their laptop/desktop/tablet directly. Now go play ... or read on if you are interested in the multifaceted details.
+**A Lasersaur is fully controllable by web browser.** Simply go to: [http://lasersaur.local](http://lasersaur.local) and Lasersaur's user interface will show up. This is a local web connection to the Lasersaur on the same network, no cloud necessary. There is no software or driver installation required on the controlling computer which, btw, can be running pretty much any OS. Consequently there is no dedicated, often neglected, trojan-ridden, Windows workstation in the mix. Everybody just uses their laptop/desktop/tablet directly. Now go play ... or read on if you are interested in the multifaceted details.
 
 
 The Software Stack
@@ -14,9 +14,12 @@ The entire software stack comprises a Linux OS, the LasaurApp, and a firmware. L
 
 ### Linux OS
 
-Ubuntu 14.04
+Lasersaur currently runs Ubuntu 14.04 LTS. This gives us great network connectivity and flexibility. For example, zeroconf (Avahi) allows us to bypass any IP configuration issues. Lasersaur makes itself known as *lasersaur.local* to devices in its vicinity.
+
 
 ### LasaurApp
+
+This is the local web app serving the user interface. It's functions include the following:
 
 - send vector files to the Lasersaur
 - import files and optimize
@@ -31,13 +34,13 @@ Ubuntu 14.04
 
 ### Firmware
 
-Super-optimized Grbl-derivative.
+Lasersaur's firmware is a super-optimized Grbl-derivative. It is specifically adapted for the Lasersaur. It has great code simplicity compared to most other CNC frimware projects. Yet it is very performant with chip resources to spare.
 
 
 Software Setup
 --------------
 
-On the Lasersaur's [DriveBoard](driveboard.md) runs a certain software stack that needs to be installed once. You have the option to skip these steps by getting the Assembled DriveBoard from the [Lasersaur Store](http://store.lasersaur.com/). To install the software yourself do the following:
+The software stack on the Lasersaur's [DriveBoard](driveboard.md) needs to be installed once. You have the option to bypass these steps by getting the *Assembled DriveBoard* from the [Lasersaur Store](http://store.lasersaur.com/). To install the software yourself do the following:
 
 - [Setup Linux on BeagleBone Black (BBB)](bbb_setup.md)
 - [Setup LasaurApp on BBB](lasaurapp_setup.md)
