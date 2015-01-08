@@ -19,7 +19,7 @@ Lasersaur currently runs Ubuntu 14.04 LTS. This gives us great network connectiv
 
 ### LasaurApp
 
-This is the local web app serving the user interface. It's functions include the following:
+This is the local web app serving the user interface. It's features include the following:
 
 - send vector files to the Lasersaur
 - import files and optimize
