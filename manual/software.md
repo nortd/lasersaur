@@ -10,7 +10,7 @@ Lasersaur Software
 The Software Stack
 ------------------
 
-The entire software stack comprises GNU/Linux, the LasaurApp, and a firmware. Linux runs off the DriveBoard's BeagleBone (BBB). LasaurApp runs partly on this Linux platform and partly in the browser. The firmware runs on a dedicated real-time chip (Atmega328) on the DriveBoard. All in all this is a setup with great modularity and hackability yet runs out of the box with minimal setup (if there was a box).
+The entire software stack comprises GNU/Linux, LasaurApp, and firmware. Linux runs off the DriveBoard's BeagleBone (BBB). LasaurApp runs partly on this Linux platform and partly in the browser. The firmware runs on a dedicated real-time chip (Atmega328) on the DriveBoard. All in all this is a setup with great modularity and hackability yet runs out of the box with minimal setup (if there was a box).
 
 ### GNU/Linux
 
