@@ -16,7 +16,7 @@ The entire software stack comprises GNU/Linux, LasaurApp, and firmware. Linux ru
 
 Lasersaur currently runs Ubuntu 14.04 LTS. This gives us great network connectivity and flexibility. For example, zeroconf (Avahi) allows us to bypass any IP configuration issues. Lasersaur makes itself known as *lasersaur.local* to devices in its vicinity.
 
-
+<a name="lasaurapp"></a>
 ### LasaurApp
 
 This is the local web app serving the user interface. It's features include the following:
