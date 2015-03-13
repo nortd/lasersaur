@@ -10,6 +10,16 @@ Roadmap
 Revisions
 ---------
 
+### LasaurApp v14.11b
+  - Improved compatibility with various SVG authoring apps.
+    Especially Inkscape v0.91 is fully supported.
+  - Fixed circle, ellipse, rounded rect issues.
+  - Fixed g-code name postfix, so same files can also be imported again, duh!
+  - Improved seek optimization.
+    LasaurApp can now process any path in both directions and
+    seek optimization also looks for closest end points.
+    This reduces a lot of weird movement artifacts.
+
 ### v14.03
   - x/y-drive idlers slightly optimized
     - slide washer removed, third ball bearing added
@@ -33,11 +43,11 @@ Revisions
      - one HFS5-2040-1620 was missing
 
 ### v14.03-rc1
-The main change here is a new lens/nozzle assembly based on a 
+The main change here is a new lens/nozzle assembly based on a
 sliding design. It's easier to adjust, can handle lenses down to
-25mm focal length and has 40mm range. The other changes are 
+25mm focal length and has 40mm range. The other changes are
 non-functional but simplify the build process and make aligning
-much easier. Along with this we also switched to standard ball 
+much easier. Along with this we also switched to standard ball
 bearings on M5 screws for all the cart rollers.
 
   - frame-bottom
@@ -54,13 +64,13 @@ bearings on M5 screws for all the cart rollers.
     - aluminum plates mount now to the end of the extrusions
       to eliminate alinment steps
     - rollers are now standard 5x14x5 ball bearings on M5 screws
-    - adjustment ball bearing shaft screws are now supposed to touch 
+    - adjustment ball bearing shaft screws are now supposed to touch
       t-slot base and reverse nut is not necessary anymore
     - additional mount plate for cable carrier
     - washers under limit sensors
   - y-cart (build simplifications)
     - rollers are now standard 5x14x5 ball bearings on M5 screws
-    - adjustment ball bearing shaft screws are now supposed to touch 
+    - adjustment ball bearing shaft screws are now supposed to touch
       t-slot base and reverse nut is not necessary anymore
     - washers under limit sensors
   - optics-laser
@@ -124,7 +134,7 @@ For details see [revision v14.01 plans](rev14.01.md).
 - BeagleBone Black in BOM, preconfigured option
 - entry panel now from 3mm tinted acrylic, sealed with rubber inserts
 - acrylic mount panels now available in Nortd Labs store for convenience
-  - this includes entry panel, DriveBoard bottom hull, and top hull 
+  - this includes entry panel, DriveBoard bottom hull, and top hull
 - Minor DriveBoard adaptation for BeagleBone Black compatibility
   - moved avr reset control from GPIO2_7 to GPIO2_9 because BBB does not boot otherwise
 
@@ -166,7 +176,7 @@ For details see [revision v14.01 plans](rev14.01.md).
 - chiller and door status now in the header bar, not filling up the log
 - job time estimations tweaked, mostly correct +/- 20%
 - bugfix: bottleneck related to DNS request when running over a LAN
-- various smaller bugfixes 
+- various smaller bugfixes
 
 
 ### v13.01 - LasaurApp, the DriveBoard Update
@@ -185,7 +195,7 @@ For details see [revision v14.01 plans](rev14.01.md).
 - improved log view
 - auto-connect on startup
 - some bugfixes in svg parser (maybe added some other bugs ;)
-- flashing directly from beaglebone if avrdude package is installed 
+- flashing directly from beaglebone if avrdude package is installed
 
 
 ### v12.11
@@ -199,13 +209,13 @@ This revision is primarily about the new DriveBoard. This replaces the LasaurShi
   - solid state relay switching of AC loads
   - two outputs for heavy inductive loads (solenoid air valves)
   - improvements to hard-logic safety system
-  - built from common, easy to source components 
+  - built from common, easy to source components
 - MechParts
   - the custom parts made from 6mm aluminum
   - no cracking from over-tightening
-  - mostly identical to acrylic parts 
+  - mostly identical to acrylic parts
   - simpler x-stepper mount
-  - threaded mount M2.5 mount holes for limit switches 
+  - threaded mount M2.5 mount holes for limit switches
 - Minor other updates
   - frame-table slat direction changed from front-to-rear to left-to-right
   - y-bar 2mm longer
@@ -224,19 +234,19 @@ This revision is primarily about the new DriveBoard. This replaces the LasaurShi
 
 
 ### v12.08
-This revision introduces a new improved gantry, a simplified frame, and many small optimizations. It was made possible through generous support by Hyperwerk.ch and Studio for Creative Inquiry at Carnegie Mellon University. For details on changes see the CAD models and [BOM](/lasersaur/manual/bom). 
+This revision introduces a new improved gantry, a simplified frame, and many small optimizations. It was made possible through generous support by Hyperwerk.ch and Studio for Creative Inquiry at Carnegie Mellon University. For details on changes see the CAD models and [BOM](/lasersaur/manual/bom).
 
   - simplified frame
     - larger door, better access to work area
     - separate compartment for laser system and electronics
-    - more mount space for alternative laser systems (Synrad Firestar f201 anybody) 
+    - more mount space for alternative laser systems (Synrad Firestar f201 anybody)
     - more rigidity
     - one (recessed) entry panel for all connections
     - no more foam tape
     - rear door slit fully sealed
   - improved gantry
     - more elegant integration of air assist
-    - more rigidity 
+    - more rigidity
     - easier maintenance (replacing rollers, rails)
     - adjustable rails (for compensating frame imprecisions)
     - less custom parts
@@ -249,7 +259,7 @@ This revision introduces a new improved gantry, a simplified frame, and many sma
     - rubber tape for laser tube attachment points
   - electronics
     - Lin Engineering Steppers for North America BOM
-    - "x-current" resistor for NA BOM to 12.7K (instead of 6.5K) 
+    - "x-current" resistor for NA BOM to 12.7K (instead of 6.5K)
   - general
     - post assembly tslot nuts for most connections -> simple nut loading
     - all M5 tslot nuts with threadlocking resin to omit lock washers
@@ -286,8 +296,8 @@ This revision introduces a new improved gantry, a simplified frame, and many sma
   - opto-isolated stepper drivers to reduce noise in electronics
     - Geckodrive G203V (instead of G251X)
     - this changes the pin configuration on the LasaurShield
-      - Pin 1 to 12 is: power-, power+, A, /A, B, /B, dis, dir, step, logic-, currset, currset 
-      - instead of: power-, power+, currset, currset, A, /A, B, /B, dir, step, dis, logic- 
+      - Pin 1 to 12 is: power-, power+, A, /A, B, /B, dis, dir, step, logic-, currset, currset
+      - instead of: power-, power+, currset, currset, A, /A, B, /B, dir, step, dis, logic-
       - also the current set resistors are different on this driver
   - stepper motors that are easier to source and cheaper
     - Nanotec ST4118M1206-A (instead of LinEngineering WO-4118S-0
