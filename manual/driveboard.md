@@ -198,3 +198,5 @@ Troubleshooting
   - Take note of the fact that limit sensors and door sensors are not the same part. Make sure not to have swapped them.
 - Motion commands move the gantry but no lasing.
   - Make sure the chiller interlock and door interlocks are closed.
+- Cutting jobs get randomly interrupted and continue with somewhat erradic movement.
+  - This can be caused by electrical interference with the DriveBoard. Specifically a laser tube cable that is wired in close proximity can cause this. Also make sure all the DriveBoard's patch cables are shielded (SFTP).
