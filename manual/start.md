@@ -75,7 +75,7 @@ Run and Maintain
 
 Soon after assembly you will be cutting and engraving away. At this point you can easily service and maintain the system yourself. All the information is available to you in the Lasersaur manual and the mailing list. No need to call in support to fix failures and wait for service personnel to show up days and weeks later.
 
-You can depend on the rich knowledge of the Lasersaur community and not have to worry to much about a service company trying to sell you expensive replacement parts and servicing contracts. Ask you peers to get honest answers.
+You can depend on the rich knowledge of the Lasersaur community and not have to worry too much about a service company trying to sell you expensive replacement parts and servicing contracts. Ask your peers to get honest answers.
 
 * [Maintenance Guide](operation.md)
 * [Mailing List](https://groups.google.com/forum/#!forum/lasersaur)
