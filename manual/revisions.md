@@ -9,6 +9,9 @@ Roadmap
 
 Revisions
 ---------
+### Minor Model/Bom update
+  - changed y-drive shaft coupling MCKSC20-6-6 to MCSSC20-6-6
+  - readded a missing FWS-D19-V15.0-T1.0 to the BOM
 
 ### LasaurApp v14.11b
   - Improved compatibility with various SVG authoring apps.
