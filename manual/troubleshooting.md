@@ -1,4 +1,6 @@
 
+Complex systems can fail in prolific ways. This page serves as a collection of common problems and how to solve them. Alternatively search our [mailing list](https://groups.google.com/forum/#!forum/lasersaur) archive and also do not hessitate to post yourself.
+
 
 Cutting Precision and Sporadic Offsets
 --------------------------------------
