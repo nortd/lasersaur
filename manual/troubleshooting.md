@@ -2,16 +2,19 @@
 
 Cutting Precision and Sporadic Offsets
 --------------------------------------
-We have seen some common problems regarding cutting accuracy. Accuracy issues below 1mm are very often related to adjustment shortcomings at the belt and rollers. Accuracy issues above 1mm are evidence for deeper mechanical or electrical problems. 
+The following deals with some common problems regarding cutting accuracy. Accuracy issues below 1mm are very often related to adjustment shortcomings at the belt and rollers. Accuracy issues above 1mm are evidence for deeper mechanical or electrical problems. 
 
 ### Low Belt Tension
 This is probably the number one cause for small offsets (sub-mm). Due to the loose belt the cart has some wiggle room. Cuts in opposite direction will be offset to whatever range the loose belt allows. To fix make sure to increase the belt tension by repositioning the idler. Loosen the idler screw, push the idler screw outwards at its base with the help of a thin screw driver (which you slide in between extrusion and ball bearing), tighten firmly in new position.
+
+### Belt/Y-Cart Alignment
+The y-cart has two belts which assure the perpendicularity of this cart. The lack of alinment rotates the cart along its vertical center axis. Always make sure this cart is perpendicular to the rails. Especially adjusting y-belt tension can cause misalinment. To adjust, loosen one shaft coupling's set screw, push the y-cart all way back gainst its end stops, and retighten the set screw. 
 
 ### Shaft Slippage
 All the shaft coupling and pulleys which transfer the motor torque to the belt can potentially slip under heavy load. Make sure all the set screws are firmly tightened (without breaking their threading). Also make sure the shafts did not inadvertently get lubricated.
 
 ### Cart/Rail Misalignment
-Play between the roller of the x-cart or y-cart can cause Accuracy problems. In very bad cases this can even max-out the stepper motors and cause them to loose steps (see: [Stepper Motors Losing Steps](#stepper-motors-losing-steps)).
+Play between the rollers of the x-cart/y-cart and the rail can cause Accuracy problems. In very bad cases this can even max-out the stepper motors and cause them to loose steps (see: [Stepper Motors Losing Steps](#stepper-motors-losing-steps)). In minor cases it may reduces positioning accuracy. Generally make sure non of the carts and tilt around and firmly grab the rails with their roller ball bearings. The pressure on the rollers should be evenly distributed. This can be checked by manually rotating the rollers while they touch the rail. Resistance should be equal. Specifically check if the entire y-cart has left/right wiggle room. If yes, adjust corresponding rollers.
 
 
 - optical mis-alignment
