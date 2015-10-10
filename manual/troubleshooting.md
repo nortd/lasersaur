@@ -11,7 +11,7 @@ This is probably the number one cause for small offsets (sub-mm). Due to the loo
 All the shaft coupling and pulleys which transfer the motor torque to the belt can potentially slip under heavy load. Make sure all the set screws are firmly tightened (without breaking their threading). Also make sure the shafts did not inadvertently get lubricated.
 
 ### Cart/Rail Misalignment
-Play between the roller of the x-cart or y-cart can cause Accuracy problems. In very bad cases this can even max-out the stepper motors and cause them to loose steps (see: [Stepper Motors Losing Steps](#Stepper Motors Losing Steps)).
+Play between the roller of the x-cart or y-cart can cause Accuracy problems. In very bad cases this can even max-out the stepper motors and cause them to loose steps (see: [Stepper Motors Losing Steps](#stepper-motors-losing-steps)).
 
 
 - optical mis-alignment
