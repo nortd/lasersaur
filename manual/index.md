@@ -17,6 +17,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
 * Building Process
   * [Getting Started](start.md)
   * [Step-by-Step Build Instructions](build/)
+  * [Troubleshooting](troubleshooting.md)
   * [Accessories](accessories.md)
 * Operation
   * [Maintenance Guide](operation.md)
