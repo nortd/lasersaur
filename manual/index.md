@@ -25,6 +25,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [Laser Adjustments](laser_adjustments.md)
   * [Timing Belt Adjustments](timing_belts.md)
   * [LaserTags](lasertags.md)
+  * [Inkscape Template](inkscape.md)
 * Community
   * [Mailing List](https://groups.google.com/forum/#!forum/lasersaur) - join the discourse!
   * [Map of Builders](http://maps.google.com/maps/ms?msid=212793647571970047289.0004a1eb83351b9926511&msa=0) - add yourself!
