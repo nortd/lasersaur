@@ -15,7 +15,7 @@ Please use this schematic for wiring your Lasersaur. Many details are in the sma
 
 [svg](img/wiring-lasersaur-control.svg) | [high-res bitmap](img/wiring-lasersaur-control.jpg)
 
-<img src="img/wiring-lasersaur-control.jpg" style="100%">
+<img src="img/wiring-lasersaur-control.jpg" style="width:100%">
 
 
 
