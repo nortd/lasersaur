@@ -1,7 +1,9 @@
 DriveBoard
 ==========
 
-[Index](index.md) --
+[Index](index.md) -- Driveboard | [Wiring Guide](wiring.md)
+
+**NOTE**: We have detailed instructions and schematics on the [Wiring Guide](wiring.md) page.
 
 The DriveBoard is the main electronics board of the Lasersaur (successor of [LasaurShield](LasaurShield.md)). It interfaces all the electronics components and runs the [Lasersaur software](software.md). This makes the Lasersaur fully controllable from any modern web browser over the local network (ethernet, wifi). The software is modular (firmware, backend, frontend) and allows for simple hacking and modding. The board is z-axis ready but is typically only operated with the x- and y-axis stepper drivers and motors.
 
