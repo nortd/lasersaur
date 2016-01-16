@@ -11,7 +11,7 @@ The electronics subsystem consists of the [DriveBoard](driveboard.md) and its se
 Schematic
 ---------
 
-Please use this schematic for wiring your Lasersaur. Many details are in the small print and may require you too zoom in and/or download the hi-res version. Soldering/assembly instructions follow below.
+Please use this schematic for wiring your Lasersaur. Many details are in the small print and may require you to zoom in and/or download the hi-res version. Soldering/assembly instructions follow below.
 
 [svg](img/wiring-lasersaur-control.svg) | [high-res bitmap](img/wiring-lasersaur-control.jpg)
 
