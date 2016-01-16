@@ -96,7 +96,7 @@ The z-axis limit switches need to be disabled (shorted) when not being used (sta
 Checklist
 ---------
 
-1. Is the high-voltage wire (red wire to backside of tube) properly insulated with the insulation cover?
+1. Is the high-voltage wire (red wire to backside of tube) properly insulated with the insulation cover? Also is it wired as far as possible away from any other wires and low voltage logic?
 2. Are the AC wires properly insulated and is the Lasersaur frame grounded?
 3. Does the E-Stop turn off the machine?
 4. Has the chiller's water circulations been properly tested and is the tubing mounted in ways not to cause stress on the inlet and outlet ducts.
