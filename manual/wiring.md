@@ -70,6 +70,7 @@ The z-axis limit switches need to be disabled (shorted) when not being used (sta
   - green and orange **connect to** brown
   - blue and brown **connect to** red
   - white-brown and white-blue **connect to** yellow
+  - white **must not connect to** black (stepper will run too weak)
 
 ![x-stepper](img/wiring-x-stepper-01.jpg)
 ![x-stepper](img/wiring-x-stepper-02.jpg)
