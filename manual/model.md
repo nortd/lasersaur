@@ -81,7 +81,7 @@ Material is 3mm acrylic. NOTE: Double-check for inadvertent scaling in your SVG 
 DriveBoard PCB
 -------------------------
 
-The DriveBoard is designed in Fritzing, a cross-platform, opensource PCB design app. You are welcome to make chances to the board, add features, and generate your own job files. In the download you will also find prepared job files (gerbers) which you can send to most PCB manufacturing shops for production. You can also order an <a href="http://store.lasersaur.com/index.php?route=product/product&path=59&product_id=51">assembled and tested DriveBoard</a> from the Lasersaur store.
+The DriveBoard is designed in Fritzing, a cross-platform, opensource PCB design app. You are welcome to make changes to the board, add features, and generate your own job files. In the download you will also find prepared job files (gerbers) which you can send to most PCB manufacturing shops for production. You can also order an <a href="http://store.lasersaur.com/index.php?route=product/product&path=59&product_id=52">assembled and tested DriveBoard</a> from the Lasersaur store.
 
 <table>
 <tr><td>
