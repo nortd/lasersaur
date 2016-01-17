@@ -57,9 +57,39 @@ Howto Create the LasaurBBB Image
 # activate with: sudo update-rc.d lasaurapp.sh defaults
 # deactivate with: sudo update-rc.d -f lasaurapp.sh remove
 
-if test "$1" = "start"
-then
+LASAURAPP="/root/LasaurApp/backend/app.py"
+LASAURPROC="LasaurApp\/backend\/app\.py"
+
+case "$1" in
+    start)
     echo "Starting LasaurApp ..."
-    /usr/bin/python /root/LasaurApp/backend/app.py -p --beaglebone
-fi
+    /usr/bin/python $LASAURAPP -p --beaglebone
+    ;;
+
+    stop)
+    echo "Stopping LasaurApp ..."
+    ps ax | awk "/$LASAURPROC/ "'{ system("kill " $1) }'
+    ;;
+
+    restart)
+    echo "Restarting LasaurApp ..."
+    echo "Stopping LasaurApp ..."
+    ps ax | awk "/$LASAURPROC/ "'{ system("kill " $1) }'
+    echo "Starting LasaurApp ..."
+    /usr/bin/python $LASAURAPP -p --beaglebone
+    ;;
+
+    debug)
+    echo "Restarting LasaurApp in debug mode..."
+    echo "Stopping LasaurApp ..."
+    ps ax | awk "/$LASAURPROC/ "'{ system("kill " $1) }'
+    echo "Starting LasaurApp ..."
+    /usr/bin/python $LASAURAPP -p --beaglebone --debug
+    ;;
+
+    *)
+    echo "Usage: /etc/init.d/lasersaur {start|stop|restart|debug}" >&2
+    exit 1
+
+esac
 ```
