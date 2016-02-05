@@ -29,6 +29,7 @@ This manual is the main resource for both **building and maintaining** a Lasersa
   * [Inkscape Template](inkscape.md)
 * Community
   * [Mailing List](https://groups.google.com/forum/#!forum/lasersaur) - join the discourse!
+  * [IRC Chat](http://webchat.freenode.net/?channels=lasersaur) - irc.freenode.net #lasersaur
   * [Map of Builders](http://maps.google.com/maps/ms?msid=212793647571970047289.0004a1eb83351b9926511&msa=0) - add yourself!
   * [Flickr Group](http://www.flickr.com/groups/lasersaur/) - add your images!
   * [Vimeo Videos](https://vimeo.com/search/sort:date/format:thumbnail?q=lasersaur) - tag your videos "lasersaur"
