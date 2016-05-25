@@ -3,7 +3,4 @@ title: lasaurapp
 layout: manual
 ---
 
-LasaurApp
-=========
-
-**OLD PAGE**, see [LasaurApp](software#lasaurapp)
+[page moved here](https://github.com/nortd/lasersaur/wiki/lasaurapp)
