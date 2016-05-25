@@ -1,0 +1,315 @@
+
+/*********************************************************************
+** General Tags
+**************/
+
+/* using custom font, more info here:
+/* http://www.google.com/webfonts/family?family=Ubuntu&subset=latin */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:light&subset=latin);
+
+
+html {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+    border:none;
+    font-size:100%;  /*IE bugfix*/
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+    color: #4f4b51;
+    background-color: #ffffff;
+    font-family: Ubuntu, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, sans-serif;
+    font-size: 1.0em;  /*by default 1em is 16px*/
+    font-weight: 300;
+}
+
+table {empty-cells:show; margin:0px; padding:0px; width:100%; height:100%;}
+
+p { margin:0 0 1em 0; padding-bottom:.3em; }
+br { margin: 0 0 1em 0; line-height:2em;}
+img { border:0px; }
+i {color:#000000;}
+tt { font-size: 1.3em; color:#888888;}
+pre { font-size: 1.3em;}
+
+
+
+/** LINKS **********************/
+
+a {text-decoration:none;}
+a:link { color:#1489b5; font-weight:300;}
+a:visited { color:#1489b5; font-weight:300;}
+a:hover { color:#1489b5; text-decoration:underline;}
+a:active { color:#f80168;}
+
+
+/** LISTS **********************/
+
+ol {list-style-type: decimal}
+ol ol {list-style-type: decimal}
+ol ol ol {list-style-type: decimal}
+ol ol ol ol {list-style-type: decimal}
+
+
+
+/** HEADERS **********************/
+
+h1 {
+  font-size: 2.8em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-bottom:30px;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-top:30px;
+  margin-bottom:15px;  
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-top:20px;
+  margin-bottom:10px;     
+}
+
+
+h4 {
+  font-size: 0.9em;
+  font-weight: normal;
+  color:#444444;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+h5 {
+  font-size: 0.9em;
+  color:#444444;
+  font-style: italic;
+  font-weight: normal;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+
+
+
+/*********************************************************************
+** Specific Tags
+***************/
+
+.darkred {color:#46130D}
+.dirtypink {color:#D23954}
+.pink {color:#FF0062}
+.warmgray {color:#403B38}
+.darkyellow {color:#BFA119}
+.lightblue {color:#dcedfd}
+
+a.wikilink_new { color:#ff0000; background-color:#ffffff; }
+a.wikilink_new:link { color:#ff0000; background-color:#ffffff; }
+a.wikilink_new:hover {text-decoration:underline; }
+
+
+/*** Nav bar styles ***/
+
+a.menu {text-decoration:none;}
+a.menu:link { color:#1489b5; font-weight:300;}
+a.menu:visited { color:#1489b5; font-weight:300;}
+a.menu:hover { color:#ffffff; background-color:#1489b5; /*background-color:#8b9e91;*/ }
+a.menu:active { color:#1489b5;}
+
+a.menuhighlight {text-decoration:none; color:#4f4b51; font-weight:bold;}
+a.menuhighlight:link { color:#4f4b51; font-weight:normal;}
+a.menuhighlight:visited { color:#4f4b51; font-weight:normal;}
+a.menuhighlight:hover { color:#ffffff; background-color:#1489b5; font-weight:normal;}
+a.menuhighlight:active { color:#4f4b51; font-weight:normal;}
+
+
+/* for sticky footer
+*  using a push div
+*  see http://ryanfait.com/sticky-footer/ */
+div.container { 
+	min-height:100%;
+	height:auto !important;
+	height:100%; /* IE6: treaded as min-height*/
+	padding-left:60px;
+	margin: 0 auto -200px; /* same magnitude as footer and push height */
+}
+div.footer, div.push {
+  height:200px;
+}
+div.footer table tr td div {
+  font-size: 9px;
+}
+
+
+div.content {
+    font-size: 0.8em;
+    line-height:1.4em;
+    max-width:640px; 
+}
+@media only screen and (min-device-width: 480px) {  /*iPhone specific*/
+  margin:5px;
+  margin-top:100px;
+}
+
+div.footer {
+  width:100%; 
+  background-image:url('/images/gradient-200-80-reverse.png'); background-repeat:repeat-x;
+  font-size:0.7em;
+}
+div.footer table {
+  height:160px; width:750px; padding-left:60px;
+}
+div.footer table tr td {
+  vertical-align:bottom;
+}
+div.footer table tr td div {
+  font-family: Monaco, Courier New, monospace;
+  font-size:9px;
+}
+
+
+table.nav {
+  height:180px;
+}
+table.nav tr td {
+  width:180px;
+  vertical-align:top;
+  font-size: 0.8em;
+}
+table.nav tr td ul {
+	margin: 0; padding: 0;
+	list-style-type: none;
+}
+table.nav tr td ul li {
+	padding-bottom: 2px;
+}
+
+
+
+div.wire {
+    margin-top:10px;
+    margin-bottom:15px;
+    padding:20px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    border:2px solid #999999;
+}
+
+div.block {
+    font-size:1.2em;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:20px;
+    padding-bottom:25px;
+    background-image:url('/images/gradient-200-80.png');
+    background-repeat:repeat-x;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    /*border:1px dashed #333;*/
+}
+
+div.blockred {
+    font-size:1.2em;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:20px;
+    padding-bottom:25px;
+    color:#dddddd;
+    background-image:url('/images/gradient-red-200-80.png');
+    background-repeat:repeat-x;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    /*border:1px dashed #333;*/
+}
+
+pre.prettyprint {
+    font-size:1.2em;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:20px;
+    padding-bottom:25px;
+    background-image:url('/images/gradient-200-238.png');
+    background-repeat:repeat-x;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+
+
+table.data {width:870px;}
+table.data tr td {padding-left:6px; padding-right:6px;}
+table.data tr td.odd {padding-left:6px; padding-right:6px;}
+table.data tr td.even {background-color:#f3f3f3;}
+table.data tr th {border-bottom:solid 1px #000000;}
+table.data tr td.last {padding-top:10px; border-top:solid 1px #000000;}
+div.toggle {display:none; position:absolute; max-width:400px; left:0px; top:20px; background-color:#ffffff; border: 1px solid  #000000; padding:10px;}
+div.csv {margin-top:10px; margin-bottom:60px;}
+.frame-gantry {color:#83bbff}
+.frame-table {color:#443858}
+.frame-bottom {color:#546883}
+.frame-top {color:#546883}
+.frame-door {color:#828ca3}
+.door-panels {color:#5c484c}
+.frame-panels {color:#431424}
+.optics-laser {color:#b9d551}
+.electronics {color:#ccb17f}
+.air-assist {color:#a3b693}
+.extraction {color:#a8968b}
+.x-cart {color:#9e4301}
+.x-drive {color:#bc652e}
+.y-cart {color:#650b01}
+.y-drive {color:#b72e22}
+
+div.frame-gantry {width:10px; height:10px; background-color:#83bbff; color:#ffffff;}
+div.frame-table {width:10px; height:10px; background-color:#443858; color:#ffffff;}
+div.frame-bottom {width:10px; height:10px; background-color:#546883; color:#ffffff;}
+div.frame-top {width:10px; height:10px; background-color:#546883; color:#ffffff;}
+div.frame-door {width:10px; height:10px; background-color:#828ca3; color:#ffffff;}
+div.door-panels {width:10px; height:10px; background-color:#5c484c; color:#ffffff;}
+div.frame-panels {width:10px; height:10px; background-color:#431424; color:#ffffff;}
+div.optics-laser {width:10px; height:10px; background-color:#b9d551; color:#ffffff;}
+div.electronics {width:10px; height:10px; background-color:#ccb17f; color:#ffffff;}
+div.air-assist {width:10px; height:10px; background-color:#a3b693; color:#ffffff;}
+div.extraction {width:10px; height:10px; background-color:#a8968b; color:#ffffff;}
+div.x-cart {width:10px; height:10px; background-color:#9e4301; color:#ffffff;}
+div.x-drive {width:10px; height:10px; background-color:#bc652e; color:#ffffff;}
+div.y-cart {width:10px; height:10px; background-color:#650b01; color:#ffffff;}
+div.y-drive {width:10px; height:10px; background-color:#b72e22; color:#ffffff;}
+
+span.frame-gantry {width:10px; height:10px; background-color:#83bbff; color:#ffffff;}
+span.frame-table {width:10px; height:10px; background-color:#443858; color:#ffffff;}
+span.frame-bottom {width:10px; height:10px; background-color:#546883; color:#ffffff;}
+span.frame-top {width:10px; height:10px; background-color:#546883; color:#ffffff;}
+span.frame-door {width:10px; height:10px; background-color:#828ca3; color:#ffffff;}
+span.door-panels {width:10px; height:10px; background-color:#5c484c; color:#ffffff;}
+span.frame-panels {width:10px; height:10px; background-color:#431424; color:#ffffff;}
+span.optics-laser {width:10px; height:10px; background-color:#b9d551; color:#ffffff;}
+span.electronics {width:10px; height:10px; background-color:#ccb17f; color:#ffffff;}
+span.air-assist {width:10px; height:10px; background-color:#a3b693; color:#ffffff;}
+span.extraction {width:10px; height:10px; background-color:#a8968b; color:#ffffff;}
+span.x-cart {width:10px; height:10px; background-color:#9e4301; color:#ffffff;}
+span.x-drive {width:10px; height:10px; background-color:#bc652e; color:#ffffff;}
+span.y-cart {width:10px; height:10px; background-color:#650b01; color:#ffffff;}
+span.y-drive {width:10px; height:10px; background-color:#b72e22; color:#ffffff;}

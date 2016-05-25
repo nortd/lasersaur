@@ -1,0 +1,297 @@
+
+/*********************************************************************
+** General Tags
+**************/
+
+/* using custom font, more info here:
+/* http://www.google.com/webfonts/family?family=Ubuntu&subset=latin */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:light&subset=latin);
+
+
+html {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+    border:none;
+    font-size:100%;  /*IE bugfix*/
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:100%;
+    color: #4f4b51;
+    background-color: #ffffff;
+    font-family: Ubuntu, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, sans-serif;
+    font-size: 1.2em;  /*by default 1em is 16px*/
+    font-weight: 300;
+}
+
+table {
+  empty-cells:show; margin:0px; padding:0px; width:100%; height:100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-top:1.1em;
+  margin-bottom:1.4em;
+  border:2px solid #999999;
+}
+
+td {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 12px 24px;
+}
+
+p { margin:0 0 1em 0; padding-bottom:.3em; }
+br { margin: 0 0 1em 0; line-height:2em;}
+img { border:0px; }
+i {color:#000000;}
+tt { font-size: 1.3em; color:#888888;}
+
+pre {
+  font-size: 1.3em;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid rgb(221, 221, 221);
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+code {
+  white-space: nowrap;
+  margin: 0px 2px;
+  padding: 0px 5px;
+  border: 1px solid rgb(221, 221, 221);
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px 3px 3px 3px;
+}
+
+pre > code {
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border: medium none;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+/** LINKS **********************/
+
+a {text-decoration:none;}
+a:link { color:#1489b5; font-weight:300;}
+a:visited { color:#1489b5; font-weight:300;}
+a:hover { color:#1489b5; text-decoration:underline;}
+a:active { color:#f80168;}
+
+
+/** LISTS **********************/
+
+ol {list-style-type: decimal}
+ol ol {list-style-type: decimal}
+ol ol ol {list-style-type: decimal}
+ol ol ol ol {list-style-type: decimal}
+
+
+
+/** HEADERS **********************/
+
+h1 {
+  font-size: 2.8em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-bottom:30px;
+}
+
+h2 {
+  font-size: 2.2em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-top:1.4em;
+  margin-bottom:0.7em;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 300;
+  color:#333333;
+  padding:0px;
+  margin:0px;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+
+h4 {
+  font-size: 0.9em;
+  font-weight: normal;
+  color:#444444;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+
+h5 {
+  font-size: 0.9em;
+  color:#444444;
+  font-style: italic;
+  font-weight: normal;
+  margin-top:15px;
+  margin-bottom:5px;
+}
+
+
+
+/*********************************************************************
+** Specific Tags
+***************/
+
+.darkred {color:#46130D}
+.dirtypink {color:#D23954}
+.pink {color:#FF0062}
+.warmgray {color:#403B38}
+.darkyellow {color:#BFA119}
+.lightblue {color:#dcedfd}
+
+a.wikilink_new { color:#ff0000; background-color:#ffffff; }
+a.wikilink_new:link { color:#ff0000; background-color:#ffffff; }
+a.wikilink_new:hover {text-decoration:underline; }
+
+
+/*** Nav bar styles ***/
+
+a.menu {text-decoration:none;}
+a.menu:link { color:#1489b5; font-weight:300;}
+a.menu:visited { color:#1489b5; font-weight:300;}
+a.menu:hover { color:#ffffff; background-color:#1489b5; /*background-color:#8b9e91;*/ }
+a.menu:active { color:#1489b5;}
+
+a.menuhighlight {text-decoration:none; color:#4f4b51; font-weight:bold;}
+a.menuhighlight:link { color:#4f4b51; font-weight:normal;}
+a.menuhighlight:visited { color:#4f4b51; font-weight:normal;}
+a.menuhighlight:hover { color:#ffffff; background-color:#1489b5; font-weight:normal;}
+a.menuhighlight:active { color:#4f4b51; font-weight:normal;}
+
+
+/* for sticky footer
+*  using a push div
+*  see http://ryanfait.com/sticky-footer/ */
+div.container {
+  min-height:100%;
+  height:auto !important;
+  height:100%; /* IE6: treaded as min-height*/
+  padding-left:60px;
+  margin: 0 auto -200px; /* same magnitude as footer and push height */
+}
+div.footer, div.push {
+  height:200px;
+}
+
+div.content {
+    font-size: 0.8em;
+    line-height:1.4em;
+    max-width:800px;
+}
+@media only screen and (min-device-width: 480px) {  /*iPhone specific*/
+  margin:5px;
+  margin-top:100px;
+}
+
+div.footer {
+  width:100%;
+  background-image:url('/img/gradient-200-80-reverse.png'); background-repeat:repeat-x;
+  font-size:0.7em;
+}
+div.footer table {
+  height:160px; width:750px; margin-left:60px;
+}
+div.footer table tr td {
+  vertical-align:bottom;
+  border-width:0;
+  padding:6px;
+}
+div.footer table tr td div {
+  font-family: Monaco, Courier New, monospace;
+  font-size:10px;
+}
+
+
+div.nav {
+  float:left;
+  margin-top:0px;
+  margin-bottom:60px;
+  font-size: 0.8em;
+}
+div.nav tr td {
+  width:180px;
+  vertical-align:top;
+  font-size: 0.8em;
+}
+div.nav ul {
+  margin: 0; padding: 0;
+  list-style-type: none;
+}
+div.nav ul li {
+  padding-bottom: 2px;
+}
+
+
+
+.wire {
+  margin-top:10px;
+  margin-bottom:15px;
+  padding:20px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  border:2px solid #999999;
+}
+
+.block {
+  font-size:1.2em;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding:20px;
+  padding-bottom:25px;
+  background-image:url('/img/gradient-200-80.png');
+  background-repeat:repeat-x;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  /*border:1px dashed #333;*/
+}
+
+.blockred {
+  font-size:1.2em;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding:20px;
+  padding-bottom:25px;
+  color:#dddddd;
+  background-image:url('/img/gradient-red-200-80.png');
+  background-repeat:repeat-x;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+  /*border:1px dashed #333;*/
+}
+
+pre.prettyprint {
+  font-size:1.2em;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding:20px;
+  padding-bottom:25px;
+  background-image:url('/img/gradient-200-238.png');
+  background-repeat:repeat-x;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius: 5px;
+}

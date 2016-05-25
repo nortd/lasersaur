@@ -1,60 +1,184 @@
----
-layout: post
-title: Manual TOC
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lasersaur Manual</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/highlight.css">
+<link rel="stylesheet" href="css/blueberry.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.blueberry.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.blueberry').blueberry({
+      'interval':3000,
+      'duration': 1000,
+      'lineheight': 1,
+      'hoverpause': false,
+      'pager': true,
+      'kaynav': true,
+      'imgRatio': 1.6,
+    });
+  });
+</script>
+</head>
 
-Lasersaur Manual (beta)
-===============
+<body>
 
-This manual is the main resource for both **building and maintaining** a Lasersaur laser cutter. The basic idea is, when you build it you can easily maintain it. The other idea is that an open source design can improve over time through the collaboration of many people. We hope in three years it will have evolved to the point where it has multiple robotic arms sticking out capable of building space stations :) 
+<div class="container">
+  <div class="nav">
+    <ul>
+      <li><a class="menu menuhighlight" href="/">About Lasersaur</a></li>
+      <li><a class="menu" href="#feed">Feed this project</a></li>
+      <li><a class="menu" href="http://www.flickr.com/photos/stfnix/sets/72157624491114826/">Development Photos</a></li>
+      <li><a class="menu" href="/manual/">Lasersaur Manual</a></li>
+      <li><a class="menu" href="http://store.lasersaur.com/">Store</a></li>
+    </ul>
+  </div>
 
-![Lasersaur](http://farm9.staticflickr.com/8142/7139599325_1b7036b97e_n.jpg)![Lasersaur](http://farm9.staticflickr.com/8156/7139609703_b8134916f2_n.jpg)
+  <div style="position:absolute; top:260px; left:900px; width:228px">
+      <div style="width:128px; margin-bottom:20px">
+      <a href="/manual/"><img src="/img/lasersaur-manual.png" alt="Lasersaur Manual" border="0" /></a>
+      <div style="padding:10px; text-align:center">
+        <a href="/manual/">The Lasersaur Manual</a></div>
+      </div>
 
-* Specifications
-  * [System Overview](overview)
-  * [Bill of Materials](bom)
-  * [G-code Communication](gcode)
-  * [DriveBoard Electronics](driveboard) 
-  * [Revisions and Roadmap](revisions)
-* Building Process
-  * [Getting Started](start)
-  * [Build Instructions](assembly)
-  * [Setting up the Software](lasaurapp)
-  * [Accessories](accessories)
-* Operation
-  * [Running a Lasersaur](operation)
-  * [Adjusting the Optics](optics_setup)
-  * [Laser Adjustments](laser_adjustments)
-  * [Timing Belt Adjustments](timing_belts)
-  * [LaserTags](lasertags)
-* Community
-  * [Mailing List](https://groups.google.com/forum/#!forum/lasersaur) - join the discourse!
-  * [Map of Builders](http://maps.google.com/maps/ms?msid=212793647571970047289.0004a1eb83351b9926511&msa=0) - add yourself!
-  * [Flickr Group](http://www.flickr.com/groups/lasersaur/) - add your images!
-  * [Vimeo Videos](https://vimeo.com/search/sort:date/format:thumbnail?q=lasersaur) - tag your videos "lasersaur"
-  * [Materials List](https://sites.google.com/site/lasersaurmaterialswiki) - add your materials!
-  * ---
-  * [ITP's photo documentation](http://www.flickr.com/photos/greentulips/sets/72157630003201811/)
-  * [Pax Modern's photo documentation](http://www.flickr.com/photos/77171978@N02/sets/72157629442984600/)
-  * [CW&T's photo documentation](http://www.flickr.com/photos/cwwang/sets/72157630319998790/)
-* Downloads
-  * [LasaurApp](https://github.com/stefanix/LasaurApp)
-* Other Docs
-  * [Time-Lapse of the Build](http://vimeo.com/23935409)
-  * [more lasersaur pr0n](http://vimeo.com/23871399)
-  * [Old Step-by-Step Photo Instructions](http://www.flickr.com/photos/stfnix/sets/72157626580353027/)
-  * [Staging Area for new Manual Entries](staging_area)
-* History
-  * [Development Process](http://www.flickr.com/photos/stfnix/sets/72157624491114826/) and early prototyping 
-* Exclusive to Supporters
-  * CAD Model
-  * Extensive Mailing List
-  * Please consider [supporting the project](/lasersaur/#feed)
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/lasersaur"  data-widget-id="393505703161126912">Tweets by @lasersaur</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+  </div>
 
 
-<div class="wire">
-<span style="font-size:1.2em">DISCLAIMER:</span> Please be aware that operating a self-built laser cutter can be dangerous and requires full awareness of the risks involved. NORTD Labs does not warrant for any contents of the manual and does not assume any risks whatsoever with regard to the contents of this manual or the machine assembled by you. NORTD Labs further does not warrant for and does not assume any risks whatsoever with regard to any parts of the machine contained in this manual which are provided by third parties. You need to have the necessary experience in handling high-voltage electrical devices and class 4 laser beams to build the machine described in this manual. Otherwise you should seek professional advice for building the machine.
+  <div class="content" style="margin-top:80px; clear:both">
+
+    <div style="font-size:38px; padding-bottom:20px;">Lasersaur</div>
+
+    <div class="blueberry">
+     <ul class="slides">
+       <li><img src="http://farm9.staticflickr.com/8105/8468620403_45661dca74_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8506/8469714592_d3d3050b61_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8238/8492324611_5b595910a1_c.jpg"></li>
+       <li><img src="http://farm8.staticflickr.com/7058/6863614096_41c32fcf26_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8049/8413517969_57d6b131cc_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8369/8492332460_8e037d1aee_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8081/8414619512_190b059209_c.jpg"></li>
+       <li><img src="http://farm9.staticflickr.com/8164/7119388521_c015898dd3_c.jpg"></li>
+     </ul>
+    </div>
+
+    <p style="font-size:1.5em; line-height:1.3em">
+    The Lasersaur is an open source laser cutter with outstanding price-performance ratio.
+    We designed it to fill the need of makers, designers, architects and researchers who want a safe and
+    highly-capable machine. Unlike others it comes fully loaded with knowledge to run, maintain, and modify.
+    </p>
+
+    <table class="rounded" style="text-align:center; font-size:1.2em; padding-top:0; padding-bottom:0; border-collapse:separate; border-radius:5px;">
+      <tr>
+        <td style="border-top:none;border-left:none">What can it cut?</td>
+        <td style="border-top:none;border-right:none">
+          <a href="https://vimeo.com/123456664">Material Rundown Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-left:none">How can I get one?</td>
+        <td style="border-right:none">
+          <ul style="list-style-type:none">
+            <li>Read the <a href="/manual/start">starter page</a>.</li>
+            <li>Order <a href="/manual/bom">parts</a>.</li>
+            <li>Follow the <a href="/manual/build">step-by-step build guide</a>.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-left:none">Who has already built a 'saur?</td>
+        <td style="border-right:none">
+          <ul style="list-style-type:none">
+            <li><a href='https://www.google.com/maps/d/edit?mid=zj_7CXA517Lw.kW51tDSfWwTM'>Lot of us!</a></li>
+            <li>Hacker spaces all over the world.</li>
+            <li>Students at CMU, NYU, MIT, ETH et al.</li>
+            <li>Designers and Architects.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-bottom:none;border-left:none">Who started it?</td>
+        <td style="border-bottom:none;border-right:none">
+          <a href="http://labs.nortd.com/about/">We did.</a>
+        </td>
+      </tr>
+    </table>
+
+
+    <a name="feed"></a>
+    <h2>Feed this Project</h2>
+    <p>
+    This projects depends on support by the wider Lasersaur community.
+    We take money thankfully and invest it in the advancement of this project.
+    Specifically we work on software upgrades, answer support questions on the
+    mailing list, and keep the information on this website current.
+    Your contribution makes a difference and keeps the project healthy.
+    </p>
+
+    <div class="wire" style="text-align:left">
+        <div style="float:right; margin:15px">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="FKCB2SKWY2664">
+            <input type="hidden" name="lc" value="US">
+            <input type="image" src="http://labs.nortd.com/images/paypal-feed-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <b style="font-size:1.3em">$32 Project Support: </b>
+        Support the project and get automatic write access to the community mailing list.
+    </div>
+
+    <div class="wire" style="text-align:left">
+        <div style="float:right; margin:15px">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="BV38JD3WZG5L4">
+            <input type="hidden" name="lc" value="US">
+            <input type="image" src="http://labs.nortd.com/images/paypal-feed-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <b style="font-size:1.3em">$(any) Project Support: </b>
+        Simply want to support the project? Rad! We promise any amount donated will go directly to support the Lasersaur community. If you would like, please include your snail mail address and a note for 'awesome stickers' and we will mail them to your door as a small gesture of our immense appreciation.
+    </div>
+
+    <div class="wire" style="text-align:left">
+        <b style="font-size:1.3em">We Accept Bitcoin!</b> Please send project support to: <i>19HFotfDymPcsdzU7fVhXYW5iJpTpWKt8p</i>
+    </div>
+
+
+    <a name="credits"></a>
+    <h2>Credits</h2>
+    Mad props to <a href="http://reprap.org/" rel="nofollow">reprap.org</a>, <a href="http://www.cnczone.com/" rel="nofollow">www.cnczone.com</a>, <a href="http://arduino.cc/" rel="nofollow">arduino.cc</a>, <a href="https://github.com/simen/grbl" rel="nofollow">grbl</a>, <a href="http://buildlog.org/" rel="nofollow">buildlog.org</a>, and their giants' shoulders.
+
+    <h2>Special Thanks</h2>
+    <a href="http://studioforcreativeinquiry.org">Studio for Creative Inquiry at Carnegie Mellon University</a>,
+    <a href="http://www.ncl.ac.uk/culturelab/">Culture Lab at Newcastle University</a>,
+    <a href="http://www.hyperwerk.ch/">Hyperwerk in Basel</a>
+
+
+  </div>
+  <div class="push"></div>
 </div>
 
+<div class="footer">
+  <table style="border-width:0">
+  <tr>
+  <td style="width:40px">
+    <a class="menu" href="http://labs.nortd.com"><img src="/img/nortd-cupid-hearts-darkgray.png" width="40"></a>
+  </td>
+  <td>
+    <div>Lasersaur is an open source project by <a class="menu" href="http://labs.nortd.com">Nortd Labs</a>.</div>
+    <div>We generate work in the area of art, architecture, and system design.</div>
+  </td>
+  </tr>
+  </table>
+</div>
 
-
+</body>
+</html>
