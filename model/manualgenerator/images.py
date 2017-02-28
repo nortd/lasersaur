@@ -1,4 +1,14 @@
+"""
+Generate build manual images.
+
+1. set last view tab to the wanted rendering mode
+   (as ViewDisplayMode is not implemented in Python)
+2. make Rhino viewport square for ZoomExtents to work best
+
+"""
+
 import os
+import shutil
 import rhinoscriptsyntax as rs
 
 import utils
@@ -9,18 +19,26 @@ reload(config)
 conf = config.conf
 
 
-docpath = rs.DocumentPath()
-docdir, docname = os.path.split(docpath)
+# docpath = rs.DocumentPath()
+# docdir, docname = os.path.split(docpath)
+
+thislocation = os.path.dirname(os.path.realpath(__file__))
+outputdir = os.path.join(conf['outputdir'], 'img')
 
 views = rs.ViewNames()   # ['Left', 'Front', 'Top', 'Perspective']
 
 
 
+def clear_img_dir():
+    print "clearing: %s" % (outputdir)
+    if os.path.exists(outputdir):
+        shutil.rmtree(outputdir)
+
+
 def create_view_image(name, w=1600, h=900):
-    imgpath = os.path.join(conf['outputdir'], 'img')
-    imgfile = os.path.join(imgpath, name)
-    if not os.path.exists(imgpath):
-        os.makedirs(imgpath)
+    imgfile = os.path.join(outputdir, name)
+    if not os.path.exists(outputdir):
+        os.makedirs(outputdir)
     rs.Command("_-ViewCaptureToFile " + imgfile + " Width="+str(w)+" Height="+str(h)+" Scale=1 DrawingGrid=No DrawWorldAxes=No DrawCPlaneAxes=No TransparentBackground=Yes _Enter")
     # was unable to generate shaded view with CreatePreviewImage
     # rs.CreatePreviewImage(imgfile, view="Perspective", size=[1000,2000], flags=0, wireframe=False)
@@ -143,16 +161,15 @@ def generate_part_images(structure):
             for partkind,vvv in vv.items():
                 rs.ShowObject(vvv)
             rs.LayerVisible(step, False)
-        utils.show_children(subsystem)  #TODO: only the ones prev shown
+        # utils.show_children(subsystem)
+        utils.show_step_children(subsystem)
     utils.show_blocks()
     utils.show_subsystems()
     rs.ZoomExtents()
 
 
-### 1. set last view tab to the wanted rendering mode
-### (as ViewDisplayMode is not implemented in Python)
-### 2. make Rhino viewport square for ZoomExtents to work best
 
+clear_img_dir()
 # get CAD file structure
 structure = utils.get_structure()
 utils.structure_to_file(structure)
@@ -166,6 +183,3 @@ generate_part_images(structure)
 generate_step_images(structure)
 # restore view
 rs.CurrentView(view_to_restore)
-
-
-

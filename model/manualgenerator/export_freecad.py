@@ -11,7 +11,7 @@ docpath = rs.DocumentPath()
 docdir, docname = os.path.split(docpath)
 # outdir = os.path.join(docdir, "export_step")
 outdir = os.path.join("E:\lasersaur_stuff", "export_step")
-                   
+
 
 def structure_to_file(structure):
     struc = collections.OrderedDict()
@@ -24,7 +24,7 @@ def structure_to_file(structure):
 
     with open(os.path.join(outdir,"structure.json"), 'w') as fp:
         json.dump(struc,fp)
-        
+
 
 def export(structure):
     # create output dir if not exists
@@ -37,7 +37,7 @@ def export(structure):
     utils.show_subsystems()
     rs.ZoomExtents()
     utils.hide_subsystems()
-    utils.hide_non_subsystems()                        
+    utils.hide_non_subsystems()
     for subsystem,v in structure.items():
         utils.show_only(subsystem)
         for step,vv in v.items():

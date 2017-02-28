@@ -9,10 +9,10 @@ reload(config)
 conf = config.conf
 
 
-thislocation = os.path.dirname(os.path.abspath(__file__))
+thislocation = os.path.dirname(os.path.realpath(__file__))
 
 # hack
-conf['outputdir'] = '/home/noema/Shared/lasersaur_stuff/manual'
+# conf['conf['outputdir']'] = '/home/noema/Shared/lasersaur_stuff/manual'
 
 
 def get_text_index():
@@ -332,18 +332,24 @@ def copy_static_files():
     src_js = os.path.join(thislocation, 'js')
     src_css = os.path.join(thislocation, 'css')
     src_img = os.path.join(thislocation, 'img')
+    src_fonts = os.path.join(thislocation, 'fonts')
     dst_js = os.path.join(conf['outputdir'], 'js')
     dst_css = os.path.join(conf['outputdir'], 'css')
     dst_img = os.path.join(conf['outputdir'], 'img')
+    dst_fonts = os.path.join(conf['outputdir'], 'fonts')
     print "js: %s \n\t-> %s" % (src_js, dst_js)
     print "css: %s \n\t-> %s" % (src_css, dst_css)
+    print "fonts: %s \n\t-> %s" % (src_fonts, dst_fonts)
     if os.path.exists(dst_js):
         shutil.rmtree(dst_js)
     if os.path.exists(dst_css):
         shutil.rmtree(dst_css)
+    if os.path.exists(dst_fonts):
+        shutil.rmtree(dst_fonts)
     shutil.copytree(src_js, dst_js)
     shutil.copytree(src_css, dst_css)
     shutil.copy(os.path.join(src_img, 'logo.png'), dst_img)
+    shutil.copytree(src_fonts, dst_fonts)
 
 
 with open(os.path.join(conf['outputdir'], conf['struct_file'])) as fp:

@@ -1,6 +1,9 @@
 
 import os
 
+thislocation = os.path.dirname(os.path.realpath(__file__))
+outputdir = os.path.abspath(os.path.join(thislocation, '..', '..', 'manual', 'build-new'))
+
 version = "v17.03"
 
 conf = {
@@ -32,7 +35,8 @@ conf = {
     "front_view": "Front",        #
     "back_view": "Back",          #
     "persp_view": "for manual",  #
-    "outputdir": os.path.join("E:\lasersaur_stuff", "manual"),
+    # "outputdir": os.path.join("E:\lasersaur_stuff", "manual"),
+    "outputdir": outputdir,
     "struct_file": "structure.json",
     "step_file_pat": "step_%s.html",              # %s is step numeral, eg: 2.3
 

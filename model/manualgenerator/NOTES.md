@@ -1,4 +1,10 @@
 
+HOWTO USE
+---------
+
+# run images.py from Rhino with CAD model
+# run html.py normally
+
 
 TODO
 ----

@@ -83,6 +83,10 @@ def get_step_children(layer):
         sublayers.append(sublayerdict[k])
     return sublayers
 
+def show_step_children(layer):
+    step_layers = get_step_children(layer)
+    for l in step_layers:
+        rs.LayerVisible(l, True)
 
 
 def get_layer_tail(layer):
