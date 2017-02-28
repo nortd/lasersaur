@@ -148,6 +148,8 @@ def structure_to_file(structure):
             for partkind,vvv in vv.items():
                 struc[subsystem][step][partkind] = len(vvv)
 
+    if not os.path.exists(conf['outputdir']):
+        os.makedirs(conf['outputdir'])
     with open(os.path.join(conf['outputdir'], conf['struct_file']), 'w') as fp:
         json.dump(struc,fp)
 
