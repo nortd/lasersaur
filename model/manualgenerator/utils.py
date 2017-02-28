@@ -4,8 +4,9 @@ import json
 import collections
 import rhinoscriptsyntax as rs
 
-from config import conf
-
+import config
+reload(config)
+conf = config.conf
 
 
 def show_blocks():
