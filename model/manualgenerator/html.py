@@ -85,7 +85,7 @@ def index(structure):
     with open('template.html') as fp:
         template = fp.read()
     first_step_file = conf['step_file_pat'] % ('1.1')
-    header = '<h1><a href="%s" class="btn btn-primary btn-lg">Start building your Lasersaur</a> <button type="button" class="btn btn-xs btn-default" disabled="disabled">%s</button></h1>' % (first_step_file, conf['version'])
+    header = '<h1><a id="next_btn" href="%s" class="btn btn-primary btn-lg">Start building your Lasersaur</a> <button type="button" class="btn btn-xs btn-default" disabled="disabled">%s</button></h1>' % (first_step_file, conf['version'])
     html = template % {'title':conf['main_header'],
                        'header':header,
                        'content':"".join(html),
@@ -119,10 +119,10 @@ def subsystems(structure):
         nextlink = 'dummy'
         nav = []
         nav.append('<ul class="list-inline">')
-        nav.append('<li style="margin-right:40px; padding-right:0"><a href="index.html" class="btn btn-default btn-lg">index</a></li>')
+        nav.append('<li style="margin-right:40px; padding-right:0"><a id="up_btn" href="index.html" class="btn btn-default btn-lg">index</a></li>')
         nav.append('<li><a class="btn btn-default btn-lg" disabled="disabled">%s</a></li>' % (subsystem.split('.')[-1]))
         firststep_link = conf['step_file_pat'] % (str(iSub+1)+'.1')
-        nav.append('<li><a href="%s" class="btn btn-primary btn-lg">start</a></li>' % (firststep_link))
+        nav.append('<li><a id="next_btn" href="%s" class="btn btn-primary btn-lg">start</a></li>' % (firststep_link))
         nav.append('</ul>')
         content = []
         content.append('<ul class="list-inline">')
@@ -184,7 +184,7 @@ def steps(structure):
                 # prevfile = subsystem+'.html'
             else:
                 prevfile = 'index.html'
-        prevlink = '<a href="%s" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>' % (prevfile)
+        prevlink = '<a id="prev_btn" href="%s" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>' % (prevfile)
         # next link
         subsystem = structure.keys()[iSub]
         if subsystem in conf['build_apart']: nSteps = len(v)+1
@@ -199,11 +199,11 @@ def steps(structure):
                 # nextfile = nextsubsystem+'.html'
             else:
                 nextfile = 'index.html'
-        nextlink = '<a href="%s" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>' % (nextfile)
+        nextlink = '<a  id="next_btn" href="%s" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>' % (nextfile)
         # assemble nav buttons
         nav = []
         nav.append('<ul class="list-inline" style="margin-left:10px">')
-        nav.append('<li style="margin-right:40px"><a href="%s.html" class="btn btn-default btn-lg">%s</a></li>' % (subsystem, subsystem.split('.')[-1]))
+        nav.append('<li style="margin-right:40px"><a id="up_btn" href="%s.html" class="btn btn-default btn-lg">%s</a></li>' % (subsystem, subsystem.split('.')[-1]))
         nav.append('<li>%s</li>' % (prevlink))
         nav.append('<li><a class="btn btn-default btn-lg" disabled="disabled">step %s</a></li>' % (stepnumeral))
         nav.append('<li>%s</li>' % (nextlink))
@@ -268,6 +268,7 @@ def resize_images():
     import Image
     def _imgresize(src, w, suffix='_thumb'):
         # dst to match part_img_persp_thumb
+        print "image resizing: %s" % src
         image = Image.open(src)
         h = int((float(w)/image.size[0])*image.size[1])
         image = image.resize((w,h), Image.ANTIALIAS)
@@ -332,10 +333,12 @@ def copy_static_files():
     src_js = os.path.join(thislocation, 'js')
     src_css = os.path.join(thislocation, 'css')
     src_img = os.path.join(thislocation, 'img')
+    src_img_extra = os.path.join(thislocation, 'img_extra')
     src_fonts = os.path.join(thislocation, 'fonts')
     dst_js = os.path.join(conf['outputdir'], 'js')
     dst_css = os.path.join(conf['outputdir'], 'css')
     dst_img = os.path.join(conf['outputdir'], 'img')
+    dst_img_extra = os.path.join(conf['outputdir'], 'img_extra')
     dst_fonts = os.path.join(conf['outputdir'], 'fonts')
     print "js: %s \n\t-> %s" % (src_js, dst_js)
     print "css: %s \n\t-> %s" % (src_css, dst_css)
@@ -346,9 +349,12 @@ def copy_static_files():
         shutil.rmtree(dst_css)
     if os.path.exists(dst_fonts):
         shutil.rmtree(dst_fonts)
+    if os.path.exists(dst_img_extra):
+        shutil.rmtree(dst_img_extra)
     shutil.copytree(src_js, dst_js)
     shutil.copytree(src_css, dst_css)
     shutil.copy(os.path.join(src_img, 'logo.png'), dst_img)
+    shutil.copytree(src_img_extra, dst_img_extra)
     shutil.copytree(src_fonts, dst_fonts)
 
 
@@ -358,5 +364,5 @@ with open(os.path.join(conf['outputdir'], conf['struct_file'])) as fp:
 index(struct)
 subsystems(struct)
 steps(struct)
-resize_images()
-copy_static_files()
+# resize_images()
+# copy_static_files()

@@ -179,7 +179,7 @@ view_to_restore = rs.CurrentView()
 size = rs.ViewSize()
 view_aspect = size[0]/float(size[1])
 # generate images
-generate_part_images(structure)
 generate_step_images(structure)
+generate_part_images(structure)
 # restore view
 rs.CurrentView(view_to_restore)

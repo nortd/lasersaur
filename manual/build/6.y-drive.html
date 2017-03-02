@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
-    <title>Lasersaur v14.03 Build Instructions</title>
+    <title>Lasersaur v17.03 Build Instructions</title>
 
 
 
@@ -16,6 +16,56 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousetrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('#prev_btn').attr('title', 'Hotkey: LEFT')
+      Mousetrap.bind(['left'], function(e) {
+        $('#prev_btn')[0].click()
+        return false
+      })
+      $('#next_btn').attr('title', 'Hotkey: RIGHT')
+      Mousetrap.bind(['right'], function(e) {
+        $('#next_btn')[0].click()
+        return false
+      })
+      // $('#up_btn').attr('title', 'Hotkey: UP')
+      // Mousetrap.bind(['up'], function(e) {
+      //   $('#up_btn')[0].click()
+      //   return false
+      // })
+      $('#persp_btn').attr('title', 'Hotkey: P')
+      Mousetrap.bind(['p'], function(e) {
+        $('#persp_btn')[0].click()
+        return false
+      })
+      $('#top_btn').attr('title', 'Hotkey: T')
+      Mousetrap.bind(['t'], function(e) {
+        $('#top_btn')[0].click()
+        return false
+      })
+      $('#front_btn').attr('title', 'Hotkey: F')
+      Mousetrap.bind(['f'], function(e) {
+        $('#front_btn')[0].click()
+        return false
+      })
+      $('#right_btn').attr('title', 'Hotkey: R')
+      Mousetrap.bind(['r'], function(e) {
+        $('#right_btn')[0].click()
+        return false
+      })
+      $('#prevview_btn').attr('title', 'Hotkey: SHIFT+LEFT')
+      Mousetrap.bind(['shift+left'], function(e) {
+        $('#prevview_btn')[0].click()
+        return false
+      })
+      $('#nextview_btn').attr('title', 'Hotkey: SHIFT+RIGHT')
+      Mousetrap.bind(['shift+right'], function(e) {
+        $('#nextview_btn')[0].click()
+        return false
+      })
+    })
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,24 +73,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  
+
 
   </head>
 
   <body>
     <div class="container-fluid" style="">
-      <a href="https://github.com/nortd/lasersaur/wiki/" class="hidden-xs"><img src="img/logo.png" style="float:right; margin-right:15px"></a>
+      <a href="http://www.lasersaur.com/manual/" class="hidden-xs"><img src="img/logo.png" style="float:right; margin-right:15px"></a>
       <div class="nav-header">
-        <ul class="list-inline"><li style="margin-right:40px; padding-right:0"><a href="index.html" class="btn btn-default btn-lg">index</a></li><li><a class="btn btn-default btn-lg" disabled="disabled">y-drive</a></li><li><a href="step_6.1.html" class="btn btn-primary btn-lg">start</a></li></ul>
+        <ul class="list-inline"><li style="margin-right:40px; padding-right:0"><a id="up_btn" href="index.html" class="btn btn-default btn-lg">index</a></li><li><a class="btn btn-default btn-lg" disabled="disabled">y-drive</a></li><li><a id="next_btn" href="step_6.1.html" class="btn btn-primary btn-lg">start</a></li></ul>
       </div>
       <ul class="list-inline"><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.1</h3></div><div class="panel-body"><a href="step_6.1.html"><img src="img/step.6.1.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.2</h3></div><div class="panel-body"><a href="step_6.2.html"><img src="img/step.6.2.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.3</h3></div><div class="panel-body"><a href="step_6.3.html"><img src="img/step.6.3.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.4</h3></div><div class="panel-body"><a href="step_6.4.html"><img src="img/step.6.4.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.5</h3></div><div class="panel-body"><a href="step_6.5.html"><img src="img/step.6.5.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.6</h3></div><div class="panel-body"><a href="step_6.6.html"><img src="img/step.6.6.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.7</h3></div><div class="panel-body"><a href="step_6.7.html"><img src="img/step.6.7.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.8</h3></div><div class="panel-body"><a href="step_6.8.html"><img src="img/step.6.8.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.9</h3></div><div class="panel-body"><a href="step_6.9.html"><img src="img/step.6.9.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.10</h3></div><div class="panel-body"><a href="step_6.10.html"><img src="img/step.6.10.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.11</h3></div><div class="panel-body"><a href="step_6.11.html"><img src="img/step.6.11.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.12</h3></div><div class="panel-body"><a href="step_6.12.html"><img src="img/step.6.12.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.13</h3></div><div class="panel-body"><a href="step_6.13.html"><img src="img/step.6.13.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.14</h3></div><div class="panel-body"><a href="step_6.14.html"><img src="img/step.6.14.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.15</h3></div><div class="panel-body"><a href="step_6.15.html"><img src="img/step.6.15.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.16</h3></div><div class="panel-body"><a href="step_6.16.html"><img src="img/step.6.16.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.17</h3></div><div class="panel-body"><a href="step_6.17.html"><img src="img/step.6.17.persp_thumb.png" width="300px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">step 6.18</h3></div><div class="panel-body"><a href="step_6.18.html"><img src="img/step.6.18.persp_thumb.png" width="300px"></a></div></div></li></ul>
     </div>
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Lasersaur v14.03 Build Instructions - 
+        <p class="text-muted">Lasersaur v17.03 Build Instructions -
           <a href="http://creativecommons.org/licenses/by-sa/4.0/">(CC-BY-SA)</a>
-          2014 <a href="http://labs.nortd.com">Nortd Labs</a></p>
+          2017 <a href="http://labs.nortd.com">Nortd Labs</a></p>
       </div>
     </footer>
 

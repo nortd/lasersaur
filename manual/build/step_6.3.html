@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
-    <title>Lasersaur v14.03 Build Instructions</title>
+    <title>Lasersaur v17.03 Build Instructions</title>
 
 
 
@@ -16,6 +16,56 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousetrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('#prev_btn').attr('title', 'Hotkey: LEFT')
+      Mousetrap.bind(['left'], function(e) {
+        $('#prev_btn')[0].click()
+        return false
+      })
+      $('#next_btn').attr('title', 'Hotkey: RIGHT')
+      Mousetrap.bind(['right'], function(e) {
+        $('#next_btn')[0].click()
+        return false
+      })
+      // $('#up_btn').attr('title', 'Hotkey: UP')
+      // Mousetrap.bind(['up'], function(e) {
+      //   $('#up_btn')[0].click()
+      //   return false
+      // })
+      $('#persp_btn').attr('title', 'Hotkey: P')
+      Mousetrap.bind(['p'], function(e) {
+        $('#persp_btn')[0].click()
+        return false
+      })
+      $('#top_btn').attr('title', 'Hotkey: T')
+      Mousetrap.bind(['t'], function(e) {
+        $('#top_btn')[0].click()
+        return false
+      })
+      $('#front_btn').attr('title', 'Hotkey: F')
+      Mousetrap.bind(['f'], function(e) {
+        $('#front_btn')[0].click()
+        return false
+      })
+      $('#right_btn').attr('title', 'Hotkey: R')
+      Mousetrap.bind(['r'], function(e) {
+        $('#right_btn')[0].click()
+        return false
+      })
+      $('#prevview_btn').attr('title', 'Hotkey: SHIFT+LEFT')
+      Mousetrap.bind(['shift+left'], function(e) {
+        $('#prevview_btn')[0].click()
+        return false
+      })
+      $('#nextview_btn').attr('title', 'Hotkey: SHIFT+RIGHT')
+      Mousetrap.bind(['shift+right'], function(e) {
+        $('#nextview_btn')[0].click()
+        return false
+      })
+    })
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,24 +73,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  
+
 
   </head>
 
   <body>
     <div class="container-fluid" style="padding-left:0; padding-right:0">
-      <a href="https://github.com/nortd/lasersaur/wiki/" class="hidden-xs"><img src="img/logo.png" style="float:right; margin-right:15px"></a>
+      <a href="http://www.lasersaur.com/manual/" class="hidden-xs"><img src="img/logo.png" style="float:right; margin-right:15px"></a>
       <div class="nav-header">
-        <ul class="list-inline" style="margin-left:10px"><li style="margin-right:40px"><a href="6.y-drive.html" class="btn btn-default btn-lg">y-drive</a></li><li><a href="step_6.2.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a></li><li><a class="btn btn-default btn-lg" disabled="disabled">step 6.3</a></li><li><a href="step_6.4.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></li></ul>
+        <ul class="list-inline" style="margin-left:10px"><li style="margin-right:40px"><a id="up_btn" href="6.y-drive.html" class="btn btn-default btn-lg">y-drive</a></li><li><a id="prev_btn" href="step_6.2.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a></li><li><a class="btn btn-default btn-lg" disabled="disabled">step 6.3</a></li><li><a  id="next_btn" href="step_6.4.html" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></li></ul>
       </div>
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" 
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
      data-interval="false" data-keyboard="false" style="background-color:#999999">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li id="persp_btn" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li id="top_btn" data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li id="front_btn" data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li id="right_btn" data-target="#carousel-example-generic" data-slide-to="3"></li>
   </ol>
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -67,25 +117,26 @@
       <div class="carousel-caption">
         Right
       </div>
-    </div>            
+    </div>
   </div>
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a id="prevview_btn" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a id="nextview_btn" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div><div class="row" style="margin:0"><div class="col-md-6" style="padding:0"><table class="table table-striped"><tr><td>1x</td><td><img src="img/part.6.3_B626ZZ.persp_thumb.png" width="100"></td><td>B626ZZ</td></tr><tr><td>2x</td><td><img src="img/part.6.3_CB5-16.persp_thumb.png" width="100"></td><td>CB5-16</td></tr><tr><td>2x</td><td><img src="img/part.6.3_CB5-8.persp_thumb.png" width="100"></td><td>CB5-8</td></tr><tr><td>1x</td><td><img src="img/part.6.3_HBLSD5.persp_thumb.png" width="100"></td><td>HBLSD5</td></tr><tr><td>2x</td><td><img src="img/part.6.3_HNTPZ5-5.persp_thumb.png" width="100"></td><td>HNTPZ5-5</td></tr><tr><td>2x</td><td><img src="img/part.6.3_PACK-UNUT5.persp_thumb.png" width="100"></td><td>PACK-UNUT5</td></tr><tr><td>1x</td><td><img src="img/part.6.3_la-mpk-4.persp_thumb.png" width="100"></td><td>la-mpk-4</td></tr></table></div></div>
+</div>
+<div class="row" style="margin:0"><div class="col-md-6" style="padding:0"><table class="table table-striped"><tr><td>1x</td><td><img src="img/part.6.3_B626ZZ.persp_thumb.png" width="100"></td><td>B626ZZ</td></tr><tr><td>2x</td><td><img src="img/part.6.3_CB5-16.persp_thumb.png" width="100"></td><td>CB5-16</td></tr><tr><td>2x</td><td><img src="img/part.6.3_CB5-8.persp_thumb.png" width="100"></td><td>CB5-8</td></tr><tr><td>1x</td><td><img src="img/part.6.3_HBLSD5.persp_thumb.png" width="100"></td><td>HBLSD5</td></tr><tr><td>2x</td><td><img src="img/part.6.3_HNTPZ5-5.persp_thumb.png" width="100"></td><td>HNTPZ5-5</td></tr><tr><td>2x</td><td><img src="img/part.6.3_PACK-UNUT5.persp_thumb.png" width="100"></td><td>PACK-UNUT5</td></tr><tr><td>1x</td><td><img src="img/part.6.3_la-mpk-4.persp_thumb.png" width="100"></td><td>la-mpk-4</td></tr></table></div></div>
     </div>
 
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Lasersaur v14.03 Build Instructions - 
+        <p class="text-muted">Lasersaur v17.03 Build Instructions -
           <a href="http://creativecommons.org/licenses/by-sa/4.0/">(CC-BY-SA)</a>
-          2014 <a href="http://labs.nortd.com">Nortd Labs</a></p>
+          2017 <a href="http://labs.nortd.com">Nortd Labs</a></p>
       </div>
     </footer>
 

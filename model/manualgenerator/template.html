@@ -16,6 +16,56 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousetrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('#prev_btn').attr('title', 'Hotkey: LEFT')
+      Mousetrap.bind(['left'], function(e) {
+        $('#prev_btn')[0].click()
+        return false
+      })
+      $('#next_btn').attr('title', 'Hotkey: RIGHT')
+      Mousetrap.bind(['right'], function(e) {
+        $('#next_btn')[0].click()
+        return false
+      })
+      // $('#up_btn').attr('title', 'Hotkey: UP')
+      // Mousetrap.bind(['up'], function(e) {
+      //   $('#up_btn')[0].click()
+      //   return false
+      // })
+      $('#persp_btn').attr('title', 'Hotkey: P')
+      Mousetrap.bind(['p'], function(e) {
+        $('#persp_btn')[0].click()
+        return false
+      })
+      $('#top_btn').attr('title', 'Hotkey: T')
+      Mousetrap.bind(['t'], function(e) {
+        $('#top_btn')[0].click()
+        return false
+      })
+      $('#front_btn').attr('title', 'Hotkey: F')
+      Mousetrap.bind(['f'], function(e) {
+        $('#front_btn')[0].click()
+        return false
+      })
+      $('#right_btn').attr('title', 'Hotkey: R')
+      Mousetrap.bind(['r'], function(e) {
+        $('#right_btn')[0].click()
+        return false
+      })
+      $('#prevview_btn').attr('title', 'Hotkey: SHIFT+LEFT')
+      Mousetrap.bind(['shift+left'], function(e) {
+        $('#prevview_btn')[0].click()
+        return false
+      })
+      $('#nextview_btn').attr('title', 'Hotkey: SHIFT+RIGHT')
+      Mousetrap.bind(['shift+right'], function(e) {
+        $('#nextview_btn')[0].click()
+        return false
+      })
+    })
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
