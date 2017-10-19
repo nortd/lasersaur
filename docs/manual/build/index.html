@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Lasersaur v17.03 Build Instructions</title>
+
+
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mousetrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('#prev_btn').attr('title', 'Hotkey: LEFT')
+      Mousetrap.bind(['left'], function(e) {
+        $('#prev_btn')[0].click()
+        return false
+      })
+      $('#next_btn').attr('title', 'Hotkey: RIGHT')
+      Mousetrap.bind(['right'], function(e) {
+        $('#next_btn')[0].click()
+        return false
+      })
+      // $('#up_btn').attr('title', 'Hotkey: UP')
+      // Mousetrap.bind(['up'], function(e) {
+      //   $('#up_btn')[0].click()
+      //   return false
+      // })
+      $('#persp_btn').attr('title', 'Hotkey: P')
+      Mousetrap.bind(['p'], function(e) {
+        $('#persp_btn')[0].click()
+        return false
+      })
+      $('#top_btn').attr('title', 'Hotkey: T')
+      Mousetrap.bind(['t'], function(e) {
+        $('#top_btn')[0].click()
+        return false
+      })
+      $('#front_btn').attr('title', 'Hotkey: F')
+      Mousetrap.bind(['f'], function(e) {
+        $('#front_btn')[0].click()
+        return false
+      })
+      $('#right_btn').attr('title', 'Hotkey: R')
+      Mousetrap.bind(['r'], function(e) {
+        $('#right_btn')[0].click()
+        return false
+      })
+      $('#prevview_btn').attr('title', 'Hotkey: SHIFT+LEFT')
+      Mousetrap.bind(['shift+left'], function(e) {
+        $('#prevview_btn')[0].click()
+        return false
+      })
+      $('#nextview_btn').attr('title', 'Hotkey: SHIFT+RIGHT')
+      Mousetrap.bind(['shift+right'], function(e) {
+        $('#nextview_btn')[0].click()
+        return false
+      })
+    })
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+
+  <body>
+    <div class="container-fluid" style="">
+      <a href="http://www.lasersaur.com/manual/" class="hidden-xs"><img src="img/logo.png" style="float:right; margin-right:15px"></a>
+      <div class="nav-header">
+        <h1><a id="next_btn" href="step_1.1.html" class="btn btn-primary btn-lg">Start building your Lasersaur</a> <button type="button" class="btn btn-xs btn-default" disabled="disabled">v17.03</button></h1>
+      </div>
+      <ul class="list-inline"><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">1.frame-bottom</h3></div><div class="panel-body"><a href="1.frame-bottom.html"><img src="img/step.1.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">2.frame-gantry</h3></div><div class="panel-body"><a href="2.frame-gantry.html"><img src="img/step.2.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">3.frame-top</h3></div><div class="panel-body"><a href="3.frame-top.html"><img src="img/step.3.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">4.frame-door</h3></div><div class="panel-body"><a href="4.frame-door.html"><img src="img/step.4.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">5.y-cart</h3></div><div class="panel-body"><a href="5.y-cart.html"><img src="img/step.5.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">6.y-drive</h3></div><div class="panel-body"><a href="6.y-drive.html"><img src="img/step.6.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">7.x-cart</h3></div><div class="panel-body"><a href="7.x-cart.html"><img src="img/step.7.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">8.x-drive</h3></div><div class="panel-body"><a href="8.x-drive.html"><img src="img/step.8.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">9.electronics</h3></div><div class="panel-body"><a href="9.electronics.html"><img src="img/step.9.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">10.optics-laser</h3></div><div class="panel-body"><a href="10.optics-laser.html"><img src="img/step.10.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">11.air-assist</h3></div><div class="panel-body"><a href="11.air-assist.html"><img src="img/step.11.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">12.frame-table</h3></div><div class="panel-body"><a href="12.frame-table.html"><img src="img/step.12.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">13.door-panels</h3></div><div class="panel-body"><a href="13.door-panels.html"><img src="img/step.13.0.persp_low.png" width="420px"></a></div></div></li><li><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">14.frame-panels</h3></div><div class="panel-body"><a href="14.frame-panels.html"><img src="img/step.14.0.persp_low.png" width="420px"></a></div></div></li></ul><div class="row"><div class="col-md-6" style="padding-bottom:50px">
+<p>Before starting a build make sure to read the <a href="https://github.com/nortd/lasersaur/wiki/overview">System Overview</a> and <a href="https://github.com/nortd/lasersaur/wiki/start">Getting Started</a> guide. Also familiarize yourself with the <a href="https://github.com/nortd/lasersaur/wiki/bom">BOM</a>. After ordering and receiving the parts it's build time!</p>
+
+
+<h3>Resources</h3>
+<ul>
+  <li><a href="https://github.com/nortd/lasersaur/wiki/model">CAD model</a></li>
+  <li><a href="https://github.com/nortd/lasersaur/wiki/bom">BOM</a> (by subsystem view)</li>
+  <li><a href="https://groups.google.com/forum/#!forum/lasersaur">Lasersaur mailing list</a> (both for questions and searching previous discussions)</li>
+</ul>
+
+
+<h3>Tools</h3>
+<ul>
+  <li>metric hex keys (preferably <a href="http://www.mcmaster.com/#5709A44">ball-point</a>)</li>
+  <li>screw drivers: medium sized Phillips, small flat head</li>
+  <li>pliers and side cutter</li>
+  <li>utility knife</li>
+  <li>metric caliper and ruler</li>
+  <li>soldering iron</li>
+  <li>hot glue gun</li>
+  <li>heat gun</li>
+  <li>power drill and drill bits: M3, M5, M6, M16 (next imperial sizes are ok)</li>
+  <li>countersinking bit (90deg)</li>
+  <li>hacksaw</li>
+  <li>digital multimeter (measuring current, connectivity)</li>
+  <li>Dremel (optionally)</li>
+</ul>
+
+
+<h3>General Tips</h3>
+<ul>
+  <li>For construction details use the <a href="https://github.com/nortd/lasersaur/wiki/model">CAD model</a>.</li>
+  <li>In the CAD model use the Distance/Measurement tool to get all the positional specs you may be missing in these step-by-step instructions.</li>
+  <li>Think ahead when planing the next steps and familiarize yourself with all the parts (esp. screw sizes).</li>
+  <li>Try to keep frame tolerances under 0.5mm (0.02") and build on a flat surface.</li>
+  <li>T-slot nuts (post-assembly nuts) may turn in the slot while tightening. By loosening and re-tightening this can be prevented. It takes a couple of minutes to get the hang of this.</li>
+  <li>Tighten frame screws well but not brutally tight. To figure out the maximum force try braking a nut by over-tightening.</li>
+  <li>Any screws attaching plastic sheets must not be over-tightened. Plastic parts under stress tend to produce cracks (either right away or after some time).</li>
+  <li>When you run into problems consult the <a href="https://groups.google.com/forum/#!forum/lasersaur">Lasersaur mailing list</a>. A good description of what you need help with (possibly also some images) will go a long way for getting good answers.</li>
+</ul>
+
+<h3>Previous Build Guides</h3>
+<ul>
+  <li><a href="../build-v14.03/">v14.03</a></li>
+</ul>
+</div></div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Lasersaur v17.03 Build Instructions -
+          <a href="http://creativecommons.org/licenses/by-sa/4.0/">(CC-BY-SA)</a>
+          2017 <a href="http://labs.nortd.com">Nortd Labs</a></p>
+      </div>
+    </footer>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
