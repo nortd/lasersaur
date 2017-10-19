@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lasersaur Manual</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/highlight.css">
+<link rel="stylesheet" href="css/blueberry.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.blueberry.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.blueberry').blueberry({
+      'interval':3000,
+      'duration': 1000,
+      'lineheight': 1,
+      'hoverpause': false,
+      'pager': true,
+      'kaynav': true,
+      'imgRatio': 1.6,
+    });
+  });
+</script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="nav">
+    <ul>
+      <li><a class="menu menuhighlight" href="/">About</a></li>
+      <li><a class="menu" href="https://github.com/nortd/lasersaur/wiki">Manual</a></li>
+      <li><a class="menu" href="https://groups.google.com/forum/#!forum/lasersaur">Forum</a></li>
+      <li><a class="menu" href="http://store.lasersaur.com/index.php?route=product/category&path=59">Store</a></li>
+    </ul>
+  </div>
+
+  <div style="position:absolute; top:260px; left:900px; width:228px">
+      <div style="width:128px; margin-bottom:20px">
+      <a href="https://github.com/nortd/lasersaur/wiki"><img src="/img/lasersaur-manual.png" alt="Lasersaur Manual" border="0" /></a>
+      <div style="padding:10px; text-align:center">
+        <a href="https://github.com/nortd/lasersaur/wiki">The Lasersaur Manual</a></div>
+      </div>
+
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/lasersaur"  data-widget-id="393505703161126912">Tweets by @lasersaur</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      </script>
+  </div>
+
+
+  <div class="content" style="margin-top:80px; clear:both">
+
+    <div style="font-size:38px; padding-bottom:20px;">Lasersaur</div>
+
+    <div class="blueberry">
+     <ul class="slides">
+       <li><img src="/img/lasersaur_slides_01.jpg"></li>
+       <li><img src="/img/lasersaur_slides_02.jpg"></li>
+       <li><img src="/img/lasersaur_slides_03.jpg"></li>
+       <li><img src="/img/lasersaur_slides_04.jpg"></li>
+       <li><img src="/img/lasersaur_slides_05.jpg"></li>
+       <li><img src="/img/lasersaur_slides_06.jpg"></li>
+       <li><img src="/img/lasersaur_slides_07.jpg"></li>
+       <li><img src="/img/lasersaur_slides_08.jpg"></li>
+     </ul>
+    </div>
+
+    <p style="font-size:1.5em; line-height:1.3em">
+    The Lasersaur is a beautiful laser cutter with an outstanding price-performance ratio.
+    We designed it to fill the need of makers, designers, architects and researchers who want a safe and
+    highly-capable machine. Unlike others it's open source and comes fully loaded with knowledge to run, maintain, and modify.
+    </p>
+
+    <table class="rounded" style="text-align:center; font-size:1.2em; padding-top:0; padding-bottom:0; border-collapse:separate; border-radius:5px;">
+      <tr>
+        <td style="border-top:none;border-left:none">What can it cut?</td>
+        <td style="border-top:none;border-right:none">
+          <a href="https://vimeo.com/123456664">Material Rundown Video</a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top:none;border-left:none">What are the specs?</td>
+        <td style="border-top:none;border-right:none">
+          <ul style="list-style-type:none">
+            <li>work area: 1220x610mm (48x24")</li>
+            <li>dimensions: 1700x1170x360mm (67x46x14.2")</li>
+            <li>laser: 120W @ 10.6um (100W in long-life)</li>
+            <li>resolution: 0.1-0.03mm (240-840dpi)</li>
+            <li>maximum feed/seekrate: 6000mm/min</li>
+            <li>modes: vector, vector fills, raster</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-top:none;border-left:none">What does set it apart?</td>
+        <td style="border-top:none;border-right:none">
+          <ul style="list-style-type:none">
+            <li>Solid aluminum/stainless design.</li>
+            <li>Beautiful, cross-platform control software.</li>
+            <li>Industrial size yet portable (2 people, panels off).</li>
+            <li>Powerful API to fully integrate into workflow.</li>
+            <li>Open source design with helpful community.</li>
+            <li>Designed for DIY maintenance.</li>
+            <li>Modular design (upgradable to 200W).</li>
+            <li>Quick-swapable focal lens.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-left:none">How can I get one?</td>
+        <td style="border-right:none">
+          <ul style="list-style-type:none">
+            <li>By kit-building one. It's super fun!</li>
+            <li>Read the <a href="https://github.com/nortd/lasersaur/wiki/start">starter page</a>.</li>
+            <li>Order <a href="https://github.com/nortd/lasersaur/wiki/bom">parts</a>.</li>
+            <li>Follow the <a href="/manual/build/">step-by-step build guide</a>.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-left:none">Who has already built a 'saur?</td>
+        <td style="border-right:none">
+          <ul style="list-style-type:none">
+            <li><a href='https://www.google.com/maps/d/edit?mid=zj_7CXA517Lw.kW51tDSfWwTM'>Lot of us!</a></li>
+            <li>Hacker spaces all over the world.</li>
+            <li>Students at CMU, NYU, MIT, ETH et al.</li>
+            <li>Designers and Architects.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-bottom:none;border-left:none">Who started it?</td>
+        <td style="border-bottom:none;border-right:none">
+          <a href="http://nortd.com">Stefan and Addie from Nortd Labs</a>
+        </td>
+      </tr>
+    </table>
+
+
+    <a name="feed"></a>
+    <h2>Feed this Project</h2>
+    <p>
+    One way to let us know how much you like this project is by sending us
+    some donations. We take money thankfully and invest it in the advancement of this project.
+    </p>
+
+    <div class="wire" style="text-align:left">
+        <div style="float:right; margin:15px">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="BV38JD3WZG5L4">
+            <input type="hidden" name="lc" value="US">
+            <input type="image" src="/img/paypal-feed-button.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <b style="font-size:1.3em">$(any) Project Support: </b>
+        Simply want to support the project? Rad! We promise any amount donated will go directly to support lasers.
+    </div>
+
+    <div class="wire" style="text-align:left">
+        <b style="font-size:1.3em">We Accept Bitcoin!</b> Please send project support to: <i>19HFotfDymPcsdzU7fVhXYW5iJpTpWKt8p</i>
+    </div>
+
+
+    <a name="credits"></a>
+    <h2>Credits</h2>
+    Mad props to <a href="http://reprap.org/" rel="nofollow">reprap.org</a>, <a href="http://www.cnczone.com/" rel="nofollow">www.cnczone.com</a>, <a href="http://arduino.cc/" rel="nofollow">arduino.cc</a>, <a href="https://github.com/simen/grbl" rel="nofollow">grbl</a>, <a href="http://buildlog.org/" rel="nofollow">buildlog.org</a>, and their giants' shoulders.
+
+    <h2>Special Thanks</h2>
+    <a href="http://studioforcreativeinquiry.org">Studio for Creative Inquiry at Carnegie Mellon University</a>,
+    <a href="http://www.ncl.ac.uk/culturelab/">Culture Lab at Newcastle University</a>,
+    <a href="http://www.hyperwerk.ch/">Hyperwerk in Basel</a>
+
+
+  </div>
+  <div class="push"></div>
+</div>
+
+<div class="footer">
+  <table style="border-width:0">
+  <tr>
+  <td style="width:40px">
+    <a class="menu" href="http://labs.nortd.com"><img src="/img/nortd-cupid-hearts-darkgray.png" width="40"></a>
+  </td>
+  <td>
+    <div>Lasersaur is an open source project by <a class="menu" href="http://nortd.com">Nortd Labs</a>.</div>
+    <div>We generate work in the area of art, architecture, and system design.</div>
+  </td>
+  </tr>
+  </table>
+</div>
+
+</body>
+</html>
