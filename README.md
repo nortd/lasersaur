@@ -2,7 +2,7 @@
 Lasersaur
 =========
 
-This is the gh-pages branch which is mapped to [www.lasersaur.com](http://www.lasersaur.com).
+This is the gh-pages branch which is mapped to [www.lasersaur.cc](http://www.lasersaur.cc).
 
 The Lasersaur Manual is in the [wiki](https://github.com/nortd/lasersaur/wiki).
 
